@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yiwen Ding
-title: "Aspiring SDE & TPM | CS @ Penn"
+title: Aspiring SDE & TPM | CS @ Penn
 email: dingywn@seas.upenn.edu
 phone: (607)379-1110
 website: https://dingonewen.github.io
@@ -40,7 +40,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 
 # About Section
 about_title: Fun Facts About Me
-about_profile_image: meeting.jpg
+about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
