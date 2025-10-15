@@ -20,7 +20,6 @@ darkmode: never
 
 # Social links
 #twitter_username: jekyllrb
-github_username:  dingonewen
 reddit_username: Delicious-Factor551
 facebook_username: yiwen.ding.2025
 instagram_username: dingonewen
@@ -30,9 +29,9 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Reddit
+  icon: reddit #(https://fontawesome.com/icons?d=gallery&s=brands&m=free) 
+  url: https://www.reddit.com/user/Delicious-Factor551/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
