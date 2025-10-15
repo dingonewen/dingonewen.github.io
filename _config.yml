@@ -16,12 +16,12 @@ website: https://dingonewen.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: never
 
 # Social links
 #twitter_username: jekyllrb
 github_username:  dingonewen
-#stackoverflow_username: "00000001"
+reddit_username: Delicious-Factor551
 facebook_username: yiwen.ding.2025
 instagram_username: dingonewen
 linkedin_username: dingyiwen
