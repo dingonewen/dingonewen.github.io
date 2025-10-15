@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Yiwen Ding
-title: Project Manager
+title: Graduate Student
 email: dingywn@seas.upenn.edu
 # email_title: Email (Email title override)
 phone: (607)379-1110
@@ -19,9 +19,6 @@ website: https://dingonewen.github.io
 darkmode: true
 
 # Social links
-#twitter_username: jekyllrb
-#twitter_username: jekyllrb
-#twitter_username: jekyllrb
 reddit_username: Delicious-Factor551
 facebook_username: yiwen.ding.2025
 instagram_username: dingonewen
@@ -32,7 +29,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 # Additional icon links
 additional_links:
 - title: Reddit
-  icon: reddit?f=brands&s=solid
+  icon: fa-brands fa-reddit
   url: https://www.reddit.com/user/Delicious-Factor551/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
