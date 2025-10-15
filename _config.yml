@@ -30,7 +30,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 # Additional icon links
 additional_links:
 - title: Reddit
-  icon: reddit #(https://fontawesome.com/icons?d=gallery&s=brands&m=free) 
+  icon: reddit?f=brands&s=solid
   url: https://www.reddit.com/user/Delicious-Factor551/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
