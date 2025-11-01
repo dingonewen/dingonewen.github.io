@@ -39,7 +39,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 
 # About Section
 about_title: Generally Speaking
-about_profile_image: images/squarephoto.jpg
+about_profile_image: images/vaguephoto.jpg
 about_content: | # this will include new lines to allow paragraphs
   I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
@@ -68,7 +68,7 @@ content:
         sub_title: Master of Computer & Information Technology
         caption: Aug 2025 - May 2027 (expected)
         quote: >
-          Leges sine moribus vanae.
+          [Leges sine moribus vanae.](https://www.upenn.edu/)
         description: | # this will include new lines to allow paragraphs
           | Thriving in new knowledge
           | GPA : TBD
@@ -78,7 +78,7 @@ content:
         sub_title: Bachelor of Science in Food Science
         caption: Aug 2020 - May 2022
         quote: >
-          I would found an institution where any person can find instruction in any study.
+          [I would found an institution where any person can find instruction in any study.](https://www.cornell.edu/)
         description: | # this will include new lines to allow paragraphs
           | MAGNA CUM LAUDE
           | Member of CALS Honor Society
@@ -89,7 +89,7 @@ content:
         sub_title: Bachelor of Engineering in Food Science & Engineering
         caption: Aug 2018 - Jul 2020
         quote: >
-          解民生之多艰，育天下之英才。
+          [解民生之多艰，育天下之英才。](https://cau.edu.cn/)
         description: | # this will include new lines to allow paragraphs
           | Dual Degree Program
           | Top 1% student
@@ -99,10 +99,9 @@ content:
     layout: list
     content:
       - layout: right
-        title: Amerigo Scientific
+        title: [Amerigo Scientific](https://www.amerigoscientific.com/)
         sub_title: Project Manager
         caption: Jun 2023 - May 2025
-        link: https://www.amerigoscientific.com/
         quote: >
           A worldwide e-commerce and distribution company in biotech that connects global suppliers and clients. 
         description: | # this will include new lines to allow paragraphs
@@ -112,10 +111,9 @@ content:
           | Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
       - layout: right
-        title: Cornell University, O'Brien Lab
+        title: [Cornell University, O'Brien Lab](https://www.kobrienlab.com/)
         sub_title: Clinical Research Coordinator
         caption: Dec 2022 - Jun 2023
-        link: https://www.kobrienlab.com/
         quote: >
           We help characterize the nutritional, genetic and hormonal determinants of mineral metabolism on maternal and child health.
         description: | # this will include new lines to allow paragraphs
@@ -126,10 +124,9 @@ content:
           | Oversaw biospecimen handling, storage, and quality control; managed lab operations and collaborated closely with PI and study team
 
       - layout: right
-        title: Eurofins Lancaster Laboratories
+        title: [Eurofins Lancaster Laboratories](https://www.eurofinsus.com/)
         sub_title: Associate Scientist
         caption: Aug 2022 - Dec 2022
-        link: https://www.eurofinsus.com/
         quote: >
           A global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing.
         description: | # this will include new lines to allow paragraphs
