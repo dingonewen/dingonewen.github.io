@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -86,8 +86,8 @@ content:
           Description of qualification
           
  - title: Experience
-    layout: list
-    content:
+   layout: list
+   content:
       - layout: right
         title: Company name
         sub_title: Job title
