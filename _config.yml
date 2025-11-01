@@ -38,10 +38,10 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Facts About Me
+about_title: Generally Speaking
 about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a <mark>humor retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
+  I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
   Before college, my favorite subject was Physics. I did fairly well in it, but I decided to major in something that felt more... digestible — <mark>Food Science</mark>. Since I’ve always dreamed of running a restaurant, it turned out to be a surprisingly good fit, and I gained a solid foundation in scientific thinking.
 
@@ -70,7 +70,7 @@ content:
         quote: >
           Leges sine moribus vanae.
         description: | # this will include new lines to allow paragraphs
-          | Studying hard to survive
+          | Thriving in new knowledge
           | GPA : TBD
           | Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
       - layout: top-right
@@ -104,21 +104,51 @@ content:
         caption: Jun 2023 - May 2025
         link: https://www.amerigoscientific.com/
         quote: >
-          Short description of the company (optional)
+          A worldwide e-commerce and distribution company in biotech that connects global suppliers and clients. 
         description: | # this will include new lines to allow paragraphs
           | Directed business development, sales operations, and logistics, driving growth initiatives and improving operational efficiency
           | Negotiated partnership agreements with 100+ global companies, contributing to 85% of total sales revenue
           | Implemented email marketing automation with JavaScript and analyzed customer data using Python to optimize sales strategies
           | Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
+    layout: list
+    content:
+      - layout: right
+        title: Cornell University, O'Brien Lab
+        sub_title: Clinical Research Coordinator
+        caption: Dec 2022 - Jun 2023
+        link: https://www.kobrienlab.com/
+        quote: >
+          We help characterize the nutritional, genetic and hormonal determinants of mineral metabolism with an emphasis on maternal and child health.
+        description: | # this will include new lines to allow paragraphs
+          | Initiated role through onsite internship (Jun – Aug 2022) and was invited to return as a part-time remote coordinator to continue supporting clinical studies
+          | Recruited, screened, and retained human subjects, ensuring compliance with clinical research protocols and IRB requirements
+          | Coordinated participant scheduling and visits; assisted with IRB submissions, protocol development, and SOP documentation
+          | Performed statistical data analysis of dietary recall datasets using Python, R, and JMP to support research outcomes
+          | Oversaw biospecimen handling, storage, and quality control; managed lab operations and collaborated closely with PI and study team
+    layout: list
+    content:
+      - layout: right
+        title: Eurofins Lancaster Laboratories
+        sub_title: Associate Scientist
+        caption: Aug 2022 - Dec 2022
+        link: https://www.eurofinsus.com/
+        quote: >
+          A world leader & global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing.
+        description: | # this will include new lines to allow paragraphs
+          | Trained in Laboratory Information Management Systems (LIMS), Electronic Laboratory Notebooks (ELN), and Standard Operating Procedures (SOPs)
+          | Performed client sample testing and assay development in a BSL-2 environment, adhering to cGMP/GLP and USP guidelines.
+          | Operated, calibrated, and maintained HPLC, CE, osmometer, turbidimeter, and UV-Vis spectrophotometer
+          | Presented assay development progress and sample analysis results to senior management, aligning tasks with departmental goals
+
   - title: Projects
     layout: list
     content:
       - layout: left
         border: weak
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Blackjack Solitaire
+        link: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
+        link_text: Blackjack Solitaire
         additional_links:
           - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
@@ -129,7 +159,7 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          This is a Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
           
   - title: A Little More About Me
     layout: text
