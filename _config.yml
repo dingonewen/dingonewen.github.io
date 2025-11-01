@@ -39,7 +39,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 
 # About Section
 about_title: Generally Speaking
-about_profile_image: images/meeting.jpg
+about_profile_image: images/squarephoto.jpg
 about_content: | # this will include new lines to allow paragraphs
   I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
@@ -117,7 +117,7 @@ content:
         caption: Dec 2022 - Jun 2023
         link: https://www.kobrienlab.com/
         quote: >
-          We help characterize the nutritional, genetic and hormonal determinants of mineral metabolism with an emphasis on maternal and child health.
+          We help characterize the nutritional, genetic and hormonal determinants of mineral metabolism on maternal and child health.
         description: | # this will include new lines to allow paragraphs
           | Initiated role through onsite internship (Jun – Aug 2022) and was invited to return as a part-time remote coordinator to continue supporting clinical studies
           | Recruited, screened, and retained human subjects, ensuring compliance with clinical research protocols and IRB requirements
@@ -131,7 +131,7 @@ content:
         caption: Aug 2022 - Dec 2022
         link: https://www.eurofinsus.com/
         quote: >
-          A world leader & global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing.
+          A global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing.
         description: | # this will include new lines to allow paragraphs
           | Trained in Laboratory Information Management Systems (LIMS), Electronic Laboratory Notebooks (ELN), and Standard Operating Procedures (SOPs)
           | Performed client sample testing and assay development in a BSL-2 environment, adhering to cGMP/GLP and USP guidelines.
