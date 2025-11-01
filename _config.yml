@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
-- title: Education
+  - title: Education
     layout: list
     content:
       - layout: top-right
