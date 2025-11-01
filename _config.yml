@@ -68,7 +68,7 @@ content:
     content:
       - layout: top-right
         title: Cornell University
-        sub_title: Bacholor of Science in Food Science
+        sub_title: Bachelor of Science in Food Science
         caption: Aug 2020 - May 2022
         quote: >
           Short institution or course description (optional)
@@ -78,14 +78,14 @@ content:
     content:
       - layout: top-right
         title: China Agricultural University
-        sub_title: Bacholor of Engineering in Food Science and Engineering
+        sub_title: Bachelor of Engineering in Food Science and Engineering
         caption: Aug 2018 - Jul 2020
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
           
-  - title: Experience
+ - title: Experience
     layout: list
     content:
       - layout: right
@@ -98,7 +98,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description of role
           
-    - title: Projects # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
