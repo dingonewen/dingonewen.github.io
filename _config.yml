@@ -70,9 +70,9 @@ content:
         quote: >
           Leges sine moribus vanae.
         description: | # this will include new lines to allow paragraphs
-          # Studying hard to survive
-          # GPA : TBD
-          # Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
+          | Studying hard to survive
+          | GPA : TBD
+          | Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
       - layout: top-right
         title: Cornell University
         sub_title: Bachelor of Science in Food Science
@@ -80,10 +80,10 @@ content:
         quote: >
           I would found an institution where any person can find instruction in any study.
         description: | # this will include new lines to allow paragraphs
-          # MAGNA CUM LAUDE
-          # Member of CALS Honor Society
-          # Major GPA: 3.9; Minor GPA: 4.0
-          # Courses: Product Development, Spreadsheet Modeling, Market Research
+          | MAGNA CUM LAUDE
+          | Member of CALS Honor Society
+          | Major GPA: 3.9; Minor GPA: 4.0
+          | Courses: Product Development, Spreadsheet Modeling, Market Research
       - layout: top-right
         title: China Agricultural University
         sub_title: Bachelor of Engineering in Food Science & Engineering
@@ -91,22 +91,25 @@ content:
         quote: >
           解民生之多艰，育天下之英才。
         description: | # this will include new lines to allow paragraphs
-          # Dual Degree Program
-          # Top 1% student
-          # Courses: Principles of Mechanics, Linear Algebra, all bio & Chem & Phys
+          | Dual Degree Program
+          | Top 1% student
+          | Courses: Principles of Mechanics, Linear Algebra, all bio & Chem & Phys
 
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Amerigo Scientific
+        sub_title: Project Manager
+        caption: Jun 2023 - May 2025
+        link: https://www.amerigoscientific.com/
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          | Directed business development, sales operations, and logistics, driving growth initiatives and improving operational efficiency
+          | Negotiated partnership agreements with 100+ global companies, contributing to 85% of total sales revenue
+          | Implemented email marketing automation with JavaScript and analyzed customer data using Python to optimize sales strategies
+          | Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
   - title: Projects
     layout: list
