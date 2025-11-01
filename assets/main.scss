@@ -173,3 +173,18 @@ code:hover {
 * {
   transition: color 0.3s ease, background-color 0.3s ease !important;
 }
+
+// 亮黄色高亮效果
+mark {
+  background-color: #e5c07b !important; // 亮黄色背景
+  color: #282c34 !important; // 深色文字（保证可读性）
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+  font-weight: 600 !important;
+}
+
+// 鼠标悬停效果（可选）
+mark:hover {
+  background-color: #d19a4a !important; // 更深的金黄色
+  box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
+}
