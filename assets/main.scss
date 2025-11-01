@@ -3,3 +3,181 @@
 ---
 
 @import 'modern-resume-theme';
+
+# Front matter comment to ensure Jekyll properly reads file.
+---
+@import 'modern-resume-theme';
+
+/* ========== Atom One Dark Theme ========== */
+
+/* 全局深色背景 */
+body {
+  background-color: #282c34 !important;
+  color: #abb2bf !important;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
+}
+
+/* 主容器背景 */
+.container, .header-container, .page-content {
+  background-color: #282c34 !important;
+}
+
+/* 各级标题 - 不同颜色高亮（模仿语法高亮）*/
+h1 {
+  color: #e06c75 !important; /* 红色 - 像变量名 */
+  font-family: 'Consolas', monospace !important;
+  font-weight: 700 !important;
+}
+
+h2 {
+  color: #61afef !important; /* 蓝色 - 像函数名 */
+  font-family: 'Consolas', monospace !important;
+  font-weight: 600 !important;
+}
+
+h3 {
+  color: #c678dd !important; /* 紫色 - 像关键字 */
+  font-family: 'Consolas', monospace !important;
+}
+
+h4 {
+  color: #98c379 !important; /* 绿色 - 像字符串 */
+  font-family: 'Consolas', monospace !important;
+}
+
+h5, h6 {
+  color: #e5c07b !important; /* 黄色 - 像常量 */
+  font-family: 'Consolas', monospace !important;
+}
+
+/* 正文文字 */
+p, li, span {
+  color: #abb2bf !important;
+}
+
+/* 链接样式 */
+a {
+  color: #61afef !important; /* 蓝色链接 */
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
+}
+
+a:hover {
+  color: #528bff !important; /* 悬停时更亮的蓝色 */
+  text-decoration: underline !important;
+}
+
+/* 粗体文字 */
+strong, b {
+  color: #e5c07b !important; /* 黄色 */
+  font-weight: bold !important;
+}
+
+/* 斜体文字 */
+em, i {
+  color: #98c379 !important; /* 绿色 */
+}
+
+/* 代码块 */
+code {
+  background-color: #21252b !important;
+  color: #e06c75 !important;
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+  font-family: 'Consolas', monospace !important;
+}
+
+/* 引用块 */
+blockquote {
+  border-left: 4px solid #61afef !important;
+  color: #5c6370 !important;
+  background-color: #21252b !important;
+  padding: 10px 15px !important;
+}
+
+/* 列表标记颜色 */
+ul li::marker, ol li::marker {
+  color: #c678dd !important; /* 紫色 */
+}
+
+/* 分隔线 */
+hr {
+  border-color: #3e4451 !important;
+}
+
+/* 卡片/内容区域 */
+.card, .content-section {
+  background-color: #21252b !important;
+  border: 1px solid #3e4451 !important;
+  border-radius: 5px !important;
+  padding: 20px !important;
+}
+
+/* 标题区域（您的名字和头衔）*/
+.header-right h1 {
+  color: #e06c75 !important; /* 红色 - 最显眼 */
+}
+
+.header-right p {
+  color: #61afef !important; /* 蓝色 */
+}
+
+/* section 标题的 highlight 效果 */
+.layout-section h2 {
+  background: linear-gradient(90deg, #61afef 0%, transparent 100%) !important;
+  padding-left: 15px !important;
+  border-left: 4px solid #61afef !important;
+}
+
+/* 职位/学位标题 */
+.job-title, .qualification-title {
+  color: #c678dd !important; /* 紫色 */
+}
+
+/* 时间/日期标签 */
+.caption, .date {
+  color: #5c6370 !important; /* 灰色评论色 */
+  font-style: italic !important;
+}
+
+/* 按钮样式（如果有的话）*/
+.btn, button {
+  background-color: #61afef !important;
+  color: #282c34 !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  border-radius: 4px !important;
+  font-family: 'Consolas', monospace !important;
+}
+
+.btn:hover, button:hover {
+  background-color: #528bff !important;
+}
+
+/* 让图片适配深色主题 */
+img {
+  border: 2px solid #3e4451 !important;
+  border-radius: 5px !important;
+}
+
+/* footer 样式 */
+footer {
+  background-color: #21252b !important;
+  color: #5c6370 !important;
+  border-top: 1px solid #3e4451 !important;
+}
+
+/* 标题的彩虹下划线效果 */
+h1::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #e06c75, #61afef, #c678dd, #98c379, #e5c07b);
+  margin-top: 10px;
+}
+
+/* 鼠标悬停标题时的发光效果 */
+h2:hover {
+  text-shadow: 0 0 10px #61afef !important;
+}
