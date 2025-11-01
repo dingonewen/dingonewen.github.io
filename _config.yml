@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: dingonewen/dingonewen.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -11,7 +11,7 @@ title: Aspiring SDE & TPM | CS @ Penn
 email: dingywn@seas.upenn.edu
 phone: (607)379-1110
 website: https://dingonewen.github.io
-#website_title: dingonewen.github.io
+website_title: dingonewen.github.io
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
-  - title: Education
+- title: Education
     layout: list
     content:
       - layout: top-right
@@ -64,8 +64,6 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-    layout: list
-    content:
       - layout: top-right
         title: Cornell University
         sub_title: Bachelor of Science in Food Science
@@ -74,8 +72,6 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-    layout: list
-    content:
       - layout: top-right
         title: China Agricultural University
         sub_title: Bachelor of Engineering in Food Science and Engineering
@@ -84,10 +80,10 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
-          
- - title: Experience
-   layout: list
-   content:
+
+  - title: Experience
+    layout: list
+    content:
       - layout: right
         title: Company name
         sub_title: Job title
@@ -97,21 +93,20 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
-          
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
