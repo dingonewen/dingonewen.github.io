@@ -150,18 +150,30 @@ content:
         link: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
         link_text: Blackjack Solitaire
         additional_links:
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Blackjack Solitaire
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title: Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
         quote: >
-          Short overview of the project (optional)
+          Blackjack!
         description: | # this will include new lines to allow paragraphs
           This is a Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Uno
+        link: https://github.com/dingonewen/mini-projects/tree/main/uno
+        link_text: Uno
+        additional_links:
+          - title: Uno
+            icon: fab fa-github
+            url: https://github.com/dingonewen/mini-projects/tree/main/uno
+        quote: >
+            Uno!
+        description: | # this will include new lines to allow paragraphs
+          This is a Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
           
-  - title: A Little More About Me
+  - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
