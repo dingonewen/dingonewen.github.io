@@ -42,9 +42,9 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Facts About Me
 about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I don't talk much in my private life, but I love showing off my humor in group chats. I call myself <mark> humor retriver <mark>, and the only thing makes me nervous is when someone I know is funnier than me. 
+  I don't talk much in my private life, but I love showing off my humor in group chats. I call myself <mark> humor retriever </mark>, and the only thing makes me nervous is when someone I know is funnier than me. 
 
-  Before college my favorite subject is Physics, and I did quite well in this, but I don't think I am smart enough to major in it so I chose one I thought may had been relavant - <mark> Food Science <mark>.
+  Before college my favorite subject is Physics, and I did quite well in this, but I don't think I am smart enough to major in it so I chose one I thought may had been relavant - <mark> Food Science </mark>. Considering my dream is to own a restaurant this major may be a good fit, and I did learn a lot of fundamental science from this solid training.  
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
