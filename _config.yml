@@ -41,7 +41,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Facts About Me
 about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I’m not much of a talker in person, but I enjoy showing off my humor in group chats. I like to call myself a <mark>humor retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
+  I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a <mark>humor retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
   Before college, my favorite subject was Physics. I did fairly well in it, but I decided to major in something that felt more... digestible — <mark>Food Science</mark>. Since I’ve always dreamed of running a restaurant, it turned out to be a surprisingly good fit, and I gained a solid foundation in scientific thinking.
 
@@ -68,29 +68,32 @@ content:
         sub_title: Master of Computer & Information Technology
         caption: Aug 2025 - May 2027 (expected)
         quote: >
-          Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
+          Leges sine moribus vanae.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          # Studying hard to survive
+          # GPA : TBD
+          # Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
       - layout: top-right
         title: Cornell University
         sub_title: Bachelor of Science in Food Science
         caption: Aug 2020 - May 2022
         quote: >
-          Courses: Product Development, Spreadsheet Modeling, Market Research
+          I would found an institution where any person can find instruction in any study.
         description: | # this will include new lines to allow paragraphs
-          MAGNA CUM LAUDE
-          Member of CALS Honor Society
-          Major GPA: 3.9
-          Minor GPA: 4.0
+          # MAGNA CUM LAUDE
+          # Member of CALS Honor Society
+          # Major GPA: 3.9; Minor GPA: 4.0
+          # Courses: Product Development, Spreadsheet Modeling, Market Research
       - layout: top-right
         title: China Agricultural University
         sub_title: Bachelor of Engineering in Food Science & Engineering
         caption: Aug 2018 - Jul 2020
         quote: >
-          Courses: Principles of Mechanics, Linear Algebra, all bio & Chem & Phys
+          解民生之多艰，育天下之英才。
         description: | # this will include new lines to allow paragraphs
-          Dual Degree Program
-          Top 1% student
+          # Dual Degree Program
+          # Top 1% student
+          # Courses: Principles of Mechanics, Linear Algebra, all bio & Chem & Phys
 
   - title: Experience
     layout: list
