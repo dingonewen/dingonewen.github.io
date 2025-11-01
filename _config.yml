@@ -39,7 +39,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 
 # About Section
 about_title: Generally Speaking
-about_profile_image: images/squarephoto.jpg
+about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
   I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
@@ -111,8 +111,6 @@ content:
           | Implemented email marketing automation with JavaScript and analyzed customer data using Python to optimize sales strategies
           | Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
-    layout: list
-    content:
       - layout: right
         title: Cornell University, O'Brien Lab
         sub_title: Clinical Research Coordinator
@@ -126,8 +124,7 @@ content:
           | Coordinated participant scheduling and visits; assisted with IRB submissions, protocol development, and SOP documentation
           | Performed statistical data analysis of dietary recall datasets using Python, R, and JMP to support research outcomes
           | Oversaw biospecimen handling, storage, and quality control; managed lab operations and collaborated closely with PI and study team
-    layout: list
-    content:
+
       - layout: right
         title: Eurofins Lancaster Laboratories
         sub_title: Associate Scientist
@@ -157,8 +154,7 @@ content:
           Blackjack!
         description: | # this will include new lines to allow paragraphs
           This is a Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
-    layout: list
-    content:
+
       - layout: left
         border: weak
         title: Uno
