@@ -41,19 +41,22 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Facts About Me
 about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I don’t talk much in person, but I love showing off my humor in group chats. I call myself a <mark>humor retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that makes me nervous is meeting someone funnier than me.
+  I’m not much of a talker in person, but I enjoy showing off my humor in group chats. I like to call myself a <mark>humor retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
-  Before college my favorite subject was Physics, and I did pretty well, but I didn’t think I was smart enough to major in it. So I picked something that sounded related — <mark>Food Science</mark>. Since my dream has always been to own a restaurant, it turned out to be a good fit, and I learned plenty of real science along the way.
+  Before college, my favorite subject was Physics. I did fairly well in it, but I decided to major in something that felt more... digestible — <mark>Food Science</mark>. Since I’ve always dreamed of running a restaurant, it turned out to be a surprisingly good fit, and I gained a solid foundation in scientific thinking.
 
-  After three years in biotech — full of ups and downs — I decided to pivot to <mark>Computer Science</mark> at Penn after a two-year deferral. You don’t often get a second chance at school, and I’m grateful for it.
+  After three years in biotech — and more ups and downs than I can count — I decided to pivot to <mark>Computer Science</mark> at Penn following a two-year deferral. It’s not every day you get a second chance at education after joining the workforce, and I’m genuinely grateful for it.
 
-  Even in a tough job market and gloomy economy, I stay optimistic. I prepare for the worst but hope for the best — that’s my life philosophy.
+  Despite the challenging job market, I remain optimistic. I prepare for the worst, hope for the best, and debug everything in between — that’s my philosophy for both code and life.
+
+  I’m currently honing my programming skills and seeking a 2026 summer internship as a <mark>Technical Project Manager</mark> or <mark>Software Developer</mark>. If you’d like to get to know me better — or, as some call it, “an interview” — feel free to reach out by email. I check my inbox approximately three times per second.
   
-  #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-  # - Lists
-  #  - Tables
-  #  - <a href="google.com">Links</a>
-  #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  
+# [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+# - Lists
+# - Tables
+# - <a href="google.com">Links</a>
+# - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
 
@@ -62,10 +65,10 @@ content:
     content:
       - layout: top-right
         title: University of Pennsylvania
-        sub_title: Master of Computer and Information Technology
+        sub_title: Master of Computer & Information Technology
         caption: Aug 2025 - May 2027 (expected)
         quote: >
-          Short institution or course description (optional)
+          Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
         description: | # this will include new lines to allow paragraphs
           Description of qualification
       - layout: top-right
@@ -73,17 +76,21 @@ content:
         sub_title: Bachelor of Science in Food Science
         caption: Aug 2020 - May 2022
         quote: >
-          Short institution or course description (optional)
+          Courses: Product Development, Spreadsheet Modeling, Market Research
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          MAGNA CUM LAUDE
+          Member of CALS Honor Society
+          Major GPA: 3.9
+          Minor GPA: 4.0
       - layout: top-right
         title: China Agricultural University
-        sub_title: Bachelor of Engineering in Food Science and Engineering
+        sub_title: Bachelor of Engineering in Food Science & Engineering
         caption: Aug 2018 - Jul 2020
         quote: >
-          Short institution or course description (optional)
+          Courses: Principles of Mechanics, Linear Algebra, all bio & Chem & Phys
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Dual Degree Program
+          Top 1% student
 
   - title: Experience
     layout: list
