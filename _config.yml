@@ -11,7 +11,6 @@ title: Aspiring SDE & TPM | CS @ Penn
 email: dingywn@seas.upenn.edu
 phone: (607)379-1110
 website: https://dingonewen.github.io
-website_title: dingonewen.github.io
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -42,14 +41,19 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Facts About Me
 about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I don't talk much in my private life, but I love showing off my humor in group chats. I call myself <mark> humor retriever </mark>, and the only thing makes me nervous is when someone I know is funnier than me. 
+  I don’t talk much in person, but I love showing off my humor in group chats. I call myself a <mark>humor retriever</mark> — loyal to the joke, always chasing the laugh. The only thing that makes me nervous is meeting someone funnier than me.
 
-  Before college my favorite subject is Physics, and I did quite well in this, but I don't think I am smart enough to major in it so I chose one I thought may had been relavant - <mark> Food Science </mark>. Considering my dream is to own a restaurant this major may be a good fit, and I did learn a lot of fundamental science from this solid training.  
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Before college my favorite subject was Physics, and I did pretty well, but I didn’t think I was smart enough to major in it. So I picked something that sounded related — <mark>Food Science</mark>. Since my dream has always been to own a restaurant, it turned out to be a good fit, and I learned plenty of real science along the way.
+
+  After three years in biotech — full of ups and downs — I decided to pivot to <mark>Computer Science</mark> at Penn after a two-year deferral. You don’t often get a second chance at school, and I’m grateful for it.
+
+  Even in a tough job market and gloomy economy, I stay optimistic. I prepare for the worst but hope for the best — that’s my life philosophy.
+  
+  #You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+  # - Lists
+  #  - Tables
+  #  - <a href="google.com">Links</a>
+  #  - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
 
