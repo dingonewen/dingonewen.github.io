@@ -17,7 +17,6 @@ website: https://dingonewen.github.io
 darkmode: never
 
 # Social links
-#reddit_username: Delicious-Factor551
 facebook_username: yiwen.ding.2025
 instagram_username: dingonewen
 linkedin_username: dingyiwen
@@ -40,11 +39,12 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Fun Facts About Me
+about_title: Facts About Me
 about_profile_image: images/meeting.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  I don't talk much in my private life, but I love showing off my humor in group chats. I call myself <mark> humor retriver <mark>, and the only thing makes me nervous is when someone I know is funnier than me. 
 
+  Before college my favorite subject is Physics, and I did quite well in this, but I don't think I am smart enough to major in it so I chose one I thought may had been relavant - <mark> Food Science <mark>.
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
