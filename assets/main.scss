@@ -187,8 +187,8 @@ mark:hover {
   margin: 0 0 15px 15px !important;
   border-radius: 8px !important;
   border: 2px solid #3e4451 !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
-  transition: all 0.4s ease !important;
+  transition: transform 0.4s ease !important;
+  cursor: pointer !important;
 }
 
 .layout-text img:hover {
@@ -197,15 +197,18 @@ mark:hover {
   animation: pulse-glow 1.5s ease-in-out infinite !important;
 }
 
-// 定义脉冲动画（不要用 !important）
 @keyframes pulse-glow {
-  0%, 100% {
-    box-shadow: 0 0 20px rgba(97, 175, 239, 0.6), 
-                0 0 40px rgba(97, 175, 239, 0.4);
+  0% {
+    box-shadow: 0 0 15px rgba(97, 175, 239, 0.5), 
+                0 0 30px rgba(97, 175, 239, 0.3);
   }
   50% {
-    box-shadow: 0 0 30px rgba(97, 175, 239, 0.8), 
-                0 0 60px rgba(97, 175, 239, 0.6);
+    box-shadow: 0 0 25px rgba(97, 175, 239, 0.8), 
+                0 0 50px rgba(97, 175, 239, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(97, 175, 239, 0.5), 
+                0 0 30px rgba(97, 175, 239, 0.3);
   }
 }
 
