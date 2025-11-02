@@ -157,6 +157,17 @@ content:
         description: | # this will include new lines to allow paragraphs
           | A Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
           
+      - layout: left
+        border: weak
+        title: Clinical Research Contribution
+        quote: >
+          Bioavailability of Docosahexaenoic Acid From Biofortified Chicken
+        description: |
+          <img src="/images/poster.jpg" alt="Research Poster" style="float: right; width: 250px; margin: 0 0 15px 15px; border-radius: 8px;">
+          | Participated in the Empowering U.S. Broiler Production for Transformation and Sustainability project with a grant from USDA
+          | Analyzed and interpreted fatty acids content in human studies using JMP and Excel, gained expertise in JMP
+          | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
+          
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
