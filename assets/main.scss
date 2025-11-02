@@ -180,6 +180,35 @@ mark:hover {
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
 }
 
+.layout-text img {
+  float: right !important;
+  width: 300px !important;
+  margin: 0 0 15px 15px !important;
+  border-radius: 8px !important;
+  border: 2px solid #3e4451 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+  transition: all 0.4s ease !important;
+  animation: none !important;
+}
+
+.layout-text img:hover {
+  transform: scale(1.1) !important;
+  border-color: #61afef !important;
+  animation: pulse-glow 1.5s ease-in-out infinite !important;  // 持续脉冲发光
+}
+
+// 定义脉冲动画
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(97, 175, 239, 0.6), 
+                0 0 40px rgba(97, 175, 239, 0.4) !important;
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(97, 175, 239, 0.8), 
+                0 0 60px rgba(97, 175, 239, 0.6) !important;
+  }
+}
+
 // ========== 字体大小调整 ==========
 
 // Quote 和 Blockquote - 偏小
@@ -198,4 +227,16 @@ blockquote,
 .description p {
   font-size: 1.5rem !important;
   line-height: 1.6 !important;
+}
+
+// Research poster 样式
+.layout-left img[alt*="Poster"],
+.layout-left img[alt*="poster"] {
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.layout-left img[alt*="Poster"]:hover,
+.layout-left img[alt*="poster"]:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 8px 16px rgba(97, 175, 239, 0.4) !important;
 }
