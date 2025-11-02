@@ -215,15 +215,15 @@ blockquote,
 // ========== 完美平衡的动画方案 ==========
 
 // 1️⃣ Generally Speaking - 优雅淡入
-.about-content p {
+.intro-container p {
   opacity: 0;
-  animation: fadeInUp 0.8s ease-out forwards;
+  animation: fadeInUp 1.2s ease-out forwards;
 }
 
-.about-content p:nth-child(1) { animation-delay: 0.2s; }
-.about-content p:nth-child(2) { animation-delay: 0.4s; }
-.about-content p:nth-child(3) { animation-delay: 0.6s; }
-.about-content p:nth-child(4) { animation-delay: 0.8s; }
+.intro-container p:nth-child(1) { animation-delay: 0.2s; }
+.intro-container p:nth-child(2) { animation-delay: 0.4s; }
+.intro-container p:nth-child(3) { animation-delay: 0.6s; }
+.intro-container p:nth-child(4) { animation-delay: 0.8s; }
 
 @keyframes fadeInUp {
   from {
@@ -236,36 +236,51 @@ blockquote,
   }
 }
 
-// 2️⃣ Education / Experience / Projects - 悬停跳动
+// 2️⃣ Education / Experience / Projects - 鼠标悬停"文字"跳动
 .layout-right,
 .layout-left,
 .layout-top-right {
-  transition: all 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
 
+// 只有轻微阴影，卡片不动
 .layout-right:hover,
 .layout-left:hover,
 .layout-top-right:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(97, 175, 239, 0.3);
+  box-shadow: 0 5px 15px rgba(97, 175, 239, 0.2);
 }
 
+// 标题文字跳动
 .layout-right:hover h3,
 .layout-left:hover h3,
 .layout-top-right:hover h3 {
-  animation: bounce 0.6s ease-in-out;
+  animation: textJump 0.5s ease-in-out;
 }
 
-@keyframes bounce {
+@keyframes textJump {
   0%, 100% { transform: translateY(0); }
-  25% { transform: translateY(-10px); }
-  50% { transform: translateY(-5px); }
-  75% { transform: translateY(-7px); }
+  25% { transform: translateY(-8px); }
+  50% { transform: translateY(-4px); }
+  75% { transform: translateY(-6px); }
 }
 
-// 3️⃣ More About Me - 超级花哨
-.layout-text {
+// 描述文字微微抖动
+.layout-right:hover .description,
+.layout-left:hover .description,
+.layout-top-right:hover .description {
+  animation: textShake 0.3s ease-in-out;
+}
+
+@keyframes textShake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+  20%, 40%, 60%, 80% { transform: translateX(2px); }
+}
+
+// 3️⃣ More About Me 
+.text-container {
   animation: sectionGlow 4s ease-in-out infinite;
+  position: relative;
 }
 
 @keyframes sectionGlow {
@@ -273,7 +288,7 @@ blockquote,
   50% { box-shadow: 0 0 40px rgba(97, 175, 239, 0.5); }
 }
 
-.layout-text h2 {
+.text-container h2 {
   animation: rainbowText 5s linear infinite;
   text-align: center;
 }
@@ -286,14 +301,16 @@ blockquote,
   80% { color: #e5c07b; }
 }
 
-.layout-text p {
+.text-container p {
   opacity: 0;
   animation: floatIn 1s ease-out forwards;
 }
 
-.layout-text p:nth-of-type(1) { animation-delay: 0.3s; }
-.layout-text p:nth-of-type(2) { animation-delay: 0.6s; }
-.layout-text p:nth-of-type(3) { animation-delay: 0.9s; }
+.text-container p:nth-of-type(1) { animation-delay: 0.3s; }
+.text-container p:nth-of-type(2) { animation-delay: 0.6s; }
+.text-container p:nth-of-type(3) { animation-delay: 0.9s; }
+.text-container p:nth-of-type(4) { animation-delay: 1.2s; }
+.text-container p:nth-of-type(5) { animation-delay: 1.5s; }
 
 @keyframes floatIn {
   from {
@@ -306,7 +323,7 @@ blockquote,
   }
 }
 
-.layout-text p:hover {
+.text-container p:hover {
   animation: wiggle 0.5s ease-in-out;
 }
 
@@ -314,4 +331,25 @@ blockquote,
   0%, 100% { transform: rotate(0deg); }
   25% { transform: rotate(2deg); }
   75% { transform: rotate(-2deg); }
+}
+
+// More About Me 图片的脉冲效果
+.text-container img {
+  float: right !important;
+  width: 300px !important;
+  margin: 0 0 15px 15px !important;
+  border-radius: 8px !important;
+  border: 2px solid #3e4451 !important;
+  cursor: pointer !important;
+}
+
+.text-container img:hover {
+  transform: scale(1.15) !important;
+  border-color: #61afef !important;
+  box-shadow: 
+    0 0 20px rgba(97, 175, 239, 0.8),
+    0 0 40px rgba(97, 175, 239, 0.6),
+    0 0 60px rgba(97, 175, 239, 0.4) !important;
+  filter: brightness(1.1) !important;
+  transition: all 0.3s ease !important;
 }
