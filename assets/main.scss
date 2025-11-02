@@ -203,6 +203,8 @@ blockquote,
 // 图片浮动
 .layout-text img {
   float: right !important;
-  width: 300px !important;
+  width: 200px !important;  // 从 300px 改成 200px
+  max-width: 35% !important;  // 添加这行，最大不超过容器的 35%
+  height: auto !important;  // 添加这行，保持比例
   margin: 0 0 15px 15px !important;
 }
