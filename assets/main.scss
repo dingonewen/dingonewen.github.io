@@ -265,18 +265,18 @@ table th {
   }
 }
 
-// 2️⃣ Education / Experience / Projects - 鼠标悬停"文字"跳动
+// 2️⃣ Education / Experience / Projects - 鼠标悬停效果
 .layout-right,
 .layout-left,
 .layout-top-right {
   transition: box-shadow 0.3s ease;
 }
 
-// 只有紫色阴影，卡片不动
+// 蓝紫色阴影
 .layout-right:hover,
 .layout-left:hover,
 .layout-top-right:hover {
-  box-shadow: 0 10px 40px rgba(198, 120, 221, 0.6);
+  box-shadow: 0 10px 40px rgba(142, 148, 232, 0.6);
 }
 
 // 标题文字跳动
@@ -293,17 +293,20 @@ table th {
   75% { transform: translateY(-6px); }
 }
 
-// 描述文字微微抖动
-.layout-right:hover .description,
-.layout-left:hover .description,
-.layout-top-right:hover .description {
-  animation: textShake 0.6s ease-in-out;
+// 所有内容（table、段落、列表）微微抖动
+.layout-right:hover .content,
+.layout-left:hover .content,
+.layout-top-right:hover .content,
+.layout-right:hover table,
+.layout-left:hover table,
+.layout-top-right:hover table {
+  animation: textShake 0.4s ease-in-out;
 }
 
 @keyframes textShake {
   0%, 100% { transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
-  20%, 40%, 60%, 80% { transform: translateX(2px); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
+  20%, 40%, 60%, 80% { transform: translateX(3px); }
 }
 
 // 3️⃣ More About Me - 超级花哨
