@@ -160,15 +160,13 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-    
-    <img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
-  
- <p style="text-indent: 2em;"> I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — *free food*, *quality sleep*, and watching *soccer* games.
-  
- <p style="text-indent: 2em;"> I'm currently preparing to volunteer at the FIFA 2026 World Cup in Philadelphia. I steer clear of high-impact workouts — mostly because I'd like to keep all my joints intact — so swimming has become my sport of choice. When life slows down, I swim about 25 km a month.
-  
- <p style="text-indent: 2em;"> I'm an early-to-bed, early-to-rise kind of person — late nights and I simply don't get along. I enjoy calm, mellow *music*, and my favorite artist and producer is <a href="https://khalilfong.com/2017/" target="_blank">Khalil Fong</a>.
-
+          <img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
+      
+      <p style="text-indent: 2em;">I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — <em>free food</em>, <em>quality sleep</em>, and watching <em>soccer</em> games.</p>
+      
+      <p style="text-indent: 2em;">I'm currently preparing to volunteer at the FIFA 2026 World Cup in Philadelphia. I steer clear of high-impact workouts — mostly because I'd like to keep all my joints intact — so swimming has become my sport of choice. When life slows down, I swim about 25 km a month.</p>
+      
+      <p style="text-indent: 2em;">I'm an early-to-bed, early-to-rise kind of person — late nights and I simply don't get along. I enjoy calm, mellow <em>music</em>, and my favorite artist and producer is <a href="https://khalilfong.com/2017/" target="_blank">Khalil Fong</a>.</p>
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
