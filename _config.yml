@@ -68,7 +68,7 @@ content:
         sub_title: Master of Computer & Information Technology
         caption: Aug 2025 - May 2027 (expected)
         quote: >
-          '<a href="https://www.upenn.edu/" target="_blank">Leges sine moribus vanae.。</a>'
+          "<a href='https://www.upenn.edu/" target='_blank'>Leges sine moribus vanae.。</a>"
         description: | # this will include new lines to allow paragraphs
           | Thriving in new knowledge
           | GPA : TBD
@@ -78,7 +78,7 @@ content:
         sub_title: Bachelor of Science in Food Science
         caption: Aug 2020 - May 2022
         quote: >
-          (https://www.cornell.edu/) '<a href="https://www.cornell.edu/" target="_blank">I would found an institution where any person can find instruction in any study.</a>'
+          "<a href='https://www.cornell.edu/' target='_blank'>I would found an institution where any person can find instruction in any study.</a>"
         description: | # this will include new lines to allow paragraphs
           | MAGNA CUM LAUDE
           | Member of CALS Honor Society
@@ -89,7 +89,7 @@ content:
         sub_title: Bachelor of Engineering in Food Science & Engineering
         caption: Aug 2018 - Jul 2020
         quote: >
-          '<a href="https://cau.edu.cn/" target="_blank">解民生之多艰，育天下之英才。</a>'
+          "<a href='https://cau.edu.cn/' target='_blank'>解民生之多艰，育天下之英才。</a>"
         description: | # this will include new lines to allow paragraphs
           | Dual Degree Program
           | Top 1% student
@@ -99,7 +99,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: '<a href="https://www.amerigoscientific.com/" target="_blank">Amerigo Scientific</a>'
+        title: "<a href='https://www.amerigoscientific.com/' target='_blank'>Amerigo Scientific</a>"
         sub_title: Project Manager
         caption: Jun 2023 - May 2025
         quote: >
@@ -111,7 +111,7 @@ content:
           | Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
       - layout: right
-        title: '<a href="https://www.kobrienlab.com/" target="_blank">Cornell University, O'Brien Lab</a>'
+        title: "<a href='https://www.kobrienlab.com/' target='_blank'>Cornell University, O'Brien Lab</a>"
         sub_title: Clinical Research Coordinator
         caption: Dec 2022 - Jun 2023
         quote: >
@@ -124,7 +124,7 @@ content:
           | Oversaw biospecimen handling, storage, and quality control; managed lab operations and collaborated closely with PI and study team
 
       - layout: right
-        title: '<a href="https://www.eurofinsus.com/" target="_blank">Eurofins Lancaster Laboratories</a>'
+        title: "<a href='https://www.eurofinsus.com/' target='_blank'>Eurofins Lancaster Laboratories</a>"
         sub_title: Associate Scientist
         caption: Aug 2022 - Dec 2022
         quote: >
