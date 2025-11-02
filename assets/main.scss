@@ -5,6 +5,63 @@
 
 // ========== Atom One Dark Theme ==========
 
+// ========== 简化右上角联系方式 ==========
+
+// 隐藏具体内容，只保留标签
+.header-right a {
+  position: relative;
+  color: #abb2bf !important;
+  text-decoration: none !important;
+  font-size: 0.9rem !important;
+  margin: 0 10px !important;
+  transition: color 0.3s ease !important;
+}
+
+.header-right a:hover {
+  color: #e5c07b !important; // 这是黄色，蓝紫色#8e94e8
+}
+
+// 隐藏原文字
+.header-right a span,
+.header-right a:not(:has(i))::after {
+  font-size: 0 !important;
+  display: none !important;
+}
+
+// Email
+.header-right a[href^="mailto:"]::after {
+  content: "Email";
+  font-size: 0.9rem;
+}
+
+// Phone
+.header-right a[href^="tel:"]::after {
+  content: "Phone";
+  font-size: 0.9rem;
+}
+
+// Website
+.header-right a[href*="github"]::after,
+.header-right a[href*="linkedin"]::after,
+.header-right a[href^="http"]::after {
+  content: "Web";
+  font-size: 0.9rem;
+}
+
+// 保留图标
+.header-right a i,
+.header-right a svg {
+  font-size: 1rem !important;
+  margin-right: 5px !important;
+}
+
+// 分隔符
+.header-right a:not(:last-child)::before {
+  content: "|";
+  margin-left: 10px;
+  color: #5c6370;
+}
+
 // 全局深色背景
 body {
   background-color: #282c34 !important;
