@@ -180,36 +180,26 @@ mark:hover {
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
 }
 
-// More About Me 图片悬停脉冲效果
+// ========== More About Me 图片悬停效果 ==========
+
 .layout-text img {
   float: right !important;
   width: 300px !important;
   margin: 0 0 15px 15px !important;
   border-radius: 8px !important;
   border: 2px solid #3e4451 !important;
-  transition: transform 0.4s ease !important;
   cursor: pointer !important;
 }
 
 .layout-text img:hover {
-  transform: scale(1.1) !important;
+  transform: scale(1.15) !important;
   border-color: #61afef !important;
-  animation: pulse-glow 1.5s ease-in-out infinite !important;
-}
-
-@keyframes pulse-glow {
-  0% {
-    box-shadow: 0 0 15px rgba(97, 175, 239, 0.5), 
-                0 0 30px rgba(97, 175, 239, 0.3);
-  }
-  50% {
-    box-shadow: 0 0 25px rgba(97, 175, 239, 0.8), 
-                0 0 50px rgba(97, 175, 239, 0.5);
-  }
-  100% {
-    box-shadow: 0 0 15px rgba(97, 175, 239, 0.5), 
-                0 0 30px rgba(97, 175, 239, 0.3);
-  }
+  box-shadow: 
+    0 0 20px rgba(97, 175, 239, 0.8),
+    0 0 40px rgba(97, 175, 239, 0.6),
+    0 0 60px rgba(97, 175, 239, 0.4) !important;
+  filter: brightness(1.1) !important;
+  transition: all 0.3s ease !important;
 }
 
 // ========== 字体大小调整 ==========
@@ -246,60 +236,42 @@ blockquote,
 
 // ========== 炫酷科技感滚动动画 ==========
 
-// 所有内容区块
-.content-section,
-[class*="layout-"] {
-  animation: techFadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+// Education/Experience/Projects 的每个条目
+.layout-right,
+.layout-left,
+.layout-top-right {
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out forwards;
 }
 
-@keyframes techFadeIn {
+// 延迟时间（创造依次出现的效果）
+.layout-list > div:nth-of-type(1) { animation-delay: 0.1s; }
+.layout-list > div:nth-of-type(2) { animation-delay: 0.3s; }
+.layout-list > div:nth-of-type(3) { animation-delay: 0.5s; }
+.layout-list > div:nth-of-type(4) { animation-delay: 0.7s; }
+.layout-list > div:nth-of-type(5) { animation-delay: 0.9s; }
+
+// 淡入向上动画
+@keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(40px);
-    filter: blur(5px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
-    filter: blur(0);
   }
 }
 
-// 延迟时间（依次出现）
-.content > *:nth-child(1) { animation-delay: 0.1s; }
-.content > *:nth-child(2) { animation-delay: 0.2s; }
-.content > *:nth-child(3) { animation-delay: 0.3s; }
-.content > *:nth-child(4) { animation-delay: 0.4s; }
-.content > *:nth-child(5) { animation-delay: 0.5s; }
-
-// 标题霓虹闪烁入场
-h1, h2, h3 {
-  animation: neonFlicker 1.5s ease-in-out;
+// More About Me 部分
+.layout-text {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.3s;
 }
 
-@keyframes neonFlicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    opacity: 1;
-    text-shadow: 0 0 10px currentColor;
-  }
-  20%, 24%, 55% {
-    opacity: 0.8;
-    text-shadow: none;
-  }
-}
-
-// 彩虹下划线渐现
-h1::after {
-  animation: rainbowGrow 1.2s ease-out 0.5s backwards;
-}
-
-@keyframes rainbowGrow {
-  from {
-    width: 0;
-    opacity: 0;
-  }
+@keyframes fadeIn {
   to {
-    width: 100%;
     opacity: 1;
   }
 }
