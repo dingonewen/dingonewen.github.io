@@ -160,7 +160,7 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-          <img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
+      <img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
       
       <p style="text-indent: 2em;">I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — <em>free food</em>, <em>quality sleep</em>, and watching <em>soccer</em> games.</p>
       
