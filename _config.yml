@@ -59,7 +59,7 @@ content:
         sub_title: Master of Computer & Information Technology
         caption: Aug 2025 - May 2027 (expected)
         quote: >
-          "<a href='https://www.upenn.edu/" target='_blank'>Leges sine moribus vanae.</a>"
+          "<a href='https://www.upenn.edu/' target='_blank'>Leges sine moribus vanae.</a>"
         description: | # this will include new lines to allow paragraphs
           | GPA : TBD
           | Thriving through learning...
@@ -160,7 +160,8 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-  <img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
+    
+    <img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
   
  <p style="text-indent: 2em;"> I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — *free food*, *quality sleep*, and watching *soccer* games.
   
