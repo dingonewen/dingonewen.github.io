@@ -99,7 +99,7 @@ content:
     layout: list
     content:
       - layout: right
-        title: [Amerigo Scientific](https://www.amerigoscientific.com/)
+        title: "[Amerigo Scientific](https://www.amerigoscientific.com/)"
         sub_title: Project Manager
         caption: Jun 2023 - May 2025
         quote: >
@@ -111,7 +111,7 @@ content:
           | Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
       - layout: right
-        title: [Cornell University, O'Brien Lab](https://www.kobrienlab.com/)
+        title: "[Cornell University, O'Brien Lab](https://www.kobrienlab.com/)"
         sub_title: Clinical Research Coordinator
         caption: Dec 2022 - Jun 2023
         quote: >
@@ -124,7 +124,7 @@ content:
           | Oversaw biospecimen handling, storage, and quality control; managed lab operations and collaborated closely with PI and study team
 
       - layout: right
-        title: [Eurofins Lancaster Laboratories](https://www.eurofinsus.com/)
+        title: "[Eurofins Lancaster Laboratories](https://www.eurofinsus.com/)"
         sub_title: Associate Scientist
         caption: Aug 2022 - Dec 2022
         quote: >
