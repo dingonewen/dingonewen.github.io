@@ -168,12 +168,14 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Other than work and study, love *free food*, *swimming* and I am a *soccer* fan. I am actively training for FIFA2026 volunteer role in Philly. 
+      I tend to live a fairly disciplined life, but aside from work and study, I enjoy *free food*, *swimming* and I am a *soccer* fan. I am actively training for FIFA2026 volunteer role in Philly. 
       <img src="/images/soccerfood.jpg" alt="Enjoying food with my fav jersey" style="float: right; width: 280px; margin: 0 0 15px 15px; border-radius: 8px;">
       
-      I steer clear of high-impact workouts—mainly because I prefer keeping all my joints intact—so swimming is my go-to sport. When life slows down a bit, I swim about 20 kilometers a month. I’m an early-to-bed, early-to-rise kind of person - late nights and I simply don’t get along. 
+      I steer clear of high-impact workouts—mainly because I prefer keeping all my joints intact—so swimming is my go-to sport. I am actively preparing to volunteer for the FIFA 2026 World Cup in Philadelphia. 
       
-      I enjoy calm, mellow *music*, and my favorite artist and producer is "<a href='https://khalilfong.com/2017/' target='_blank'>Khalil Fong</a>".
+      When life slows down a bit, I swim about 20 kilometers a month. I’m an early-to-bed, early-to-rise kind of person - late nights and I simply don’t get along. 
+      
+      I enjoy calm, mellow *music*, and my favorite artist and producer is "<a href='https://khalilfong.com/2017/' target='_blank'>Khalil Fong</a>". 
 
 # Footer
 footer_show_references: true
