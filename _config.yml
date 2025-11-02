@@ -160,6 +160,8 @@ content:
       - layout: left
         border: weak
         title: Clinical Research
+        link: https://www.kobrienlab.com/
+        link_text: O'Brien Lab
         additional_links:
           - title: DHA Chicken Study
             icon: fas fa-drumstick-bite
@@ -176,8 +178,10 @@ content:
       
       - layout: left
         border: weak
-        title: Microbiome Research
-        additional_links:
+        title: Microbiology Research
+        link: https://www.zhenghaolab.org/
+        link_text: Zheng Lab
+        additional_links: 
           - title: Gut Microbiota
             icon: fas fa-bacterium
             url: https://doi.org/10.1111/1744-7917.12770
