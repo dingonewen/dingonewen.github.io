@@ -182,10 +182,12 @@ mark:hover {
 
 // ========== 字体大小调整 ==========
 
+// ========== 字体大小调整 ==========
+
 // Quote 和 Blockquote - 偏小
 blockquote,
 .quote {
-  font-size: 1.2rem !important;
+  font-size: 0.85rem !important;
   line-height: 1.4 !important;
   border-left: 4px solid #61afef !important;
   color: #e5999d !important;
@@ -193,10 +195,37 @@ blockquote,
   padding: 10px 15px !important;
 }
 
-// Description - 正常大小
-.description,
-.description p {
-  font-size: 1.5rem !important;
+// Projects / Education / Experience 的 Table 内容 - 正常大小
+.content table,
+.content table td,
+.content table tr {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+// Projects / Education / Experience 的段落
+.content p {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+// 列表项
+.content li {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+// 所有 layout 内的 table
+.layout-right table,
+.layout-left table,
+.layout-top-right table {
+  font-size: 1rem !important;
+}
+
+.layout-right table td,
+.layout-left table td,
+.layout-top-right table td {
+  font-size: 1rem !important;
   line-height: 1.6 !important;
 }
 
@@ -247,7 +276,7 @@ blockquote,
 .layout-right:hover,
 .layout-left:hover,
 .layout-top-right:hover {
-  box-shadow: 0 5px 15px rgba(97, 175, 239, 0.2);
+  box-shadow: 0 10px 30px rgba(97, 175, 239, 0.2);
 }
 
 // 标题文字跳动
@@ -268,7 +297,7 @@ blockquote,
 .layout-right:hover .description,
 .layout-left:hover .description,
 .layout-top-right:hover .description {
-  animation: textShake 0.3s ease-in-out;
+  animation: textShake 0.6s ease-in-out;
 }
 
 @keyframes textShake {
@@ -284,8 +313,8 @@ blockquote,
 }
 
 @keyframes sectionGlow {
-  0%, 100% { box-shadow: 0 0 20px rgba(97, 175, 239, 0.2); }
-  50% { box-shadow: 0 0 40px rgba(97, 175, 239, 0.5); }
+  0%, 100% { box-shadow: 0 0 30px rgba(198, 120, 221, 0.4); }
+  50% { box-shadow: 0 0 60px rgba(198, 120, 221, 0.7); }
 }
 
 .text-container h2 {
