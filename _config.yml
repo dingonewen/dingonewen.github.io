@@ -148,9 +148,9 @@ content:
             icon: fab fa-github
             url: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
         quote: >
-          Blackjack!
+          "21, baby!"
         description: | # this will include new lines to allow paragraphs
-          | This is a Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
+          | A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
 
       - layout: left
         border: weak
@@ -162,16 +162,16 @@ content:
             icon: fab fa-github
             url: https://github.com/dingonewen/mini-projects/tree/main/uno
         quote: >
-            Uno!
+            "Uno!"
         description: | # this will include new lines to allow paragraphs
-          | This is a Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
+          | A Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
           
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
       Other than work and study, love *free food*, *swimming* and I am a *soccer* fan. I am actively training for FIFA2026 volunteer role in Philly.
-       ![Enjoying food with my fav jersey](images/soccerfood.jpg)
-
+      <img src="/images/soccerfood.jpg" alt="Enjoying food with my fav jersey" style="float: right; width: 180px; margin: 0 0 15px 15px; border-radius: 8px;">
+      To be continued...
 
 # Footer
 footer_show_references: true
