@@ -180,6 +180,7 @@ mark:hover {
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
 }
 
+// More About Me 图片悬停脉冲效果
 .layout-text img {
   float: right !important;
   width: 300px !important;
@@ -188,24 +189,23 @@ mark:hover {
   border: 2px solid #3e4451 !important;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
   transition: all 0.4s ease !important;
-  animation: none !important;
 }
 
 .layout-text img:hover {
   transform: scale(1.1) !important;
   border-color: #61afef !important;
-  animation: pulse-glow 1.5s ease-in-out infinite !important;  // 持续脉冲发光
+  animation: pulse-glow 1.5s ease-in-out infinite !important;
 }
 
-// 定义脉冲动画
+// 定义脉冲动画（不要用 !important）
 @keyframes pulse-glow {
   0%, 100% {
     box-shadow: 0 0 20px rgba(97, 175, 239, 0.6), 
-                0 0 40px rgba(97, 175, 239, 0.4) !important;
+                0 0 40px rgba(97, 175, 239, 0.4);
   }
   50% {
     box-shadow: 0 0 30px rgba(97, 175, 239, 0.8), 
-                0 0 60px rgba(97, 175, 239, 0.6) !important;
+                0 0 60px rgba(97, 175, 239, 0.6);
   }
 }
 
