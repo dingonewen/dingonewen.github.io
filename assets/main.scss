@@ -180,28 +180,6 @@ mark:hover {
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
 }
 
-// ========== More About Me 图片悬停效果 ==========
-
-.layout-text img {
-  float: right !important;
-  width: 300px !important;
-  margin: 0 0 15px 15px !important;
-  border-radius: 8px !important;
-  border: 2px solid #3e4451 !important;
-  cursor: pointer !important;
-}
-
-.layout-text img:hover {
-  transform: scale(1.15) !important;
-  border-color: #61afef !important;
-  box-shadow: 
-    0 0 20px rgba(97, 175, 239, 0.8),
-    0 0 40px rgba(97, 175, 239, 0.6),
-    0 0 60px rgba(97, 175, 239, 0.4) !important;
-  filter: brightness(1.1) !important;
-  transition: all 0.3s ease !important;
-}
-
 // ========== 字体大小调整 ==========
 
 // Quote 和 Blockquote - 偏小
