@@ -234,25 +234,90 @@ blockquote,
   box-shadow: 0 8px 16px rgba(97, 175, 239, 0.4) !important;
 }
 
-// ========== 炫酷科技感滚动动画 ==========
+// ========== 完美平衡的动画方案 ==========
 
-// Education/Experience/Projects 的每个条目
-.layout-right,
-.layout-left,
-.layout-top-right {
+// 1️⃣ Generally Speaking - 优雅淡入
+.about-content p {
   opacity: 0;
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
-// 延迟时间（创造依次出现的效果）
-.layout-list > div:nth-of-type(1) { animation-delay: 0.1s; }
-.layout-list > div:nth-of-type(2) { animation-delay: 0.3s; }
-.layout-list > div:nth-of-type(3) { animation-delay: 0.5s; }
-.layout-list > div:nth-of-type(4) { animation-delay: 0.7s; }
-.layout-list > div:nth-of-type(5) { animation-delay: 0.9s; }
+.about-content p:nth-child(1) { animation-delay: 0.2s; }
+.about-content p:nth-child(2) { animation-delay: 0.4s; }
+.about-content p:nth-child(3) { animation-delay: 0.6s; }
+.about-content p:nth-child(4) { animation-delay: 0.8s; }
 
-// 淡入向上动画
 @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// 2️⃣ Education / Experience / Projects - 悬停跳动
+.layout-right,
+.layout-left,
+.layout-top-right {
+  transition: all 0.3s ease;
+}
+
+.layout-right:hover,
+.layout-left:hover,
+.layout-top-right:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(97, 175, 239, 0.3);
+}
+
+.layout-right:hover h3,
+.layout-left:hover h3,
+.layout-top-right:hover h3 {
+  animation: bounce 0.6s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-10px); }
+  50% { transform: translateY(-5px); }
+  75% { transform: translateY(-7px); }
+}
+
+// 3️⃣ More About Me - 超级花哨
+.layout-text {
+  animation: sectionGlow 4s ease-in-out infinite;
+}
+
+@keyframes sectionGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(97, 175, 239, 0.2); }
+  50% { box-shadow: 0 0 40px rgba(97, 175, 239, 0.5); }
+}
+
+.layout-text h2 {
+  animation: rainbowText 5s linear infinite;
+  text-align: center;
+}
+
+@keyframes rainbowText {
+  0%, 100% { color: #e06c75; }
+  20% { color: #61afef; }
+  40% { color: #c678dd; }
+  60% { color: #98c379; }
+  80% { color: #e5c07b; }
+}
+
+.layout-text p {
+  opacity: 0;
+  animation: floatIn 1s ease-out forwards;
+}
+
+.layout-text p:nth-of-type(1) { animation-delay: 0.3s; }
+.layout-text p:nth-of-type(2) { animation-delay: 0.6s; }
+.layout-text p:nth-of-type(3) { animation-delay: 0.9s; }
+
+@keyframes floatIn {
   from {
     opacity: 0;
     transform: translateY(30px);
@@ -263,15 +328,12 @@ blockquote,
   }
 }
 
-// More About Me 部分
-.layout-text {
-  opacity: 0;
-  animation: fadeIn 1s ease-out forwards;
-  animation-delay: 0.3s;
+.layout-text p:hover {
+  animation: wiggle 0.5s ease-in-out;
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(2deg); }
+  75% { transform: rotate(-2deg); }
 }
