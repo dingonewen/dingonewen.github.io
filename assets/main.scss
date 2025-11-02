@@ -182,11 +182,10 @@ mark:hover {
 
 // ========== 字体大小调整 ==========
 
-// ========== 字体大小调整 ==========
-
 // Quote 和 Blockquote - 偏小
 blockquote,
-.quote {
+.quote,
+p.quote {
   font-size: 0.85rem !important;
   line-height: 1.4 !important;
   border-left: 4px solid #61afef !important;
@@ -196,37 +195,38 @@ blockquote,
 }
 
 // Projects / Education / Experience 的 Table 内容 - 正常大小
-.content table,
-.content table td,
-.content table tr {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+table,
+table td,
+table tr,
+table th {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
 }
 
 // Projects / Education / Experience 的段落
 .content p {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
 }
 
 // 列表项
 .content li {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
 }
 
-// 所有 layout 内的 table
+// 确保所有 layout 内的内容都是统一大小
 .layout-right table,
 .layout-left table,
 .layout-top-right table {
-  font-size: 1rem !important;
+  font-size: 1.1rem !important;
 }
 
 .layout-right table td,
 .layout-left table td,
 .layout-top-right table td {
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
 }
 
 // Research poster 样式
@@ -272,11 +272,11 @@ blockquote,
   transition: box-shadow 0.3s ease;
 }
 
-// 只有轻微阴影，卡片不动
+// 只有紫色阴影，卡片不动
 .layout-right:hover,
 .layout-left:hover,
 .layout-top-right:hover {
-  box-shadow: 0 10px 30px rgba(97, 175, 239, 0.2);
+  box-shadow: 0 10px 40px rgba(198, 120, 221, 0.6);
 }
 
 // 标题文字跳动
@@ -306,15 +306,15 @@ blockquote,
   20%, 40%, 60%, 80% { transform: translateX(2px); }
 }
 
-// 3️⃣ More About Me 
+// 3️⃣ More About Me - 超级花哨
 .text-container {
   animation: sectionGlow 4s ease-in-out infinite;
   position: relative;
 }
 
 @keyframes sectionGlow {
-  0%, 100% { box-shadow: 0 0 30px rgba(198, 120, 221, 0.4); }
-  50% { box-shadow: 0 0 60px rgba(198, 120, 221, 0.7); }
+  0%, 100% { box-shadow: 0 0 40px rgba(198, 120, 221, 0.4); }
+  50% { box-shadow: 0 0 80px rgba(198, 120, 221, 0.7); }
 }
 
 .text-container h2 {
@@ -362,7 +362,7 @@ blockquote,
   75% { transform: rotate(-2deg); }
 }
 
-// More About Me 图片的脉冲效果
+// More About Me 图片的紫色脉冲效果
 .text-container img {
   float: right !important;
   width: 300px !important;
@@ -374,11 +374,12 @@ blockquote,
 
 .text-container img:hover {
   transform: scale(1.15) !important;
-  border-color: #61afef !important;
+  border-color: #c678dd !important;
   box-shadow: 
-    0 0 20px rgba(97, 175, 239, 0.8),
-    0 0 40px rgba(97, 175, 239, 0.6),
-    0 0 60px rgba(97, 175, 239, 0.4) !important;
+    0 0 30px rgba(198, 120, 221, 0.9),
+    0 0 60px rgba(198, 120, 221, 0.7),
+    0 0 90px rgba(198, 120, 221, 0.5),
+    0 0 120px rgba(198, 120, 221, 0.3) !important;
   filter: brightness(1.1) !important;
   transition: all 0.3s ease !important;
 }
