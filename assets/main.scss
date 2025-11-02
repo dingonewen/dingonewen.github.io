@@ -185,7 +185,7 @@ mark:hover {
 // Quote 和 Blockquote - 偏小
 blockquote,
 .quote {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   line-height: 1.4 !important;
   border-left: 4px solid #61afef !important;
   color: #e5999d !important;
@@ -196,15 +196,6 @@ blockquote,
 // Description - 正常大小
 .description,
 .description p {
-  font-size: 1.2rem !important;
+  font-size: 1.5rem !important;
   line-height: 1.6 !important;
-}
-
-// 图片浮动
-.layout-text img {
-  float: right !important;
-  width: 200px !important;  // 从 300px 改成 200px
-  max-width: 35% !important;  // 添加这行，最大不超过容器的 35%
-  height: auto !important;  // 添加这行，保持比例
-  margin: 0 0 15px 15px !important;
 }
