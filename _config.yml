@@ -39,7 +39,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 
 # About Section
 about_title: Generally Speaking
-about_profile_image: images/vaguephoto.jpg
+about_profile_image: images/squarephoto.jpg
 about_content: | # this will include new lines to allow paragraphs
   I’m not much of a talker in person, but I enjoy showing off my humor in chats. I like to call myself a **Humor Retriever** — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is meeting someone funnier than I am.
 
@@ -169,7 +169,8 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      Other than work and study, love *free food*, *swimming* and I am a *soccer* fan. 
+      
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
