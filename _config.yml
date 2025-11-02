@@ -10,8 +10,7 @@ name: Yiwen Ding
 title: Humor Retriever
 email: dingywn@seas.upenn.edu
 phone: (607)379-1110
-website: https://dingonewen.github.io
-website_text: dingonewen
+website: '<a href="https://dingonewen.github.io">dingonewen</a>'
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -168,14 +167,14 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I tend to live a fairly disciplined life, but aside from work and study, I enjoy *free food*, *swimming* and I am a *soccer* fan. I am actively training for FIFA2026 volunteer role in Philly. 
-      <img src="/images/soccerfood.jpg" alt="Enjoying food with my fav jersey" style="float: right; width: 280px; margin: 0 0 15px 15px; border-radius: 8px;">
-      
-      I steer clear of high-impact workouts—mainly because I prefer keeping all my joints intact—so swimming is my go-to sport. I am actively preparing to volunteer for the FIFA 2026 World Cup in Philadelphia. 
-      
-      When life slows down a bit, I swim about 20 kilometers a month. I’m an early-to-bed, early-to-rise kind of person - late nights and I simply don’t get along. 
-      
-      I enjoy calm, mellow *music*, and my favorite artist and producer is "<a href='https://khalilfong.com/2017/' target='_blank'>Khalil Fong</a>". 
+<img src="/images/soccerfood.jpg" alt="Enjoying food with my favorite jersey" style="float: right; width: 280px; margin: 0 0 15px 15px; border-radius: 8px;">
+
+&nbsp;&nbsp;&nbsp;&nbsp; I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — *free food*, *quality sleep*, and watching *soccer* game.  
+
+&nbsp;&nbsp;&nbsp;&nbsp; I’m currently preparing to volunteer at the FIFA 2026 World Cup in Philadelphia. I steer clear of high-impact workouts — mostly because I’d like to keep all my joints intact — so swimming has become my sport of choice. When life slows down, I swim about 25 km a month. 
+
+&nbsp;&nbsp;&nbsp;&nbsp; I’m an early-to-bed, early-to-rise kind of person — late nights and I simply don’t get along. I enjoy calm, mellow *music*, and my favorite artist and producer is <a href='https://khalilfong.com/2017/' target='_blank'>Khalil Fong</a>. 
+
 
 # Footer
 footer_show_references: true
