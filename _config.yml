@@ -130,7 +130,7 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
+        # border: weak
         title: Blackjack Solitaire
         link: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
         link_text: Blackjack Solitaire
@@ -144,7 +144,7 @@ content:
           | A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
 
       - layout: left
-        border: weak
+        # border: weak
         title: Uno
         link: https://github.com/dingonewen/mini-projects/tree/main/uno
         link_text: Uno
@@ -158,7 +158,7 @@ content:
           | A Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
           
       - layout: left
-        border: weak
+        # border: weak
         title: Clinical Research
         link: https://www.kobrienlab.com/
         link_text: O'Brien Lab
@@ -174,7 +174,7 @@ content:
           | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicke
           
       - layout: left
-        border: weak
+        # border: weak
         title: Microbiota Research
         link: https://www.zhenghaolab.org/
         link_text: Zheng Lab
