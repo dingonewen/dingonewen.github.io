@@ -48,13 +48,6 @@ about_content: | # this will include new lines to allow paragraphs
   &nbsp;&nbsp;&nbsp;&nbsp;After three years in biotech — and more ups and downs than I can count — I decided to pivot to <mark>Computer Science</mark> at Penn following a two-year deferral. It’s not every day you get a second chance at education after joining the workforce, and I’m genuinely grateful for it. Despite the challenging job market, I remain optimistic. I prepare for the worst, hope for the best, and debug everything in between — that’s my philosophy for both code and life.
 
   &nbsp;&nbsp;&nbsp;&nbsp;I’m currently honing my programming skills and seeking a 2026 summer internship as a <mark>Technical Project Manager</mark> or <mark>Software Developer</mark>. If you’d like to get to know me better — or, as some call it, “an interview” — feel free to reach out by email. I check my inbox approximately three times per second.
-  
-  
-# [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-# - Lists
-# - Tables
-# - <a href="google.com">Links</a>
-# - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
 
@@ -167,7 +160,7 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-<img src="/images/soccerfood.jpg" alt="Enjoying food with my favorite jersey" style="float: right; width: 280px; margin: 0 0 15px 15px; border-radius: 8px;">
+<img src="/images/soccerfood.png" alt="Soccer and Food" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
 
 &nbsp;&nbsp;&nbsp;&nbsp; I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — *free food*, *quality sleep*, and watching *soccer* game.  
 
