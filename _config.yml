@@ -159,14 +159,18 @@ content:
           
       - layout: left
         border: weak
-        title: Clinical Research Contribution
+        title: Clinical Research
+        additional_links:
+          - title: DHA Chicken Study
+            icon: fa-solid fa-drumstick-bite
+            url: https://docs.google.com/presentation/d/1rpmDe5bwRldBRT27xEp8IaYSuEWT5N2V/edit?usp=sharing&ouid=110493095619593127092&rtpof=true&sd=true
         quote: >
           Bioavailability of Docosahexaenoic Acid From Biofortified Chicken
         description: |
-          <img src="/images/poster.jpg" alt="Research Poster" style="float: right; width: 250px; margin: 0 0 15px 15px; border-radius: 8px;">
           | Participated in the Empowering U.S. Broiler Production for Transformation and Sustainability project with a grant from USDA
           | Analyzed and interpreted fatty acids content in human studies using JMP and Excel, gained expertise in JMP
           | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
+          <img src="/images/poster.jpg" alt="Research Poster" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
           
   - title: More About Me          
     layout: text
