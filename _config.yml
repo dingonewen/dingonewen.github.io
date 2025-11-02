@@ -173,18 +173,18 @@ content:
           | Analyzed and interpreted fatty acids content in human studies using JMP and Excel, gained expertise in JMP
           | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
 
-          <div style="float: right; width: 250px; margin: 0 0 15px 15px; position: relative; overflow: visible;">
-            <img src="/images/Bioavailability of DHA poster.jpg" alt="Poster" style="width: 100%; border-radius: 8px; cursor: pointer; transition: all 0.3s ease; border: 2px solid #61afef;" onmouseover="this.style.transform='scale(2.5)'; this.style.zIndex='1000'; this.style.position='relative'; this.style.boxShadow='0 20px 60px rgba(97,175,239,0.8)';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.boxShadow='none';">
+          <div style="float: right; width: 150px; margin: 0 0 15px 15px; position: relative; overflow: visible;">
+            <img src="/images/Bioavailability of DHA poster.jpg" alt="Poster" style="width: 100%; border-radius: 8px; cursor: pointer; transition: all 0.3s ease; border: 2px solid #61afef;" onmouseover="this.style.transform='scale(5)'; this.style.zIndex='1000'; this.style.position='relative'; this.style.boxShadow='0 20px 60px rgba(97,175,239,0.8)';" onmouseout="this.style.transform='scale(1)'; this.style.zIndex='1'; this.style.boxShadow='none';">
           </div>
           
       - layout: left
         border: weak
-        title: Microbiology Research
+        title: Microbiota Research
         link: https://www.zhenghaolab.org/
         link_text: Zheng Lab
         additional_links: 
           - title: Gut Microbiota
-            icon: fas fa-bacterium
+            icon: fas fa-microscope
             url: https://doi.org/10.1111/1744-7917.12770
         quote: >
             Even the gut microbiota of honeybees is powerful.
