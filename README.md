@@ -2,7 +2,7 @@
 
 My personal portfolio website showcasing my education, experience, and projects as I pursue a career in software development and technical project management.
 
-🔗 **Live Site**: [https://dingonewen.github.io](https://dingonewen.github.io)
+🔗 **Live Site**: [https://dingonewen.github.io](https://dingonewen.github.io) 
 
 ## About This Portfolio
 
