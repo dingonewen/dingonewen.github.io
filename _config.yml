@@ -201,6 +201,36 @@ content:
       <p style="text-indent: 2em;">I'm an early-to-bed, early-to-rise kind of person — late nights and I simply don't get along. I enjoy calm, mellow <em>music</em>, and my favorite artist and producer is <a href="https://khalilfong.com/2017/" target="_blank">Khalil Fong</a>.</p>
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const sections = document.querySelectorAll('.layout-right, .layout-left, .layout-top-right');
+  
+  sections.forEach(section => {
+    const title = section.querySelector('h3');
+    if (title) {
+      const originalText = title.textContent;
+      
+      section.addEventListener('mouseenter', function() {
+        if (!title.dataset.split) {
+          title.dataset.split = 'true';
+          title.innerHTML = originalText.split('').map((char, i) => {
+            if (char === ' ') return '&nbsp;';
+            return `<span style="display:inline-block; animation: charJump 0.5s ease ${i * 0.03}s">${char}</span>`;
+          }).join('');
+        }
+      });
+    }
+  });
+});
+</script>
+
+<style>
+@keyframes charJump {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+</style>
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
