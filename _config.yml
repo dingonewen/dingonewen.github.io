@@ -76,7 +76,7 @@ content:
       - layout: top-right
         title: Cornell University
         sub_title: Bachelor of Science in Food Science
-        caption: Aug 2020 - May 2022
+        caption: Aug 2018 - May 2022
         quote: >
           "<a href='https://www.cornell.edu/' target='_blank'>I would found an institution where any person can find instruction in any study.</a>"
         description: | # this will include new lines to allow paragraphs
@@ -87,7 +87,7 @@ content:
       - layout: top-right
         title: China Agricultural University
         sub_title: Bachelor of Engineering in Food Science & Engineering
-        caption: Aug 2018 - Jul 2020
+        caption: Aug 2018 - Nov 2022
         quote: >
           "<a href='https://cau.edu.cn/' target='_blank'>解民生之多艰，育天下之英才。</a>"
         description: | # this will include new lines to allow paragraphs
@@ -170,7 +170,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Other than work and study, love *free food*, *swimming* and I am a *soccer* fan. 
-      ![Enjoying food with my fav jersey](/images/soccerfood.png)
+      ![Enjoying food with my fav jersey](/images/soccerfood.jpg)
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
