@@ -194,31 +194,28 @@ mark:hover {
 
 // ========== 字体大小统一调整 ==========
 
-// Quote - 统一设置为更小（所有 section）
-blockquote,
-.quote,
-p.quote,
-div.quote,
-.layout-right blockquote,
-.layout-left blockquote,
-.layout-top-right blockquote,
-.layout-right .quote,
-.layout-left .quote,
-.layout-top-right .quote {
+// 字体大小 - 简化版
+blockquote {
   font-size: 0.8rem !important;
   line-height: 1.3 !important;
+  border-left: 4px solid #61afef !important;
+  color: #5c6370 !important;
+  background-color: #21252b !important;
+  padding: 10px 15px !important;
 }
 
-// Description - 统一设置为偏小（所有 section）
-.description,
-p.description,
-div.description,
-.layout-right .description,
-.layout-left .description,
-.layout-top-right .description,
-.layout-right .description p,
-.layout-left .description p,
-.layout-top-right .description p {
+.description {
   font-size: 0.95rem !important;
   line-height: 1.5 !important;
+}
+
+// 图片浮动
+.layout-text img {
+  float: right !important;
+  width: 300px !important;
+  max-width: 40% !important;
+  margin-left: 20px !important;
+  margin-bottom: 20px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
 }
