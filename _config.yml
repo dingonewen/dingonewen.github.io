@@ -68,10 +68,10 @@ content:
         sub_title: Master of Computer & Information Technology
         caption: Aug 2025 - May 2027 (expected)
         quote: >
-          "<a href='https://www.upenn.edu/" target='_blank'>Leges sine moribus vanae.。</a>"
+          "<a href='https://www.upenn.edu/" target='_blank'>Leges sine moribus vanae.</a>"
         description: | # this will include new lines to allow paragraphs
-          | Thriving in new knowledge
           | GPA : TBD
+          | Thriving through learning...
           | Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
       - layout: top-right
         title: Cornell University
@@ -150,7 +150,7 @@ content:
         quote: >
           Blackjack!
         description: | # this will include new lines to allow paragraphs
-          This is a Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
+          | This is a Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
 
       - layout: left
         border: weak
@@ -164,15 +164,14 @@ content:
         quote: >
             Uno!
         description: | # this will include new lines to allow paragraphs
-          This is a Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
+          | This is a Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
           
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Other than work and study, love *free food*, *swimming* and I am a *soccer* fan. 
+      Other than work and study, love *free food*, *swimming* and I am a *soccer* fan. I am actively training for FIFA2026 volunteer role in Philly.
        ![Enjoying food with my fav jersey](images/soccerfood.jpg)
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
