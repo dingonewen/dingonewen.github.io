@@ -81,14 +81,6 @@ code {
   font-family: 'Consolas', monospace !important;
 }
 
-// 引用块
-blockquote {
-  border-left: 4px solid #61afef !important;
-  color: #5c6370 !important;
-  background-color: #21252b !important;
-  padding: 10px 15px !important;
-}
-
 // 列表标记颜色
 ul li::marker, ol li::marker {
   color: #c678dd !important;
@@ -174,36 +166,38 @@ code:hover {
   transition: color 0.3s ease, background-color 0.3s ease !important;
 }
 
-// 亮黄色高亮效果
+// Mark 高亮
 mark {
-  // 亮黄色背景
   background-color: #e5c07b !important;
-  // 深色文字（保证可读性）
   color: #282c34 !important;
   padding: 2px 6px !important;
   border-radius: 3px !important;
   font-weight: 600 !important;
 }
 
-// 鼠标悬停效果
 mark:hover {
-  // 更深的金黄色
   background-color: #d19a4a !important;
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
 }
 
 // ========== 字体大小调整 ==========
 
-// Quote 部分 - 缩小字体
-.quote, blockquote, .layout-right .quote, .layout-left .quote, .layout-top-right .quote {
-  font-size: 0.9rem !important; 
+// Quote 和 Blockquote - 偏小
+blockquote,
+.quote {
+  font-size: 0.85rem !important;
   line-height: 1.4 !important;
+  border-left: 4px solid #61afef !important;
+  color: #5c6370 !important;
+  background-color: #21252b !important;
+  padding: 10px 15px !important;
 }
 
-// Description 部分 - 放大字体
-.description, .layout-right .description, .layout-left .description, .layout-top-right .description {
-  font-size: 1.05rem !important; // 稍微放大
-  line-height: 1.6 !important; // 增加行距，更易读
+// Description - 正常大小
+.description,
+.description p {
+  font-size: 1rem !important;
+  line-height: 1.6 !important;
 }
 
 // 图片浮动
