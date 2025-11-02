@@ -185,10 +185,10 @@ mark:hover {
 // Quote 和 Blockquote - 偏小
 blockquote,
 .quote {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important;
   line-height: 1.4 !important;
   border-left: 4px solid #61afef !important;
-  color: #C9A0B7 !important;
+  color: #e5999d !important;
   background-color: #21252b !important;
   padding: 10px 15px !important;
 }
@@ -196,7 +196,7 @@ blockquote,
 // Description - 正常大小
 .description,
 .description p {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   line-height: 1.6 !important;
 }
 
