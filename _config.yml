@@ -162,15 +162,31 @@ content:
         title: Clinical Research
         additional_links:
           - title: DHA Chicken Study
-            icon: fa-solid fa-drumstick-bite
+            icon: fas fa-drumstick-bite
             url: https://docs.google.com/presentation/d/1rpmDe5bwRldBRT27xEp8IaYSuEWT5N2V/edit?usp=sharing&ouid=110493095619593127092&rtpof=true&sd=true
         quote: >
           Bioavailability of Docosahexaenoic Acid From Biofortified Chicken
+          
         description: |
           | Participated in the Empowering U.S. Broiler Production for Transformation and Sustainability project with a grant from USDA
           | Analyzed and interpreted fatty acids content in human studies using JMP and Excel, gained expertise in JMP
           | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
+
           <img src="/images/Bioavailability of DHA poster.jpg" alt="Research Poster" style="float: right; width: 300px; margin: 0 0 15px 15px; border-radius: 8px;">
+      
+      - layout: left
+        border: weak
+        title: Microbiome Research
+        additional_links:
+          - title: Gut Microbiota
+            icon: fas fa-bacterium
+            url: https://doi.org/10.1111/1744-7917.12770
+        quote: >
+            Even the gut microbiota of honeybees is powerful.
+        description: | # this will include new lines to allow paragraphs
+          | Our results illustrate the prevalence of strain-level variations in the metabolic potentials and the distributions of antibiotic-resistant genes in Chinese bumblebee gut bacteria
+          | Performed honeybee dissections, sample collection, PCR sequencing, and meta-analysis of sequencing data; contributed over 30 hours per week to lab research
+          | Portions of my work were incorporated into an additional publications on "<a href='https://doi.org/10.1073/pnas.1916224116' target='_blank'>PNAS</a>", contributing to the study of gut microbiota
           
   - title: More About Me          
     layout: text
