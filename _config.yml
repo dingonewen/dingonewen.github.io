@@ -129,6 +129,21 @@ content:
   - title: Projects
     layout: list
     content:
+    
+      - layout: left
+        # border: weak
+        title: Spell Checker
+        link: https://github.com/dingonewen/mini-projects/tree/main/spell_checker
+        link_text: Spell Checker
+        additional_links:
+          - title: Spell Checker
+            icon: fab fa-github
+            url: https://github.com/dingonewen
+        quote: >
+            "Uno!"
+        description: | # this will include new lines to allow paragraphs
+          | A Java command-line application that detects misspelled words and suggests corrections using custom similarity algorithms.
+    
       - layout: left
         # border: weak
         title: Blackjack Solitaire
@@ -137,25 +152,11 @@ content:
         additional_links:
           - title: Blackjack Solitaire
             icon: fab fa-github
-            url: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
+            url: https://github.com/dingonewen
         quote: >
           "21, baby!"
         description: | # this will include new lines to allow paragraphs
           | A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
-
-      - layout: left
-        # border: weak
-        title: Uno
-        link: https://github.com/dingonewen/mini-projects/tree/main/uno
-        link_text: Uno
-        additional_links:
-          - title: Uno
-            icon: fab fa-github
-            url: https://github.com/dingonewen/mini-projects/tree/main/uno
-        quote: >
-            "Uno!"
-        description: | # this will include new lines to allow paragraphs
-          | A Java implementation of the classic UNO card game, featuring support for 2-4 players with both human and computer opponents.
           
       - layout: left
         # border: weak
