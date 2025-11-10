@@ -140,7 +140,7 @@ content:
             icon: fab fa-github
             url: https://github.com/dingonewen
         quote: >
-            "Uno!"
+            Tired of typos? Let this spell checker find mistakes and suggest the best fixes automatically.
         description: | # this will include new lines to allow paragraphs
           | A Java command-line application that detects misspelled words and suggests corrections using custom similarity algorithms.
     
