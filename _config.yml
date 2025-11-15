@@ -132,12 +132,30 @@ content:
     
       - layout: left
         # border: weak
+        title: Genetic Data Explorer
+        link: https://github.com/dingonewen/genetic_data_explorer/
+        link_text: Genetic Data Explorer
+        additional_links:
+          - title: Variant Annotation Search
+            icon: fas fa-dna
+            url: https://github.com/dingonewen/genetic_data_explorer/
+        quote: >
+          A professional web-based application for comprehensive genetic variant analysis
+        description: |          
+          | Architected multi-API integration system for genetic variant annotation with clinical interpretation
+          | Designed gene symbol search feature and ACMG-compliant pathogenicity visualizations
+          | Directed API selection strategy and performance optimization (95% faster with caching)
+          | Established comprehensive testing framework (24 test cases) and Docker deployment pipeline
+          | Balanced technical trade-offs between feature scope, user experience, and development timeline
+    
+      - layout: left
+        # border: weak
         title: Spell Checker
         link: https://github.com/dingonewen/mini-projects/tree/main/spell_checker
         link_text: Spell Checker
         additional_links:
           - title: Spell Checker
-            icon: fab fa-github
+            icon: fab fa-spell-check
             url: https://github.com/dingonewen
         quote: >
             Tired of typos? Let this spell checker find mistakes and suggest the best fixes automatically.
@@ -172,7 +190,7 @@ content:
         description: |          
           | Participated in the Empowering U.S. Broiler Production for Transformation and Sustainability project with a grant from USDA
           | Analyzed and interpreted fatty acids content in human studies using JMP and Excel, gained expertise in JMP
-          | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicke
+          | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
           
       - layout: left
         # border: weak
