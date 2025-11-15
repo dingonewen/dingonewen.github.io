@@ -155,7 +155,7 @@ content:
         link_text: Spell Checker
         additional_links:
           - title: Spell Checker
-            icon: fab fa-spell-check
+            icon: fas fa-spell-check
             url: https://github.com/dingonewen
         quote: >
             Tired of typos? Let this spell checker find mistakes and suggest the best fixes automatically.
@@ -169,7 +169,7 @@ content:
         link_text: Blackjack Solitaire
         additional_links:
           - title: Blackjack Solitaire
-            icon: fab fa-github
+            icon: fab fa-chess_board
             url: https://github.com/dingonewen
         quote: >
           "21, baby!"
