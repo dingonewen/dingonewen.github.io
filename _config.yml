@@ -136,9 +136,9 @@ content:
         link: https://github.com/dingonewen/genetic_data_explorer/
         link_text: Genetic Data Explorer
         additional_links:
-          - title: Variant Annotation Search demo
+          - title: Variant Annotation Search live demo
             icon: fas fa-dna
-            url: https://github.com/dingonewen/genetic_data_explorer/blob/main/demo.mp4
+            url: https://geneticdataexplorer.streamlit.app
         quote: >
           A professional web-based application for comprehensive genetic variant analysis
         description: |          
