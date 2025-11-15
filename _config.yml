@@ -169,7 +169,7 @@ content:
         link_text: Blackjack Solitaire
         additional_links:
           - title: Blackjack Solitaire
-            icon: fab fa-chess_board
+            icon: fab fa-chess-board
             url: https://github.com/dingonewen
         quote: >
           "21, baby!"
