@@ -149,6 +149,7 @@ html {
 .contact-item {
   position: relative;
   cursor: pointer;
+  margin: 0;
   
   .contact-label {
     font-weight: 500;
@@ -167,8 +168,12 @@ html {
     vertical-align: bottom;
     
     a {
-      color: inherit; 
-      text-decoration: inherit; 
+      color: #007bff;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   
