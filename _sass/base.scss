@@ -152,6 +152,10 @@ html {
   
   .contact-label {
     font-weight: 500;
+    
+    &::after {
+      content: ": ";
+    }
   }
   
   .contact-value {
@@ -161,6 +165,11 @@ html {
     display: inline-block;
     transition: opacity 0.3s ease, max-width 0.3s ease;
     vertical-align: bottom;
+    
+    a {
+      color: inherit; 
+      text-decoration: inherit; 
+    }
   }
   
   &:hover .contact-value {
