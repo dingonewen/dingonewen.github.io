@@ -151,14 +151,11 @@ html {
   cursor: pointer;
   margin: 0;
   
-  .contact-label {
-    font-weight: 500;
-    
-    &::after {
-      content: ": ";      // ← REMOVE THIS COLON
-    }
-  }
-
+.contact-label {
+  font-weight: 500;
+  color: #007bff;
+}
+  
 body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
