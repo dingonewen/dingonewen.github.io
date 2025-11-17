@@ -152,7 +152,8 @@ html {
   margin: 0;
   
   .contact-label {
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 1.4rem;
     color: #007bff;
   }
   
@@ -215,6 +216,13 @@ body {
 .header-right p {
   font-size: 1.6rem;
   text-align: right;
+}
+
+.header-right p.contact-item {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-size: 1rem;  // Override the 1.6rem for contact items
 }
 
 @media print {
