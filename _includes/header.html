@@ -108,7 +108,7 @@
 
     {%- if site.email -%}
       <p class="contact-item">
-        <span class="contact-label">{{ site.email_title | default: "Email" }}:</span>
+        <span class="contact-label">{{ site.email_title | default: "Email" }}</span>
         <span class="contact-value">
           <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </span>
@@ -116,13 +116,15 @@
     {%- endif -%}
     {%- if site.phone -%}
       <p class="contact-item">
-        <span class="contact-label">{{ site.phone_title | default: "Phone" }}:</span>
-        <span class="contact-value">{{ site.phone | escape }}</span>
+        <span class="contact-label">{{ site.phone_title | default: "Phone" }}</span>
+        <span class="contact-value">
+          <a href="tel:{{ site.phone }}">{{ site.phone | escape }}</a>
+        </span>
       </p>
     {%- endif -%}
     {%- if site.website -%}
       <p class="contact-item">
-        <span class="contact-label">{{ site.website_title | default: "Web" }}:</span>
+        <span class="contact-label">{{ site.website_title | default: "Web" }}</span>
         <span class="contact-value">
           {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </span>
