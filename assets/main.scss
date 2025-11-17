@@ -142,12 +142,12 @@ h1::after {
 // Glow effect on hover for h2
 h2:hover {
   text-shadow: 0 0 10px #61afef !important;
-  transition: text-shadow 0.3s ease !important;
+  transition: text-shadow 0.3s ease;
 }
 
 h3:hover {
   text-shadow: 0 0 10px #c678dd !important;
-  transition: text-shadow 0.3s ease !important;
+  transition: text-shadow 0.3s ease;
 }
 
 // Link glow effect
@@ -157,8 +157,8 @@ a:hover {
 
 // Code block glow effect
 code:hover {
-  box-shadow: 0 0 10px rgba(224, 108, 117, 0.3) !important;
-  transition: box-shadow 0.3s ease !important;
+  box-shadow: 0 0 10px rgba(224, 108, 117, 0.3);
+  transition: box-shadow 0.3s ease;
 }
 
 // Smooth transitions for entire page
@@ -170,14 +170,14 @@ code:hover {
 mark {
   background-color: #e5c07b !important;
   color: #282c34 !important;
-  padding: 2px 6px !important;
-  border-radius: 3px !important;
-  font-weight: 600 !important;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 600;
 }
 
 mark:hover {
-  background-color: #d19a4a !important;
-  box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
+  background-color: #d19a4a;
+  box-shadow: 0 0 8px rgba(229, 192, 123, 0.6);
 }
 
 // ========== Font Size Adjustments ==========
@@ -188,10 +188,10 @@ blockquote,
 p.quote {
   font-size: 0.85rem !important;
   line-height: 1.4 !important;
-  border-left: 4px solid #61afef !important;
+  border-left: 4px solid #61afef;
   color: #e5999d !important;
-  background-color: #21252b !important;
-  padding: 10px 15px !important;
+  background-color: #21252b;
+  padding: 10px 15px;
 }
 
 // Projects / Education / Experience table content - normal size
@@ -232,13 +232,13 @@ table th {
 // Research poster styles
 .layout-left img[alt*="Poster"],
 .layout-left img[alt*="poster"] {
-  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .layout-left img[alt*="Poster"]:hover,
 .layout-left img[alt*="poster"]:hover {
-  transform: scale(1.05) !important;
-  box-shadow: 0 8px 16px rgba(97, 175, 239, 0.4) !important;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(97, 175, 239, 0.4);
 }
 
 // ========== Perfectly Balanced Animation Scheme ==========
@@ -367,43 +367,46 @@ table th {
 
 // More About Me image purple pulse effect
 .text-container img {
-  float: right !important;
-  width: 300px !important;
-  margin: 0 0 15px 15px !important;
-  border-radius: 8px !important;
-  border: 2px solid #3e4451 !important;
-  cursor: pointer !important;
+  float: right;
+  width: 300px;
+  margin: 0 0 15px 15px;
+  border-radius: 8px;
+  border: 2px solid #3e4451;
+  cursor: pointer;
 }
 
 .text-container img:hover {
-  transform: scale(1.15) !important;
-  border-color: #c678dd !important;
+  transform: scale(1.15);
+  border-color: #c678dd;
   box-shadow: 
     0 0 30px rgba(198, 120, 221, 0.9),
     0 0 60px rgba(198, 120, 221, 0.7),
     0 0 90px rgba(198, 120, 221, 0.5),
-    0 0 120px rgba(198, 120, 221, 0.3) !important;
-  filter: brightness(1.1) !important;
-  transition: all 0.3s ease !important;
+    0 0 120px rgba(198, 120, 221, 0.3);
+  filter: brightness(1.1);
+  transition: all 0.3s ease;
 }
 
 // ========== Contact Info Anti-Scraping Styles (Override Global) ==========
+// This section needs !important to override both theme and earlier rules
 .header-right .contact-item {
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1.4 !important;
+  line-height: 1.2 !important;
   
   .contact-label {
     color: #007bff !important;
-    font-weight: bold !important;
-    font-size: 1.1rem !important;
-    transition: all 0.3s ease !important;
+    font-weight: 700 !important;
+    font-size: 1.4rem !important;
+    transition: all 0.3s ease;
+    display: inline-block;
     
     &:hover {
-      text-shadow: 0 0 15px rgba(0, 123, 255, 0.8),
-                   0 0 25px rgba(0, 123, 255, 0.6),
-                   0 0 35px rgba(0, 123, 255, 0.4) !important;
+      text-shadow: 0 0 15px rgba(0, 123, 255, 0.9),
+                   0 0 25px rgba(0, 123, 255, 0.7),
+                   0 0 35px rgba(0, 123, 255, 0.5) !important;
       color: #40a9ff !important;
+      transform: scale(1.08);
     }
   }
   
@@ -412,7 +415,7 @@ table th {
     max-width: 0;
     overflow: hidden;
     display: inline-block;
-    transition: opacity 0.3s ease, max-width 0.3s ease !important;
+    transition: opacity 0.3s ease, max-width 0.3s ease;
     vertical-align: bottom;
     
     a {
