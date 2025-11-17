@@ -5,19 +5,19 @@
 
 // ========== Atom One Dark Theme ==========
 
-// 全局深色背景
+// Global dark background
 body {
   background-color: #282c34 !important;
   color: #abb2bf !important;
   font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
 }
 
-// 主容器背景
+// Main container background
 .container, .header-container, .page-content {
   background-color: #282c34 !important;
 }
 
-// 各级标题 - 不同颜色高亮
+// Headings - different color highlights
 h1 {
   color: #e06c75 !important;
   font-family: 'Consolas', monospace !important;
@@ -45,12 +45,12 @@ h5, h6 {
   font-family: 'Consolas', monospace !important;
 }
 
-// 正文文字
+// Body text
 p, li, span {
   color: #abb2bf !important;
 }
 
-// 链接样式
+// Link styles
 a {
   color: #61afef !important;
   text-decoration: none !important;
@@ -62,7 +62,7 @@ a:hover {
   text-decoration: underline !important;
 }
 
-// 粗体和斜体
+// Bold and italic
 strong, b {
   color: #e5c07b !important;
   font-weight: bold !important;
@@ -72,7 +72,7 @@ em, i {
   color: #98c379 !important;
 }
 
-// 代码块
+// Code blocks
 code {
   background-color: #21252b !important;
   color: #e06c75 !important;
@@ -81,17 +81,17 @@ code {
   font-family: 'Consolas', monospace !important;
 }
 
-// 列表标记颜色
+// List marker colors
 ul li::marker, ol li::marker {
   color: #c678dd !important;
 }
 
-// 分隔线
+// Divider lines
 hr {
   border-color: #3e4451 !important;
 }
 
-// 标题区域
+// Header area
 .header-right h1 {
   color: #e06c75 !important;
 }
@@ -100,35 +100,35 @@ hr {
   color: #61afef !important;
 }
 
-// section 标题的 highlight 效果
+// Section title highlight effect
 .layout-section h2 {
   background: linear-gradient(90deg, #61afef 0%, transparent 100%) !important;
   padding-left: 15px !important;
   border-left: 4px solid #61afef !important;
 }
 
-// 时间/日期标签
+// Time/date labels
 .caption, .date {
   color: #5c6370 !important;
   font-style: italic !important;
 }
 
-// 图片适配深色主题
+// Images adapted to dark theme
 img {
   border: 2px solid #3e4451 !important;
   border-radius: 5px !important;
 }
 
-// footer
+// Footer
 footer {
   background-color: #21252b !important;
   color: #5c6370 !important;
   border-top: 1px solid #3e4451 !important;
 }
 
-// ========== 炫酷特效 ==========
+// ========== Cool Effects ==========
 
-// 标题的彩虹下划线效果
+// Rainbow underline effect for h1
 h1::after {
   content: '';
   display: block;
@@ -139,7 +139,7 @@ h1::after {
   border-radius: 2px;
 }
 
-// 鼠标悬停标题时的发光效果
+// Glow effect on hover for h2
 h2:hover {
   text-shadow: 0 0 10px #61afef !important;
   transition: text-shadow 0.3s ease !important;
@@ -150,23 +150,23 @@ h3:hover {
   transition: text-shadow 0.3s ease !important;
 }
 
-// 链接的发光效果
+// Link glow effect
 a:hover {
   text-shadow: 0 0 5px #61afef !important;
 }
 
-// 代码块的微光效果
+// Code block glow effect
 code:hover {
   box-shadow: 0 0 10px rgba(224, 108, 117, 0.3) !important;
   transition: box-shadow 0.3s ease !important;
 }
 
-// 整个页面的平滑过渡
+// Smooth transitions for entire page
 * {
   transition: color 0.3s ease, background-color 0.3s ease !important;
 }
 
-// Mark 高亮
+// Mark highlight
 mark {
   background-color: #e5c07b !important;
   color: #282c34 !important;
@@ -180,9 +180,9 @@ mark:hover {
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6) !important;
 }
 
-// ========== 字体大小调整 ==========
+// ========== Font Size Adjustments ==========
 
-// Quote 和 Blockquote - 偏小
+// Quote and Blockquote - smaller
 blockquote,
 .quote,
 p.quote {
@@ -194,7 +194,7 @@ p.quote {
   padding: 10px 15px !important;
 }
 
-// Projects / Education / Experience 的 Table 内容 - 正常大小
+// Projects / Education / Experience table content - normal size
 table,
 table td,
 table tr,
@@ -203,19 +203,19 @@ table th {
   line-height: 1.7 !important;
 }
 
-// Projects / Education / Experience 的段落
+// Projects / Education / Experience paragraphs
 .content p {
   font-size: 1.1rem !important;
   line-height: 1.7 !important;
 }
 
-// 列表项
+// List items
 .content li {
   font-size: 1.1rem !important;
   line-height: 1.7 !important;
 }
 
-// 确保所有 layout 内的内容都是统一大小
+// Ensure all layout content is uniform size
 .layout-right table,
 .layout-left table,
 .layout-top-right table {
@@ -229,7 +229,7 @@ table th {
   line-height: 1.7 !important;
 }
 
-// Research poster 样式
+// Research poster styles
 .layout-left img[alt*="Poster"],
 .layout-left img[alt*="poster"] {
   transition: transform 0.3s ease, box-shadow 0.3s ease !important;
@@ -241,9 +241,9 @@ table th {
   box-shadow: 0 8px 16px rgba(97, 175, 239, 0.4) !important;
 }
 
-// ========== 完美平衡的动画方案 ==========
+// ========== Perfectly Balanced Animation Scheme ==========
 
-// 1️⃣ Generally Speaking - 优雅淡入
+// Generally Speaking - elegant fade-in
 .intro-container p {
   opacity: 0;
   animation: fadeInUp 1.2s ease-out forwards;
@@ -265,21 +265,21 @@ table th {
   }
 }
 
-// 2️⃣ Education / Experience / Projects - 鼠标悬停效果
+// Education / Experience / Projects - hover effects
 .layout-right,
 .layout-left,
 .layout-top-right {
   transition: box-shadow 0.3s ease;
 }
 
-// 蓝紫色阴影
+// Blue-purple shadow
 .layout-right:hover,
 .layout-left:hover,
 .layout-top-right:hover {
   box-shadow: 0 10px 40px rgba(142, 148, 232, 0.6);
 }
 
-// 标题文字跳动
+// Title text jump
 .layout-right:hover h3,
 .layout-left:hover h3,
 .layout-top-right:hover h3 {
@@ -293,7 +293,7 @@ table th {
   75% { transform: translateY(-6px); }
 }
 
-// 所有内容（table、段落、列表）微微抖动
+// All content (tables, paragraphs, lists) slight shake
 .layout-right:hover .content,
 .layout-left:hover .content,
 .layout-top-right:hover .content,
@@ -309,7 +309,7 @@ table th {
   20%, 40%, 60%, 80% { transform: translateX(3px); }
 }
 
-// 3️⃣ More About Me - 超级花哨
+// More About Me - super fancy
 .text-container {
   animation: sectionGlow 4s ease-in-out infinite;
   position: relative;
@@ -365,7 +365,7 @@ table th {
   75% { transform: rotate(-2deg); }
 }
 
-// More About Me 图片的紫色脉冲效果
+// More About Me image purple pulse effect
 .text-container img {
   float: right !important;
   width: 300px !important;
@@ -387,13 +387,24 @@ table th {
   transition: all 0.3s ease !important;
 }
 
-// ========== 联系方式防爬虫样式（覆盖全局）==========
+// ========== Contact Info Anti-Scraping Styles (Override Global) ==========
 .header-right .contact-item {
   margin: 0 !important;
   padding: 0 !important;
+  line-height: 1.4 !important;
   
   .contact-label {
     color: #007bff !important;
+    font-weight: bold !important;
+    font-size: 1.1rem !important;
+    transition: all 0.3s ease !important;
+    
+    &:hover {
+      text-shadow: 0 0 15px rgba(0, 123, 255, 0.8),
+                   0 0 25px rgba(0, 123, 255, 0.6),
+                   0 0 35px rgba(0, 123, 255, 0.4) !important;
+      color: #40a9ff !important;
+    }
   }
   
   .contact-value {
