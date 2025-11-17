@@ -393,11 +393,7 @@ table th {
   padding: 0 !important;
   
   .contact-label {
-    color: #abb2bf !important;
-    
-    &::after {
-      content: ": ";
-    }
+    color: #007bff !important;
   }
   
   .contact-value {
@@ -409,9 +405,9 @@ table th {
     vertical-align: bottom;
     
     a {
-      color: #007bff !important;  // ← 用 !important 覆盖全局
+      color: #007bff !important;
       text-decoration: none !important;
-      text-shadow: none !important;  // ← 去除悬停发光
+      text-shadow: none !important;
       
       &:hover {
         color: #0056b3 !important;
