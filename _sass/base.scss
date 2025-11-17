@@ -146,6 +146,29 @@ html {
     cursor: default;
     top: 0px; }
 
+.contact-item {
+  position: relative;
+  cursor: pointer;
+  
+  .contact-label {
+    font-weight: 500;
+  }
+  
+  .contact-value {
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    display: inline-block;
+    transition: opacity 0.3s ease, max-width 0.3s ease;
+    vertical-align: bottom;
+  }
+  
+  &:hover .contact-value {
+    opacity: 1;
+    max-width: 500px;
+  }
+}
+
 body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
