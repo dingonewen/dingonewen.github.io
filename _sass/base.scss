@@ -151,11 +151,35 @@ html {
   cursor: pointer;
   margin: 0;
   
-.contact-label {
-  font-weight: 500;
-  color: #007bff;
-}
+  .contact-label {
+    font-weight: 500;
+    color: #007bff;
+  }
   
+  .contact-value {
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    display: inline-block;
+    transition: opacity 0.3s ease, max-width 0.3s ease;
+    vertical-align: bottom;
+    
+    a {
+      color: #007bff;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  &:hover .contact-value {
+    opacity: 1;
+    max-width: 500px;
+  }
+}
+
 body {
   background: #ffffff;
   font-family: Roboto, sans-serif;
