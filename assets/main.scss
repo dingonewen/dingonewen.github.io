@@ -392,14 +392,19 @@ table th {
 .header-right .contact-item {
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1.2 !important;
+  line-height: 32px !important;  
+  height: 32px !important;       
+  font-size: 0 !important;       
   
   .contact-label {
-    color: #007bff !important;
+    color: #007bff !important; 
     font-weight: 700 !important;
-    font-size: 1.4rem !important;
+    font-size: 1.8rem !important;
+    line-height: 32px !important;  
+    height: 32px !important;       
     transition: all 0.3s ease;
     display: inline-block;
+    vertical-align: top;          
     
     &:hover {
       text-shadow: 0 0 15px rgba(0, 123, 255, 0.9),
@@ -416,12 +421,18 @@ table th {
     overflow: hidden;
     display: inline-block;
     transition: opacity 0.3s ease, max-width 0.3s ease;
-    vertical-align: bottom;
+    vertical-align: top;           
+    line-height: 32px !important;  
+    height: 32px !important;       
+    margin-left: 8px;
     
     a {
       color: #007bff !important;
       text-decoration: none !important;
       text-shadow: none !important;
+      font-size: 1.6rem !important;  
+      line-height: 32px !important;  
+      display: inline-block;         
       
       &:hover {
         color: #0056b3 !important;
