@@ -211,7 +211,7 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <img src="/images/soccerfood.jpg" alt="Soccer and Food" style="float: right; width: 150px; margin: 0 0 15px 15px; border-radius: 8px;">
+      <img src="/images/soccerfood.jpg" alt="Soccer and Food" style="float: right; margin: 0 0 15px 15px; border-radius: 8px;">
       
       <p style="text-indent: 2em;">I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — <em>free food</em>, <em>quality sleep</em>, and watching <em>soccer</em> games.</p>
       
@@ -220,39 +220,9 @@ content:
       <p style="text-indent: 2em;">Besides enhancing my technical background, I am also preparing to volunteer at the FIFA 2026 World Cup in Philly. I steer clear of high-impact workouts — mostly because I'd like to keep all my joints intact — so swimming has become my sport of choice. When life slows down, I swim about 25 km a month. My favorite athletes <a href="https://en.wikipedia.org/wiki/Fan_Zhendong">Fan Zhendong</a>, <a href="https://en.wikipedia.org/wiki/Weili_Zhang">Zhang Weili</a>, and <a href="https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9">Kylian Mbappé</a> — have always inspired me. Their character, resilience, and dedication to their goals continue to motivate me in my own pursuits.</p>
       
       <p style="text-indent: 2em;">I am an early-to-bed, early-to-rise kind of person — late nights and I simply don't get along. I enjoy calm, mellow <em>music</em>, and my favorite artist and producer is <a href="https://khalilfong.com/2017/" target="_blank">Khalil Fong</a>. I’ve always admired his calm and kind nature, as well as his dedication and professionalism, which I consistently strive to learn from.</p>
-
-      <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const sections = document.querySelectorAll('.layout-right, .layout-left, .layout-top-right');
-        sections.forEach(section => {
-          const title = section.querySelector('h3');
-          if (title) {
-            section.addEventListener('mouseenter', function() {
-              title.style.animation = 'titleGlow 0.6s ease';
-            });
-            section.addEventListener('mouseleave', function() {
-              title.style.animation = '';
-            });
-          }
-        });
-      });
-      </script>
-      
-      <style>
-      @keyframes titleGlow {
-        0%, 100% { transform: scale(1); color: inherit; }
-        50% { transform: scale(1.05); color: #4a90e2; }
-      }
-      </style>
-      
-      <style>
-      @keyframes charJump {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-12px); }
-      }
-      </style>
       
       <p style="text-indent: 2em;"> I am also a <strong>certified BLS provider</strong>. Amid a busy life, earning my Basic Life Support certification reminded me of the true power of contribution—to step beyond grades, projects, and deadlines, and to be prepared to make a real difference when every second counts.
+      
       <p style="text-indent: 2em;"> <em>Cooking</em> is how I connect with myself — it’s quiet, grounding, and creative. I haven’t had sugar or dairy in years and never drink, so making simple, healthy meals brings me a sense of balance and home. Of course, free food is the exception, and I secretly adore basque cheesecake and triple chocolate cookies.
 
 # Footer
