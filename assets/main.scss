@@ -279,37 +279,36 @@ table th {
   box-shadow: 0 10px 40px rgba(142, 148, 232, 0.6);
 }
 
-// 3D flip effect on hover
-.layout-right,
-.layout-left,
-.layout-top-right {
-  perspective: 1000px;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-}
-
-.layout-right:hover,
-.layout-left:hover,
-.layout-top-right:hover {
-  transform: rotateY(5deg) rotateX(2deg);
-  box-shadow: 0 20px 60px rgba(142, 148, 232, 0.8);
-}
-
+// Wave text effect
 .layout-right:hover h3,
 .layout-left:hover h3,
 .layout-top-right:hover h3 {
-  animation: neonPulse 1.5s ease-in-out infinite;
+  display: inline-block;
+  animation: rainbow 3s linear infinite;
 }
 
-@keyframes neonPulse {
-  0%, 100% { 
-    text-shadow: 0 0 10px #c678dd, 0 0 20px #c678dd, 0 0 30px #c678dd;
+@keyframes rainbow {
+  0% { 
+    color: #e06c75;
+    text-shadow: 0 0 20px #e06c75;
+  }
+  25% { 
+    color: #61afef;
+    text-shadow: 0 0 20px #61afef;
   }
   50% { 
-    text-shadow: 0 0 20px #c678dd, 0 0 40px #c678dd, 0 0 60px #c678dd, 0 0 80px #c678dd;
+    color: #c678dd;
+    text-shadow: 0 0 20px #c678dd;
+  }
+  75% { 
+    color: #98c379;
+    text-shadow: 0 0 20px #98c379;
+  }
+  100% { 
+    color: #e5c07b;
+    text-shadow: 0 0 20px #e5c07b;
   }
 }
-
 
 // More About Me - super fancy
 .text-container {
@@ -370,7 +369,7 @@ table th {
 // More About Me image purple pulse effect
 .text-container img {
   float: right;
-  width: 300px;
+  width: 200px;
   margin: 0 0 15px 15px;
   border-radius: 8px;
   border: 2px solid #3e4451;
