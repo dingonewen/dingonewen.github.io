@@ -296,24 +296,24 @@ table th {
 
 @keyframes rainbow {
   0% { 
-    color: #e06c75;
-    text-shadow: 0 0 20px #e06c75;
+    color: #e06c75 !important;
+    text-shadow: 0 0 20px #e06c75 !important;
   }
   25% { 
-    color: #61afef;
-    text-shadow: 0 0 20px #61afef;
+    color: #61afef !important;
+    text-shadow: 0 0 20px #61afef !important;
   }
   50% { 
-    color: #c678dd;
-    text-shadow: 0 0 20px #c678dd;
+    color: #c678dd !important;
+    text-shadow: 0 0 20px #c678dd !important;
   }
   75% { 
-    color: #98c379;
-    text-shadow: 0 0 20px #98c379;
+    color: #98c379 !important;
+    text-shadow: 0 0 20px #98c379 !important;
   }
   100% { 
-    color: #e5c07b;
-    text-shadow: 0 0 20px #e5c07b;
+    color: #e5c07b !important;
+    text-shadow: 0 0 20px #e5c07b !important;
   }
 }
 
