@@ -227,25 +227,23 @@ content:
         sections.forEach(section => {
           const title = section.querySelector('h3');
           if (title) {
-            const originalText = title.textContent;
             section.addEventListener('mouseenter', function() {
-              if (!title.dataset.split) {
-                title.dataset.split = 'true';
-                title.innerHTML = originalText.split('').map((char, i) => {
-                  if (char === ' ') return '&nbsp;';
-                  return '<span style="display:inline-block; animation: charJump 0.5s ease ' + (i * 0.03) + 's forwards">' + char + '</span>';
-                }).join('');
-                
-                setTimeout(() => {
-                  title.textContent = originalText;
-                  title.dataset.split = 'false';
-                }, 500 + (originalText.length * 30));
-              }
+              title.style.animation = 'titleGlow 0.6s ease';
+            });
+            section.addEventListener('mouseleave', function() {
+              title.style.animation = '';
             });
           }
         });
       });
       </script>
+      
+      <style>
+      @keyframes titleGlow {
+        0%, 100% { transform: scale(1); color: inherit; }
+        50% { transform: scale(1.05); color: #4a90e2; }
+      }
+      </style>
       
       <style>
       @keyframes charJump {
