@@ -233,8 +233,13 @@ content:
                 title.dataset.split = 'true';
                 title.innerHTML = originalText.split('').map((char, i) => {
                   if (char === ' ') return '&nbsp;';
-                  return '<span style="display:inline-block; animation: charJump 0.5s ease ' + (i * 0.03) + 's">' + char + '</span>';
+                  return '<span style="display:inline-block; animation: charJump 0.5s ease ' + (i * 0.03) + 's forwards">' + char + '</span>';
                 }).join('');
+                
+                setTimeout(() => {
+                  title.textContent = originalText;
+                  title.dataset.split = 'false';
+                }, 500 + (originalText.length * 30));
               }
             });
           }
