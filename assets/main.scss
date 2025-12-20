@@ -146,8 +146,15 @@ h2:hover {
 }
 
 h3:hover {
-  text-shadow: 0 0 10px #c678dd !important;
+  text-shadow: 0 0 10px #c678dd;
   transition: text-shadow 0.3s ease;
+}
+
+// Override for rainbow animation sections
+.layout-right:hover h3,
+.layout-left:hover h3,
+.layout-top-right:hover h3 {
+  text-shadow: none; // Let rainbow animation handle it
 }
 
 // Link glow effect
