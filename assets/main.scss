@@ -279,35 +279,37 @@ table th {
   box-shadow: 0 10px 40px rgba(142, 148, 232, 0.6);
 }
 
-// Title text jump
+// 3D flip effect on hover
+.layout-right,
+.layout-left,
+.layout-top-right {
+  perspective: 1000px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.layout-right:hover,
+.layout-left:hover,
+.layout-top-right:hover {
+  transform: rotateY(5deg) rotateX(2deg);
+  box-shadow: 0 20px 60px rgba(142, 148, 232, 0.8);
+}
+
 .layout-right:hover h3,
 .layout-left:hover h3,
 .layout-top-right:hover h3 {
-  animation: textJump 0.5s ease-in-out;
+  animation: neonPulse 1.5s ease-in-out infinite;
 }
 
-@keyframes textJump {
-  0%, 100% { transform: translateY(0); }
-  25% { transform: translateY(-8px); }
-  50% { transform: translateY(-4px); }
-  75% { transform: translateY(-6px); }
+@keyframes neonPulse {
+  0%, 100% { 
+    text-shadow: 0 0 10px #c678dd, 0 0 20px #c678dd, 0 0 30px #c678dd;
+  }
+  50% { 
+    text-shadow: 0 0 20px #c678dd, 0 0 40px #c678dd, 0 0 60px #c678dd, 0 0 80px #c678dd;
+  }
 }
 
-// All content (tables, paragraphs, lists) slight shake
-.layout-right:hover .content,
-.layout-left:hover .content,
-.layout-top-right:hover .content,
-.layout-right:hover table,
-.layout-left:hover table,
-.layout-top-right:hover table {
-  animation: textShake 0.3s ease-in-out;
-}
-
-@keyframes textShake {
-  0%, 100% { transform: translateX(0); }
-  10%, 30%, 50%, 70%, 90% { transform: translateX(-3px); }
-  20%, 40%, 60%, 80% { transform: translateX(3px); }
-}
 
 // More About Me - super fancy
 .text-container {
