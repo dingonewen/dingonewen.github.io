@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-  color: #c678dd !important;
+  color: #c678dd;
   font-family: 'Consolas', monospace !important;
 }
 
@@ -145,16 +145,9 @@ h2:hover {
   transition: text-shadow 0.3s ease;
 }
 
-h3:hover {
+h3:hover:not(.layout-right h3):not(.layout-left h3):not(.layout-top-right h3) {
   text-shadow: 0 0 10px #c678dd;
   transition: text-shadow 0.3s ease;
-}
-
-// Override for rainbow animation sections
-.layout-right:hover h3,
-.layout-left:hover h3,
-.layout-top-right:hover h3 {
-  text-shadow: none; // Let rainbow animation handle it
 }
 
 // Link glow effect
@@ -168,11 +161,6 @@ code:hover {
   transition: box-shadow 0.3s ease;
 }
 
-// Smooth transitions for entire page
-* {
-  transition: color 0.3s ease, background-color 0.3s ease !important;
-}
-
 // Mark highlight
 mark {
   background-color: #e5c07b !important;
@@ -180,6 +168,11 @@ mark {
   padding: 2px 6px;
   border-radius: 3px;
   font-weight: 600;
+}
+
+// Smooth transitions for entire page
+*:not(h3) {
+  transition: color 0.3s ease, background-color 0.3s ease !important;
 }
 
 mark:hover {
@@ -292,6 +285,7 @@ table th {
 .layout-top-right:hover h3 {
   display: inline-block;
   animation: rainbow 3s linear infinite;
+  transition: none !important; 
 }
 
 @keyframes rainbow {
