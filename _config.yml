@@ -142,10 +142,12 @@ content:
         quote: >
           Digging through binaries to uncover the code beneath.
         description: |          
-          | Designed modular reverse engineering tool translating LC4 binary object files into assembly language with clean separation between parsing, memory, and decoding layers
-          | Implemented memory-safe linked list system handling ordered insertion and dynamic allocation verified through comprehensive Valgrind testing (zero leaks)
-          | Engineered binary parser with bitwise instruction decoding and proper endianness handling for multi-section object file format (CODE/DATA/SYMBOL)
-          | Established build automation, unit testing framework, and open-source documentation enabling independent compilation and validation workflows
+          | Designed 3-module reverse engineering system translating LC4 binary object files into assembly language
+          | Implemented memory-safe linked list with dynamic allocation achieving 100% Valgrind validation across test cases
+          | Developed binary file parser supporting CODE/DATA/SYMBOL sections with proper big-endian conversion handling
+          | Created instruction decoder for arithmetic operations supporting both register and immediate addressing modes
+          | Established comprehensive build system with Makefile automation, unit tests, and open-source documentation
+
           
       - layout: left
         # border: weak
