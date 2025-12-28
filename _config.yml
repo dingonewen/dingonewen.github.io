@@ -129,7 +129,24 @@ content:
   - title: Projects
     layout: list
     content:
-    
+
+      - layout: left
+        # border: weak
+        title: LC4 Disassembler
+        link: https://github.com/dingonewen/mini-projects/tree/main/disassembler
+        link_text: LC4 Disassembler
+        additional_links:
+          - title: Disassembler
+            icon: fas fa-person-digging
+            url: https://github.com/dingonewen/mini-projects/tree/main/disassembler
+        quote: >
+          Digging through binaries to uncover the code beneath.
+        description: |          
+          | Designed modular reverse engineering tool translating LC4 binary object files into assembly language with clean separation between parsing, memory, and decoding layers
+          | Implemented memory-safe linked list system handling ordered insertion and dynamic allocation verified through comprehensive Valgrind testing (zero leaks)
+          | Engineered binary parser with bitwise instruction decoding and proper endianness handling for multi-section object file format (CODE/DATA/SYMBOL)
+          | Established build automation, unit testing framework, and open-source documentation enabling independent compilation and validation workflows
+          
       - layout: left
         # border: weak
         title: Genetic Data Explorer
