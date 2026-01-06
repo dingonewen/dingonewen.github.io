@@ -41,13 +41,6 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
-这个改动很有挑战性，因为要在“成熟的 TPM”（强调掌控感、逻辑、跨部门协作）和“幽默的 Humor Retriever”（展示个性、亲和力）之间找到那个微妙的平衡点。
-
-目前的版本稍微有一点点“学生气”，尤其是第一段提到“在现实中话不多”。对于 TPM 来说，沟通是核心资产，所以我们要把这种性格描述得更有战略性。
-
-以下是为你优化后的版本，采用了更干练的职场口吻，同时保留了你最精华的冷幽默：
-
-优化后的 Portfolio 简介
 <p style="text-indent: 2em;"> I’m what you might call a <strong>Humor Retriever</strong>—loyal to the punchline and always chasing the next laugh. While I prefer purposeful communication over small talk, I’ve found that a well-timed joke is often the most efficient way to break a technical deadlock. My only professional insecurity? Meeting someone with a drier sense of humor than mine.
 
 <p style="text-indent: 2em;"> My journey into tech wasn't a straight line, but it was a logical one. I began in <strong>Food Science</strong>, a field I chose because it felt more... <i>digestible</i> than pure Physics. It turns out that running a lab (or dreaming of running a restaurant) is remarkably similar to program management: it’s all about resource allocation, precise timing, and ensuring the final output doesn't "break" under pressure. This period gave me a rigorous foundation in scientific thinking that I carry into every sprint.
