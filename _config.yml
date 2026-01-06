@@ -41,13 +41,14 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <p style="text-indent: 2em;"> I’m what you might call a <strong>Humor Retriever</strong>—loyal to the punchline and always chasing the next laugh. While I prefer purposeful communication over small talk, I’ve found that a well-timed joke is often the most efficient way to break a technical deadlock. My only professional insecurity? Meeting someone with a drier sense of humor than mine.
+  <p style="text-indent: 2em;"> I’m not much of a talker in daily life, by choice. I believe concise communication carries more weight, and I value delivering ideas clearly, efficiently, and with humor across different settings. I like to call myself a <strong>Humor Retriever</strong> — loyal to the joke, always chasing the laugh. The only thing that truly unsettles me is talking with someone funnier than I am. </p>
 
-  <p style="text-indent: 2em;"> My journey into tech wasn't a straight line, but it was a logical one. I began in <strong>Food Science</strong>, a field I chose because it felt more... <i>digestible</i> than pure Physics. It turns out that running a lab (or dreaming of running a restaurant) is remarkably similar to program management: it’s all about resource allocation, precise timing, and ensuring the final output doesn't "break" under pressure. This period gave me a rigorous foundation in scientific thinking that I carry into every sprint.
+  <p style="text-indent: 2em;"> Before college, my favorite subject was Physics. I did fairly well in it, but I chose to major in something more digestible: <mark>Food Science</mark>. Since I had always dreamed of running a restaurant, it turned out to be a surprisingly good fit and gave me a solid foundation in scientific thinking. </p>
 
-  <p style="text-indent: 2em;"> After three years in the <strong>Biotech industry</strong>—weathering more pivots than a standard startup—I decided to formalize my love for systems by joining the <strong>MCIT program at Penn</strong>. Coming back to academia after years in the workforce has given me a rare perspective on resilience. My philosophy for both code and life is simple: <strong>Prepare for the worst, optimize for the best, and debug everything in between.</strong>
+  <p style="text-indent: 2em;"> After three years in biotech, with more ups and downs than I can count, I decided to pivot to <mark>Computer Science</mark> at Penn following a two-year deferral. It’s not every day you get a second chance at education after entering the workforce, and I’m genuinely grateful for it. Despite the challenging job market, I remain optimistic. I prepare for the worst, hope for the best, and debug everything in between. That’s my philosophy for both code and life. </p>
 
-  <p style="text-indent: 2em;"> Currently, I am sharpening my technical toolkit and seeking a <strong>Summer 2026 Technical Program Manager</strong> or <strong>SDE</strong> internship. I bring a mature professional background, an active H-1B (transferable), and a drive to solve complex cross-functional puzzles. If you’re looking for someone who can manage a roadmap and a group chat with equal precision, feel free to reach out. I check my inbox approximately three times per second.
+  <p style="text-indent: 2em;"> I am currently honing my programming skills and seeking a 2026 summer internship as a <mark>Technical Program Manager</mark> or <mark>Software Development Engineer</mark>. If you’d like to get to know me better, or as some call it, “an interview,” feel free to reach out by email. I check my inbox approximately three times per second. </p>
+
 
 content:
 
