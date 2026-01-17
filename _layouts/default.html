@@ -27,19 +27,29 @@
         {%- include v1/default.html -%}
       {%- endif -%}
     </div>
-  </main>
-  <div class="wrapper">
-    <p style="
-      text-align: right; 
-      font-size: 0.85em; 
-      color: #5c6370; /* One Atom Dark Comment Color */
-      font-family: 'Fira Code', 'Courier New', monospace; 
-      margin-top: 20px; 
-      padding-bottom: 20px;
-      letter-spacing: 0.5px;
+  </main> <div style="
+    width: 100%; 
+    margin-top: 60px; 
+    margin-bottom: 40px; 
+    clear: both;
+  ">
+    <div style="
+      max-width: 800px;
+      margin: 0 auto; 
+      padding: 0 20px;
     ">
-      // Last updated: {{ site.time | date: "%B %d, %Y" }}
-    </p>
+      <p style="
+        text-align: center; 
+        font-size: 0.8rem; 
+        color: #828997; 
+        font-family: 'Consolas', 'Monaco', 'Courier New', monospace; 
+        border-top: 1px solid #3e4451; 
+        padding-top: 20px;
+        letter-spacing: 0.05em;
+      ">
+        Last updated: {{ site.time | date: "%B %d, %Y" }}
+      </p>
+    </div>
   </div>
   
   {%- include footer.html -%}
