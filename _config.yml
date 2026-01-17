@@ -41,7 +41,7 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <p style="text-indent: 2em;"> I am a <strong>high-signal communicator</strong>. In a world of noise, I value brevity, precision, and the strategic use of humor to bridge gaps between cross-functional teams. I like to call myself a <strong>Humor Retriever</strong> — loyal to the joke, always chasing the laugh, and firmly believing that if you can’t explain a complex system with a smile, you don't understand it well enough.</p>
+  <p style="text-indent: 2em;"> I am a <strong>high-signal communicator</strong>. In a world of noise, I value brevity, precision, and the strategic use of humor to bridge gaps between cross-functional teams. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh, and firmly believing that if you can’t explain a complex system with a smile, you don't understand it well enough.</p>
   
   <p style="text-indent: 2em;"> My academic journey began with a fascination for <strong>Physics</strong>, which evolved into a <strong>BEng and BS in Food Science & Engineering</strong>. Far from just "cooking," this path allowed me to apply rigorous engineering principles — thermodynamics, fluid mechanics, and process control — to volatile biological systems at <strong>CAU and Cornell</strong>. It taught me how to manage the unpredictable, a skill that translates surprisingly well to debugging distributed systems.</p>
   
