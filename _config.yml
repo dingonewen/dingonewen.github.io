@@ -41,18 +41,13 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <p style="text-indent: 2em;">
-  I am a <strong>high-signal communicator</strong>. In a world of noise, I value brevity, precision, and the strategic use of humor to bridge gaps between cross-functional teams. I like to call myself a <strong>Humor Retriever</strong> — loyal to the joke, always chasing the laugh, and firmly believing that if you can’t explain a complex system with a smile, you don't understand it well enough.
-</p>
-  <p style="text-indent: 2em;">
-  My academic journey began with a fascination for <strong>Physics</strong>, which evolved into a <strong>BEng and BS in Food Science & Engineering</strong>. Far from just "cooking," this path allowed me to apply rigorous engineering principles — thermodynamics, fluid mechanics, and process control — to volatile biological systems at <strong>CAU and Cornell</strong>. It taught me how to manage the unpredictable, a skill that translates surprisingly well to debugging distributed systems.
-</p>
-  <p style="text-indent: 2em;">
-  After three years in the biotech industry navigating the complexities of lab ops and project management, I recognized that software is the ultimate lever for engineering impact. Now, at <strong>Penn MCIT</strong>, I am merging my industry-hardened project management experience with deep technical training. I view this "second chance" at education not just as a pivot, but as a systematic upgrade of my toolkit.
-</p>
-  <p style="text-indent: 2em;">
-  Currently, I am seeking a <mark>2026 Summer TPM or SDE Internship</mark> where I can apply my unique blend of engineering rigor and full-stack development. I prepare for the worst, architect for the best, and debug everything in between. If you’d like to discuss systems, agentic workflows, or tell a joke that’s actually funnier than mine, feel free to reach out. I monitor my inbox with the latency of a high-frequency trading system.
-</p>
+  <p style="text-indent: 2em;"> I am a <strong>high-signal communicator</strong>. In a world of noise, I value brevity, precision, and the strategic use of humor to bridge gaps between cross-functional teams. I like to call myself a <strong>Humor Retriever</strong> — loyal to the joke, always chasing the laugh, and firmly believing that if you can’t explain a complex system with a smile, you don't understand it well enough.</p>
+  
+  <p style="text-indent: 2em;"> My academic journey began with a fascination for <strong>Physics</strong>, which evolved into a <strong>BEng and BS in Food Science & Engineering</strong>. Far from just "cooking," this path allowed me to apply rigorous engineering principles — thermodynamics, fluid mechanics, and process control — to volatile biological systems at <strong>CAU and Cornell</strong>. It taught me how to manage the unpredictable, a skill that translates surprisingly well to debugging distributed systems.</p>
+  
+  <p style="text-indent: 2em;"> After three years in the biotech industry navigating the complexities of lab ops and project management, I recognized that software is the ultimate lever for engineering impact. Now, at <strong>Penn MCIT</strong>, I am merging my industry-hardened project management experience with deep technical training. I view this "second chance" at education not just as a pivot, but as a systematic upgrade of my toolkit.</p>
+  
+  <p style="text-indent: 2em;"> Currently, I am seeking a <mark>2026 Summer TPM or SDE Internship</mark> where I can apply my unique blend of engineering rigor and full-stack development. I prepare for the worst, architect for the best, and debug everything in between. If you’d like to discuss systems, agentic workflows, or tell a joke that’s actually funnier than mine, feel free to reach out. I monitor my inbox with the latency of a high-frequency trading system.</p>
 
 content:
 
