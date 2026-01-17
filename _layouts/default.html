@@ -28,7 +28,20 @@
       {%- endif -%}
     </div>
   </main>
-
+  <div class="wrapper">
+    <p style="
+      text-align: right; 
+      font-size: 0.85em; 
+      color: #5c6370; /* One Atom Dark Comment Color */
+      font-family: 'Fira Code', 'Courier New', monospace; 
+      margin-top: 20px; 
+      padding-bottom: 20px;
+      letter-spacing: 0.5px;
+    ">
+      // Last updated: {{ site.time | date: "%B %d, %Y" }}
+    </p>
+  </div>
+  
   {%- include footer.html -%}
   {% if site.darkmode == false %}
     <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
