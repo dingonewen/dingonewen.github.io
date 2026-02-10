@@ -132,6 +132,23 @@ content:
 
       - layout: left
         # border: weak
+        title: Oystraz
+        link: https://github.com/dingonewen/oystraz
+        link_text: Oystraz
+        additional_links:
+          - title: Oystraz demo
+            icon: fab fa-octopus-deploy
+            url: https://youtu.be/DRbhOWUHf2o
+        quote: >
+          A gamified health tracking and life simulation app
+        description: |          
+          | Gamifying health - Your real-world choices power a virtual character
+          | Providing a safe stress outlet - Prank your virtual octopus boss instead of real confrontation
+          | Anti-hustle philosophy - Our AI companion Pearl actively discourages overwork
+          | Making tracking fun - Ocean theme, pixel art, and playful interactions
+          
+      - layout: left
+        # border: weak
         title: LC4 Disassembler
         link: https://github.com/dingonewen/mini-projects/tree/main/disassembler
         link_text: LC4 Disassembler
