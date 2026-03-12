@@ -312,7 +312,7 @@ table th {
 }
 
 // More About Me - super fancy
-.text-container {
+.more-container {
   animation: sectionGlow 4s ease-in-out infinite;
   position: relative;
 }
@@ -322,7 +322,7 @@ table th {
   50% { box-shadow: 0 0 80px rgba(198, 120, 221, 0.7); }
 }
 
-.text-container h2 {
+.more-container h2 {
   animation: rainbowText 5s linear infinite;
   text-align: center;
 }
@@ -335,16 +335,16 @@ table th {
   80% { color: #e5c07b; }
 }
 
-.text-container p {
+.more-container p {
   opacity: 0;
   animation: floatIn 1s ease-out forwards;
 }
 
-.text-container p:nth-of-type(1) { animation-delay: 0.3s; }
-.text-container p:nth-of-type(2) { animation-delay: 0.6s; }
-.text-container p:nth-of-type(3) { animation-delay: 0.9s; }
-.text-container p:nth-of-type(4) { animation-delay: 1.2s; }
-.text-container p:nth-of-type(5) { animation-delay: 1.5s; }
+.more-container p:nth-of-type(1) { animation-delay: 0.3s; }
+.more-container p:nth-of-type(2) { animation-delay: 0.6s; }
+.more-container p:nth-of-type(3) { animation-delay: 0.9s; }
+.more-container p:nth-of-type(4) { animation-delay: 1.2s; }
+.more-container p:nth-of-type(5) { animation-delay: 1.5s; }
 
 @keyframes floatIn {
   from {
@@ -358,11 +358,11 @@ table th {
 }
 
 // Word float effect on paragraph hover
-.text-container p .word {
+.more-container p .word {
   display: inline-block;
 }
 
-.text-container p:hover .word {
+.more-container p:hover .word {
   animation: wordFloat 0.5s ease-out calc(var(--word-index) * 35ms) both;
 }
 
@@ -373,7 +373,7 @@ table th {
 }
 
 // More About Me image purple pulse effect
-.text-container img {
+.more-container img {
   float: right;
   width: 200px;
   margin: 0 0 15px 15px;
@@ -382,7 +382,7 @@ table th {
   cursor: pointer;
 }
 
-.text-container img:hover {
+.more-container img:hover {
   transform: scale(1.15);
   border-color: #c678dd;
   box-shadow: 
