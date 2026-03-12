@@ -248,7 +248,19 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       <img src="/images/soccerfood.jpg" alt="Soccer and Food" style="float: right; margin: 0 0 15px 15px; border-radius: 8px;">
-      
+
+      <p style="text-indent: 2em;">I thrive on structure and discipline, yet I’m easily won over by the simple things in life: quality sleep, a great soccer match, and the occasional windfall of <em>free food</em>.</p>
+    
+      <p style="text-indent: 2em;">Long before I immersed myself in computer science, my world was defined by the 19x19 grid of a <strong>Go board</strong>. As a semi-professional player, I reached the top 30 in my province by age 10, a milestone built on years of strategic thinking and relentless practice. When AlphaGo emerged, it didn't discourage me; instead, it shifted my fascination from the game to the machine. Transitioning into tech felt less like changing paths and more like continuing the same high-stakes match, just against a different kind of opponent.</p>
+    
+      <p style="text-indent: 2em;">To keep my mental focus sharp, I maintain a strict physical routine. I’ve traded high-impact sports for high-consistency swimming to preserve my joints, averaging 2,000m every other day. For me, swimming is the ultimate "low-latency" activity for sustained cognitive performance. I draw constant motivation from athletes like <a href="https://www.f-zd.com/" target="_blank">Fan Zhendong</a>, <a href="https://www.espn.com/mma/fighter/_/id/4350762/zhang-weili" target="_blank">Zhang Weili</a>, and <a href="https://kylianmbappe.com/en/" target="_blank">Kylian Mbappé</a>. Their resilience reminds me that dedication is a universal language, whether you're on the pitch or at a terminal.</p>
+    
+      <p style="text-indent: 2em;">I’m a firm believer in the "early to bed, early to rise" lifestyle—mostly because late nights and I have a mutual understanding to stay out of each other's way. During my focused hours, I usually have <a href="https://khalilfong.com/2017/" target="_blank">Khalil Fong’s</a> mellow tracks on loop. I’ve always admired his calm professionalism and kindness, qualities I strive to bring into my own development work.</p>
+    
+      <p style="text-indent: 2em;">Beyond the screen, I’m a <strong>certified BLS provider</strong>. Earning that certification was a grounding reminder that impact exists outside of grades and deadlines. It’s about being prepared to contribute when every second actually counts.</p>
+    
+      <p style="text-indent: 2em;"><em>Cooking</em> is my final ritual for balance. Having spent years studying <strong>Food Science</strong>, I’ve lived without sugar, dairy, or alcohol for quite some time. Crafting healthy, grounding meals is how I stay connected to my roots. Of course, all my dietary principles vanish the moment someone mentions "free food." I have a secret, undeniable weakness for Basque cheesecake and triple chocolate cookies.</p>
+          
       <p style="text-indent: 2em;">I tend to live a fairly structured and disciplined life, but outside of work and study, I have a few simple joys — <em>free food</em>, <em>quality sleep</em>, and watching <em>soccer</em> games.</p>
       
       <p style="text-indent: 2em;">Before I immersed myself in science, I spent my early years as a semi-professional <strong>Go player</strong>. By age 10, I had reached a ranking among the top 30 in my province — a milestone that required countless hours of strategic thinking and discipline. Then came AlphaGo. Its emergence didn't discourage me; instead, it sparked a profound fascination with artificial intelligence and what it could achieve. That moment planted a seed — a desire to understand, embrace, and even challenge the AI revolution. In many ways, my journey from the Go board to computer science is less about changing paths and more about continuing the same match, just with different opponents.</p>
