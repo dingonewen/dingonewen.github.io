@@ -357,13 +357,10 @@ table th {
   }
 }
 
-.text-container p {
-  transition: transform 0.25s ease, color 0.25s ease;
-}
-
 .text-container p:hover {
-  transform: translateY(-4px);
+  transform: translateY(-4px) !important;
   color: #dde1e8 !important;
+  transition: transform 0.25s ease, color 0.25s ease !important;
 }
 
 // More About Me image purple pulse effect
