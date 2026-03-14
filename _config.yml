@@ -119,7 +119,7 @@ content:
         sub_title: Associate Scientist
         caption: Aug 2022 - Dec 2022
         quote: >
-          A global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing.
+          A global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing
         description: | # this will include new lines to allow paragraphs
           | Trained in Laboratory Information Management Systems (LIMS), Electronic Laboratory Notebooks (ELN), and Standard Operating Procedures (SOPs)
           | Performed client sample testing and assay development in a BSL-2 environment, adhering to cGMP/GLP and USP guidelines.
@@ -129,6 +129,24 @@ content:
   - title: Projects
     layout: list
     content:
+
+      - layout: left
+        # border: weak
+        title: Advanced Neuro-Imaging Pipeline
+        link: https://youtu.be/KTlP8b01lwg
+        link_text: High-Fidelity Volumetric & Surface Visualization
+        additional_links:
+          - title: High-Fidelity Volumetric & Surface Visualization Demo
+            icon: fas fa-brain
+            url: https://youtu.be/KTlP8b01lwg
+        quote: >
+          An end-to-end visualization pipeline to transform raw MRI (DICOM/NIfTI) sequences into high-fidelity 3D anatomical assets
+        description: |          
+          | Architected multi-API integration system for genetic variant annotation with clinical interpretation
+          | Designed gene symbol search feature and ACMG-compliant pathogenicity visualizations
+          | Directed API selection strategy and performance optimization (95% faster with caching)
+          | Established comprehensive testing framework (24 test cases) and Docker deployment pipeline
+          | Balanced technical trade-offs between feature scope, user experience, and development timeline
 
       - layout: left
         # border: weak
