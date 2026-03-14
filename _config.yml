@@ -142,11 +142,9 @@ content:
         quote: >
           An end-to-end visualization pipeline to transform raw MRI (DICOM/NIfTI) sequences into high-fidelity 3D anatomical assets
         description: |          
-          | Architected multi-API integration system for genetic variant annotation with clinical interpretation
-          | Designed gene symbol search feature and ACMG-compliant pathogenicity visualizations
-          | Directed API selection strategy and performance optimization (95% faster with caching)
-          | Established comprehensive testing framework (24 test cases) and Docker deployment pipeline
-          | Balanced technical trade-offs between feature scope, user experience, and development timeline
+          <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; display: block;">
+            <source src="/assets/3DSlicer.mp4" type="video/mp4">
+          </video>
 
       - layout: left
         # border: weak
