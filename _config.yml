@@ -132,15 +132,15 @@ content:
 
       - layout: left
         # border: weak
-        title: Advanced Neuro-Imaging Pipeline
-        link: https://youtu.be/KTlP8b01lwg
-        link_text: High-Fidelity Volumetric & Surface Visualization
+        title: Ding's NeuroAtlas
+        link: https://github.com/dingonewen/NeuroAtlas-Web
+        link_text: Interactive 3D NeuroAnatomical Digital Twin & Visualization Pipeline
         additional_links:
-          - title: High-Fidelity Volumetric & Surface Visualization Demo
+          - title: Advanced Neuro-Imaging Pipeline
             icon: fas fa-brain
             url: https://youtu.be/KTlP8b01lwg
         quote: >
-          An end-to-end visualization pipeline to transform raw MRI (DICOM/NIfTI) sequences into high-fidelity 3D anatomical assets
+          This project presents a high-fidelity, interactive 3D visualization of human neuroanatomy, reconstructed from raw MRI data. The application allows users to explore the internal structures of the brain through a "Glass Brain" explosion interface, facilitating both educational and research-oriented anatomical studies.
         description: |          
           <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; display: block;">
             <source src="/assets/3DSlicer.mp4" type="video/mp4">
