@@ -133,14 +133,14 @@ content:
       - layout: left
         # border: weak
         title: Ding's NeuroAtlas
-        link: https://github.com/dingonewen/NeuroAtlas-Web
-        link_text: Interactive 3D NeuroAnatomical Digital Twin & Visualization Pipeline
+        link: https://dingonewen.github.io/NeuroAtlas-Web/
+        link_text: Interactive 3D NeuroAnatomical Digital Twin
         additional_links:
-          - title: Advanced Neuro-Imaging Pipeline
+          - title: Advanced Neuro-Imaging Pipeline Github
             icon: fas fa-brain
-            url: https://youtu.be/KTlP8b01lwg
+            url: https://github.com/dingonewen/NeuroAtlas-Web
         quote: >
-          This project presents a high-fidelity, interactive 3D visualization of human neuroanatomy, reconstructed from raw MRI data. The application allows users to explore the internal structures of the brain through a "Glass Brain" explosion interface, facilitating both educational and research-oriented anatomical studies.
+          Ding's NeuroAtlas v1.0 presents a high-fidelity, interactive 3D visualization of human neuroanatomy, reconstructed from raw MRI data. The application allows users to explore the internal structures of the brain through a "Glass Brain" explosion interface, facilitating both educational and research-oriented anatomical studies.
         description: |          
           <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; display: block;">
             <source src="/assets/3DSlicer.mp4" type="video/mp4">
@@ -149,14 +149,14 @@ content:
       - layout: left
         # border: weak
         title: Oystraz
-        link: https://github.com/dingonewen/oystraz
-        link_text: Oystraz
+        link: https://youtu.be/DRbhOWUHf2o
+        link_text: Oystraz Demo
         additional_links:
-          - title: Oystraz demo
+          - title: Oystraz Github
             icon: fab fa-octopus-deploy
-            url: https://youtu.be/DRbhOWUHf2o
+            url: https://github.com/dingonewen/oystraz
         quote: >
-          A gamified health tracking and life simulation app
+          Oystraz is a gamified health tracking and life simulation app where your real-world choices directly influence your virtual character's performance.
         description: |          
           | Gamifying health - Your real-world choices power a virtual character
           | Providing a safe stress outlet - Prank your virtual octopus boss instead of real confrontation
@@ -165,11 +165,29 @@ content:
           
       - layout: left
         # border: weak
+        title: Genetic Data Explorer
+        link: https://geneticdataexplorer.streamlit.app
+        link_text: Variant Annotation Search live demo
+        additional_links:
+          - title: Genetic Data Explorer Github
+            icon: fas fa-dna
+            url: https://github.com/dingonewen/genetic_data_explorer/
+        quote: >
+          A professional web-based application for comprehensive genetic variant analysis
+        description: |          
+          | Architected multi-API integration system for genetic variant annotation with clinical interpretation
+          | Designed gene symbol search feature and ACMG-compliant pathogenicity visualizations
+          | Directed API selection strategy and performance optimization (95% faster with caching)
+          | Established comprehensive testing framework (24 test cases) and Docker deployment pipeline
+          | Balanced technical trade-offs between feature scope, user experience, and development timeline
+      
+      - layout: left
+        # border: weak
         title: LC4 Disassembler
-        link: https://github.com/dingonewen/mini-projects/tree/main/disassembler
+        link: https://github.com/dingonewen
         link_text: LC4 Disassembler
         additional_links:
-          - title: Disassembler
+          - title: Disassembler Github
             icon: fas fa-person-digging
             url: https://github.com/dingonewen/mini-projects/tree/main/disassembler
         quote: >
@@ -180,35 +198,16 @@ content:
           | Developed binary file parser supporting CODE/DATA/SYMBOL sections with proper big-endian conversion handling
           | Created instruction decoder for arithmetic operations supporting both register and immediate addressing modes
           | Established comprehensive build system with Makefile automation, unit tests, and open-source documentation
-
-          
-      - layout: left
-        # border: weak
-        title: Genetic Data Explorer
-        link: https://github.com/dingonewen/genetic_data_explorer/
-        link_text: Genetic Data Explorer
-        additional_links:
-          - title: Variant Annotation Search live demo
-            icon: fas fa-dna
-            url: https://geneticdataexplorer.streamlit.app
-        quote: >
-          A professional web-based application for comprehensive genetic variant analysis
-        description: |          
-          | Architected multi-API integration system for genetic variant annotation with clinical interpretation
-          | Designed gene symbol search feature and ACMG-compliant pathogenicity visualizations
-          | Directed API selection strategy and performance optimization (95% faster with caching)
-          | Established comprehensive testing framework (24 test cases) and Docker deployment pipeline
-          | Balanced technical trade-offs between feature scope, user experience, and development timeline
-    
+      
       - layout: left
         # border: weak
         title: Spell Checker
-        link: https://github.com/dingonewen/mini-projects/tree/main/spell_checker
+        link: https://github.com/dingonewen
         link_text: Spell Checker
         additional_links:
-          - title: Spell Checker
+          - title: Spell Checker Github
             icon: fas fa-spell-check
-            url: https://github.com/dingonewen
+            url: https://github.com/dingonewen/mini-projects/tree/main/spell_checker
         quote: >
             Tired of typos? Let this spell checker find mistakes and suggest the best fixes automatically.
         description: | # this will include new lines to allow paragraphs
@@ -217,12 +216,12 @@ content:
       - layout: left
         # border: weak
         title: Blackjack Solitaire
-        link: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
+        link: https://github.com/dingonewen
         link_text: Blackjack Solitaire
         additional_links:
-          - title: Blackjack Solitaire
+          - title: Blackjack Solitaire Github
             icon: fas fa-chess-board
-            url: https://github.com/dingonewen
+            url: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
         quote: >
           "21, baby!"
         description: | # this will include new lines to allow paragraphs
