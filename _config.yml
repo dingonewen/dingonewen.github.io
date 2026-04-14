@@ -135,10 +135,10 @@ content:
         # border: weak
         title: Branch Barber
         link: https://chromewebstore.google.com/detail/branch-barber/pancajifpbhmoajlpbnmoigjbdeghifl
-        link_text: Chrome Web Store Listing
+        link_text: Chrome Extension
         additional_links:
           - title: Branch Barber Github
-            icon: fab fa-scissors
+            icon: fas fa-scissors
             url: https://github.com/dingonewen/BranchBarber
         quote: >
           A Chrome extension that transforms your AI chat history into an interactive thinking tree
