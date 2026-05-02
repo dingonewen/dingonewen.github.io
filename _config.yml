@@ -137,7 +137,7 @@ content:
         link_text: Dingle
         additional_links:
           - title: Dingle Github
-            icon: fab fa-magnifying-glass
+            icon: fas fa-magnifying-glass
             url: https://github.com/dingonewen/semantic-search-engine
         quote: >
           Dingle is a personal semantic search engine that indexes your own documents and lets you search and query them using natural language — powered by hybrid BM25 + vector search and a RAG pipeline backed by Claude.
