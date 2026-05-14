@@ -89,6 +89,19 @@ content:
   - title: Experience
     layout: list
     content:
+
+      - layout: right
+        title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
+        sub_title: Accreditation Operation Support
+        caption: May 2026
+        quote: >
+          I bring a unique blend of technical precision from Penn Engineering and professional maturity to ensure seamless data integrity and world-class access control for Philadelphia’s host city operations.
+        description: | # this will include new lines to allow paragraphs
+          | Data Integrity: Applying the rigorous precision of a CS and lab background to manage high-volume credentialing with zero errors
+          | Operational Excellence: Leveraging three years of PM experience to coordinate complex logistics for diverse global stakeholders under high pressure
+          | High-Agency Problem Solving: Committed to resolving real-time bottlenecks and maintaining security protocols with professional poise
+          | Multicultural Communication: Utilizing a global perspective to serve as a reliable, efficient, and welcoming point of contact for international participants
+          
       - layout: right
         title: "<a href='https://www.amerigoscientific.com/' target='_blank'>Amerigo Scientific</a>"
         sub_title: Project Manager
@@ -134,7 +147,7 @@ content:
         # border: weak
         title: Dingle
         link: https://github.com/dingonewen/semantic-search-engine
-        link_text: Dingle
+        link_text: Semantic Search Engine
         additional_links:
           - title: Dingle Github
             icon: fas fa-magnifying-glass
