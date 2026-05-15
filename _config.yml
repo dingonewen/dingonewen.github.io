@@ -146,17 +146,17 @@ content:
       - layout: left
         # border: weak
         title: Dingle
-        link: https://github.com/dingonewen/semantic-search-engine
-        link_text: Semantic Search Engine
+        link: https://github.com/dingonewen/hybrid-search-engine
+        link_text: Hybrid Search Engine
         additional_links:
           - title: Dingle Github
             icon: fas fa-magnifying-glass
-            url: https://github.com/dingonewen/semantic-search-engine
+            url: https://github.com/dingonewen/hybrid-search-engine
         quote: >
-          Dingle is a personal semantic search engine that indexes your own documents and lets you search and query them using natural language — powered by hybrid BM25 + vector search and a RAG pipeline backed by Claude.
+          Dingle is a personal hybrid search engine that indexes your own documents and lets you search and query them using natural language — powered by hybrid BM25 + vector search and a RAG pipeline backed by Claude.
         description: |
           | Built a C++ HTTP server from scratch — raw POSIX sockets, thread pool, BM25 inverted index, no third-party libraries
-          | Hybrid retrieval — fuses keyword and semantic search via Reciprocal Rank Fusion for results that outperform either method alone
+          | Hybrid retrieval — fuses keyword and hybrid search via Reciprocal Rank Fusion for results that outperform either method alone
           | Full RAG pipeline — top-k document retrieval passed to Claude Haiku with prompt caching for grounded, cited answers
           | Personal knowledge base — index your own .txt documents and query them like a second brain
 
