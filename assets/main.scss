@@ -329,6 +329,77 @@ table th {
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
 }
 
+// ========== Three-column layout (image | body | details) ==========
+
+.layout-three-col {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  // Equal thirds — Bootstrap col-md-4 sets width: 33.33%
+  // Flex centres content vertically in each column
+  .three-col-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+
+    .entry-image {
+      width: 100%;
+      margin-bottom: 0;
+    }
+  }
+
+  .three-col-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+    border-left: 1px solid #3e4451;
+    border-right: 1px solid #3e4451;
+  }
+
+  .three-col-quote {
+    font-size: 1.15rem !important;
+    line-height: 1.9 !important;
+    color: #abb2bf !important;
+    font-style: normal !important;
+    border-left: none !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .three-col-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding-left: 1rem;
+
+    h4 { margin-bottom: 0.3rem; }
+    p  { font-size: 1.4rem !important; font-weight: 300; margin-bottom: 4px; }
+  }
+
+  // Mobile: stack columns
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+
+    .three-col-image,
+    .three-col-body,
+    .three-col-details {
+      width: 100%;
+      padding: 0;
+      border: none;
+      text-align: center;
+    }
+
+    .three-col-body  { padding: 1rem 0; }
+    .three-col-image .entry-image { max-height: 220px; object-fit: cover; }
+  }
+}
+
 // ========== Entry Image (left-column thumbnail) ==========
 
 .entry-image {
