@@ -90,7 +90,8 @@ content:
     layout: list
     content:
 
-      - layout: right
+      - layout: left
+        image: /assets/FIFA.JPEG
         title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
         sub_title: Accreditation Operations Support
         caption: May 2026

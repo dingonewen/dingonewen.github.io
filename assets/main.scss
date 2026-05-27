@@ -329,6 +329,24 @@ table th {
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
 }
 
+// ========== Entry Image (left-column thumbnail) ==========
+
+.entry-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #3e4451 !important;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s ease !important;
+}
+
+.entry-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
 // ========== Status Badge ==========
 
 .status-badge {
