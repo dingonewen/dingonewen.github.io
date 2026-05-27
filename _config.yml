@@ -63,7 +63,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           | GPA: 4.0
           | Thriving through learning...
-          | Courses: Software Development, Computer Systems, Data Structure & Algorithm (Spring 2026) 
+          | Courses: Software Development, Computer Systems, Data Structure & Algorithm, Machine Learning, Distributed Systems
       - layout: top-right
         title: Cornell University
         sub_title: Bachelor of Science in Food Science
