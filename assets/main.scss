@@ -388,12 +388,18 @@ table th {
 }
 
 // Title: italic on both h4 and the link inside it
+// Blue color + underline-on-hover to match standard entry titles
 .layout-three-col .three-col-details h4,
 .layout-three-col .three-col-details h4 a {
   font-style: italic !important;
   font-weight: 500 !important;
-  color: inherit !important;
+  color: #61afef !important;
   text-decoration: none !important;
+}
+
+.layout-three-col .three-col-details h4 a:hover {
+  color: #528bff !important;
+  text-decoration: underline !important;
 }
 
 // Three-col quote: explicit card styles + larger font than standard quotes
