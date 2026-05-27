@@ -385,6 +385,36 @@ table th {
   transition: all 0.3s ease;
 }
 
+// ========== Scroll-triggered Reveal ==========
+
+@media (prefers-reduced-motion: no-preference) {
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    // Include all transitions the existing theme uses so hover effects still work
+    transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+                transform 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+                box-shadow 0.3s ease,
+                color 0.3s ease,
+                background-color 0.3s ease !important;
+    will-change: opacity, transform;
+
+    &.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+// Always fully visible when printing
+@media print {
+  .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
 // ========== Contact Info Anti-Scraping Styles (Override Global) ==========
 // This section needs !important to override both theme and earlier rules
 .header-right .contact-item {
