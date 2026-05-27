@@ -145,9 +145,9 @@ content:
 
       - layout: left
         # border: weak
-        title: MOSH SYNAPSE
+        title: MOSH Synapse
         link: https://mosh-synapse.streamlit.app
-        link_text: MOSH SYNAPSE Demo
+        link_text: Intelligent Omnichannel Operations Dashboard
         additional_links:
           - title: MOSH SYNAPSE Github
             icon: fas fa-arrow-trend-up
