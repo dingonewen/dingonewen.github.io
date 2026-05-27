@@ -387,7 +387,8 @@ table th {
   margin-bottom: 4px;
 }
 
-// Title link: italic + inherit color, matching standard .details a style
+// Title: italic on both h4 and the link inside it
+.layout-three-col .three-col-details h4,
 .layout-three-col .three-col-details h4 a {
   font-style: italic !important;
   font-weight: 500 !important;
@@ -395,7 +396,7 @@ table th {
   text-decoration: none !important;
 }
 
-// Three-col quote: explicit card styles (overrides specificity issues)
+// Three-col quote: explicit card styles + larger font than standard quotes
 .layout-three-col .three-col-body .three-col-quote {
   background-color: #21252b !important;
   border-left: 4px solid #61afef !important;
@@ -403,8 +404,8 @@ table th {
   padding: 10px 15px !important;
   text-align: left !important;
   font-style: italic !important;
-  font-size: 0.85rem !important;
-  line-height: 1.6 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.85 !important;
   margin: 0 !important;
 }
 
