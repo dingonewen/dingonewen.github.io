@@ -360,22 +360,56 @@ table th {
     border-right: 1px solid #3e4451;
   }
 
-  .three-col-quote {
-    // Inherits the standard .quote card style (red color, dark bg, blue border)
-    // No overrides — let p.quote rules apply as-is
-  }
-
   .three-col-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: right !important;
     padding-left: 1rem;
-
-    h4 { margin-bottom: 0.3rem; text-align: right !important; }
-    p  { font-size: 1.4rem !important; font-weight: 300; margin-bottom: 4px; text-align: right !important; }
-    a  { text-align: right !important; display: block; }
   }
+}
+
+// Three-col details — flat selectors for guaranteed right-alignment + italic title
+.layout-three-col .three-col-details,
+.layout-three-col .three-col-details h4,
+.layout-three-col .three-col-details p,
+.layout-three-col .three-col-details b,
+.layout-three-col .three-col-details a {
+  text-align: right !important;
+}
+
+.layout-three-col .three-col-details h4 {
+  margin-bottom: 0.3rem;
+}
+
+.layout-three-col .three-col-details p {
+  font-size: 1.4rem !important;
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+
+// Title link: italic + inherit color, matching standard .details a style
+.layout-three-col .three-col-details h4 a {
+  font-style: italic !important;
+  font-weight: 500 !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+// Three-col quote: explicit card styles (overrides specificity issues)
+.layout-three-col .three-col-body .three-col-quote {
+  background-color: #21252b !important;
+  border-left: 4px solid #61afef !important;
+  color: #e5999d !important;
+  padding: 10px 15px !important;
+  text-align: left !important;
+  font-style: italic !important;
+  font-size: 0.85rem !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+// Reopen .layout-three-col for mobile block (closing brace moved above)
+.layout-three-col {
 
   // Mobile: stack columns
   @media screen and (max-width: 767px) {
