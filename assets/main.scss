@@ -337,9 +337,11 @@ table th {
   flex-direction: row;
   align-items: center;
 
-  // Equal thirds — Bootstrap col-md-4 sets width: 33.33%
-  // Flex centres content vertically in each column
+  // 40 / 35 / 25 split — overrides Bootstrap col-md-4 (33.33%)
+  // Title column (25%) mirrors the standard layout's left details column width
   .three-col-image {
+    flex: 0 0 40%;
+    max-width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -352,6 +354,8 @@ table th {
   }
 
   .three-col-body {
+    flex: 0 0 35%;
+    max-width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -361,6 +365,8 @@ table th {
   }
 
   .three-col-details {
+    flex: 0 0 25%;
+    max-width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -410,7 +416,7 @@ table th {
   padding: 10px 15px !important;
   text-align: left !important;
   font-style: italic !important;
-  font-size: 1.1rem !important;
+  font-size: 1.2rem !important;
   line-height: 1.85 !important;
   margin: 0 !important;
 }
