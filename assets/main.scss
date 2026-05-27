@@ -361,25 +361,20 @@ table th {
   }
 
   .three-col-quote {
-    font-size: 1.15rem !important;
-    line-height: 1.9 !important;
-    color: #abb2bf !important;
-    font-style: normal !important;
-    border-left: none !important;
-    background: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
+    // Inherits the standard .quote card style (red color, dark bg, blue border)
+    // No overrides — let p.quote rules apply as-is
   }
 
   .three-col-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: right;
+    text-align: right !important;
     padding-left: 1rem;
 
-    h4 { margin-bottom: 0.3rem; }
-    p  { font-size: 1.4rem !important; font-weight: 300; margin-bottom: 4px; }
+    h4 { margin-bottom: 0.3rem; text-align: right !important; }
+    p  { font-size: 1.4rem !important; font-weight: 300; margin-bottom: 4px; text-align: right !important; }
+    a  { text-align: right !important; display: block; }
   }
 
   // Mobile: stack columns
