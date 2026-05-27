@@ -2,6 +2,32 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   document.body.classList.add("dark");
 }
 
+// ── Developer console easter egg ──────────────────────────────────────────────
+(function () {
+  var nameStyle  = 'background:#282c34; color:#e06c75; font-weight:700; '
+                 + 'padding:2px 6px; border-radius:3px; font-family:Consolas,monospace; font-size:13px;';
+  var dimStyle   = 'color:#3e4451; font-family:Consolas,monospace;';
+  var codeStyle  = 'color:#abb2bf; font-family:Consolas,monospace; font-size:12px; line-height:2;';
+  var labelStyle = 'color:#61afef; font-family:Consolas,monospace; font-size:12px; line-height:2;';
+
+  console.log('%c Yiwen Ding %c ─────────────────────────────────────────', nameStyle, dimStyle);
+  console.log(
+    '%c// You opened DevTools. That\'s a good sign.\n'  +
+    '//\n'                                               +
+    '// Former Go player — ranked top in province at 10.\n' +
+    '// Now I debug distributed systems instead of endgames.\n' +
+    '//\n'                                               +
+    '// Seeking: %c2026 Summer SDE / TPM Internship%c\n' +
+    '//\n'                                               +
+    '// → dingywn@seas.upenn.edu\n'                      +
+    '// → github.com/dingonewen',
+    codeStyle,
+    'color:#98c379; font-family:Consolas,monospace; font-size:12px; line-height:2; font-weight:700;',
+    codeStyle
+  );
+  console.log('%c ─────────────────────────────────────────────────────', dimStyle);
+}());
+
 // Scroll-triggered reveal using IntersectionObserver
 (function () {
   if (!('IntersectionObserver' in window)) return;
