@@ -33,7 +33,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   if (!('IntersectionObserver' in window)) return;
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  var cards = Array.from(document.querySelectorAll('.layout'));
+  var cards = Array.from(document.querySelectorAll('.layout, .text-container'));
 
   // Assign stagger delay based on sibling index within each section container
   var seen = new Set();
@@ -62,4 +62,33 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   }, { threshold: 0.08, rootMargin: '0px 0px -20px 0px' });
 
   cards.forEach(function (el) { observer.observe(el); });
+}());
+
+// Cursor spotlight — tracks mouse and updates CSS custom props on each card
+(function () {
+  document.querySelectorAll('.layout').forEach(function (card) {
+    card.addEventListener('mousemove', function (e) {
+      var r = card.getBoundingClientRect();
+      card.style.setProperty('--mouse-x', (e.clientX - r.left) + 'px');
+      card.style.setProperty('--mouse-y', (e.clientY - r.top)  + 'px');
+    });
+  });
+}());
+
+// Magnetic hover — social icon buttons follow cursor slightly then spring back
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  document.querySelectorAll('.button--sacnite').forEach(function (btn) {
+    btn.addEventListener('mousemove', function (e) {
+      var r = btn.getBoundingClientRect();
+      var x = (e.clientX - r.left  - r.width  / 2) * 0.28;
+      var y = (e.clientY - r.top   - r.height / 2) * 0.28;
+      btn.style.transform  = 'translate(' + x + 'px, ' + y + 'px)';
+      btn.style.transition = 'transform 0.1s linear';
+    });
+    btn.addEventListener('mouseleave', function () {
+      btn.style.transform  = '';
+      btn.style.transition = 'transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
+    });
+  });
 }());

@@ -22,6 +22,20 @@ h1 {
   color: #e06c75 !important;
   font-family: 'Consolas', monospace !important;
   font-weight: 700 !important;
+  animation: nameReveal 1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes nameReveal {
+  from {
+    opacity: 0;
+    letter-spacing: 0.12em;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    letter-spacing: normal;
+    transform: translateY(0);
+  }
 }
 
 h2 {
@@ -139,26 +153,9 @@ h1::after {
   border-radius: 2px;
 }
 
-// Glow effect on hover for h2
-h2:hover {
-  text-shadow: 0 0 10px #61afef !important;
-  transition: text-shadow 0.3s ease;
-}
-
-h3:hover:not(.layout-right h3):not(.layout-left h3):not(.layout-top-right h3) {
-  text-shadow: 0 0 10px #c678dd;
-  transition: text-shadow 0.3s ease;
-}
-
-// Link glow effect
-a:hover {
-  text-shadow: 0 0 5px #61afef !important;
-}
-
-// Code block glow effect
+// Code hover — subtle background shift only
 code:hover {
-  box-shadow: 0 0 10px rgba(224, 108, 117, 0.3);
-  transition: box-shadow 0.3s ease;
+  background-color: #2c313a !important;
 }
 
 // Mark highlight
@@ -170,9 +167,9 @@ mark {
   font-weight: 600;
 }
 
-// Smooth transitions for entire page
-*:not(h3) {
-  transition: color 0.3s ease, background-color 0.3s ease !important;
+// Smooth color transitions — no !important so specific rules can override
+* {
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 mark:hover {
@@ -265,105 +262,55 @@ table th {
   }
 }
 
-// Education / Experience / Projects - hover effects
+// Cards — subtle lift + cursor-tracked spotlight
 .layout-right,
 .layout-left,
 .layout-top-right {
-  transition: box-shadow 0.3s ease;
-}
+  position: relative;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s ease;
 
-// Blue-purple shadow
-.layout-right:hover,
-.layout-left:hover,
-.layout-top-right:hover {
-  box-shadow: 0 10px 40px rgba(142, 148, 232, 0.6);
-}
+  // Spotlight layer driven by --mouse-x / --mouse-y (updated via JS)
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    background: radial-gradient(
+      500px circle at var(--mouse-x, -999px) var(--mouse-y, -999px),
+      rgba(97, 175, 239, 0.07),
+      transparent 70%
+    );
+    pointer-events: none;
+  }
 
-// Wave text effect
-.layout-right:hover h3,
-.layout-left:hover h3,
-.layout-top-right:hover h3 {
-  display: inline-block;
-  animation: rainbow 3s linear infinite;
-  transition: none !important; 
-}
-
-@keyframes rainbow {
-  0% { 
-    color: #e06c75 !important;
-    text-shadow: 0 0 20px #e06c75 !important;
-  }
-  25% { 
-    color: #61afef !important;
-    text-shadow: 0 0 20px #61afef !important;
-  }
-  50% { 
-    color: #c678dd !important;
-    text-shadow: 0 0 20px #c678dd !important;
-  }
-  75% { 
-    color: #98c379 !important;
-    text-shadow: 0 0 20px #98c379 !important;
-  }
-  100% { 
-    color: #e5c07b !important;
-    text-shadow: 0 0 20px #e5c07b !important;
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35),
+                inset 0 1px 0 rgba(255, 255, 255, 0.04);
   }
 }
 
-// More About Me - super fancy
+// More About Me
 .text-container {
-  animation: sectionGlow 4s ease-in-out infinite;
   position: relative;
 }
 
-@keyframes sectionGlow {
-  0%, 100% { box-shadow: 0 0 40px rgba(198, 120, 221, 0.4); }
-  50% { box-shadow: 0 0 80px rgba(198, 120, 221, 0.7); }
-}
-
 .text-container h2 {
-  animation: rainbowText 5s linear infinite;
   text-align: center;
-}
-
-@keyframes rainbowText {
-  0%, 100% { color: #e06c75; }
-  20% { color: #61afef; }
-  40% { color: #c678dd; }
-  60% { color: #98c379; }
-  80% { color: #e5c07b; }
+  color: #c678dd !important;
 }
 
 .text-container p {
-  opacity: 0;
-  animation: floatIn 1s ease-out forwards;
-}
-
-.text-container p:nth-of-type(1) { animation-delay: 0.3s; }
-.text-container p:nth-of-type(2) { animation-delay: 0.6s; }
-.text-container p:nth-of-type(3) { animation-delay: 0.9s; }
-.text-container p:nth-of-type(4) { animation-delay: 1.2s; }
-.text-container p:nth-of-type(5) { animation-delay: 1.5s; }
-
-@keyframes floatIn {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+              color 0.25s ease;
 }
 
 .text-container p:hover {
-  transform: translateY(-4px) !important;
-  color: #dde1e8 !important;
-  transition: transform 0.25s ease, color 0.25s ease !important;
+  transform: translateY(-3px);
 }
 
-// More About Me image purple pulse effect
+// Image — clean scale + depth shadow
 .text-container img {
   float: right;
   width: 200px;
@@ -371,18 +318,15 @@ table th {
   border-radius: 8px;
   border: 2px solid #3e4451;
   cursor: pointer;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s ease,
+              border-color 0.3s ease;
 }
 
 .text-container img:hover {
-  transform: scale(1.15);
-  border-color: #c678dd;
-  box-shadow: 
-    0 0 30px rgba(198, 120, 221, 0.9),
-    0 0 60px rgba(198, 120, 221, 0.7),
-    0 0 90px rgba(198, 120, 221, 0.5),
-    0 0 120px rgba(198, 120, 221, 0.3);
-  filter: brightness(1.1);
-  transition: all 0.3s ease;
+  transform: scale(1.06);
+  border-color: #61afef;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
 }
 
 // ========== Status Badge ==========
