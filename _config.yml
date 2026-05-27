@@ -143,23 +143,22 @@ content:
     layout: list
     content:
 
-
-    - layout: left
-      # border: weak
-      title: MOSH SYNAPSE
-      link: https://mosh-synapse.streamlit.app
-      link_text: MOSH SYNAPSE Demo
-      additional_links:
-        - title: MOSH SYNAPSE Github
-          icon: fas fa-arrow-trend-up
-          url: https://github.com/dingonewen/chrono-ltv/tree/feat/mosh-synapse
-      quote: >
-        A production-grade omnichannel analytics platform — modeled after a real e-commerce business — with a survival analysis churn model, multi-source revenue reconciliation, and a DCF LTV simulator built for non-technical stakeholders.
-      description: |
-        | Omnichannel revenue reconciliation — unified contribution margin ledger across Shopify, Amazon FBA/FBM, and 3PL freight
-        | Subscriber retention intelligence — regularized CoxPH survival model scoring every member with a Churn Risk Index and subscription runway
-        | Growth ROI simulation — 8-parameter DCF LTV calculator with break-even sensitivity analysis and margin-accretion signal
-        | Domain-agnostic architecture — the full pipeline (ingestion → features → survival model → drift monitoring) transfers to any subscription or repeat-purchase business
+      - layout: left
+        # border: weak
+        title: MOSH SYNAPSE
+        link: https://mosh-synapse.streamlit.app
+        link_text: MOSH SYNAPSE Demo
+        additional_links:
+          - title: MOSH SYNAPSE Github
+            icon: fas fa-arrow-trend-up
+            url: https://github.com/dingonewen/chrono-ltv/tree/feat/mosh-synapse
+        quote: >
+          A production-grade omnichannel analytics platform — modeled after a real e-commerce business — with a survival analysis churn model, multi-source revenue reconciliation, and a DCF LTV simulator built for non-technical stakeholders.
+        description: |
+          | Omnichannel revenue reconciliation — unified contribution margin ledger across Shopify, Amazon FBA/FBM, and 3PL freight
+          | Subscriber retention intelligence — regularized CoxPH survival model scoring every member with a Churn Risk Index and subscription runway
+          | Growth ROI simulation — 8-parameter DCF LTV calculator with break-even sensitivity analysis and margin-accretion signal
+          | Domain-agnostic architecture — the full pipeline (ingestion → features → survival model → drift monitoring) transfers to any subscription or repeat-purchase business
       
       - layout: left
         # border: weak
