@@ -41,13 +41,13 @@ googlescholar_username: citations?user=8F-heNYAAAAJ&hl=en
 about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <p style="text-indent: 2em;"> I am a <strong>high-signal communicator</strong>. In a world of noise, I value brevity, precision, and the strategic use of humor to bridge gaps between cross-functional teams. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh, and firmly believing that if you can’t explain a complex neural network with a smile, you don't understand it well enough.</p>
+  <p style="text-indent: 2em;"> I am a <mark>high-signal communicator</mark>. In a world of noise, I value brevity, precision, and the strategic use of humor to bridge gaps between cross-functional teams. I like to call myself a <mark>Humor Retriever</mark> — loyal to the joke, always chasing the laugh, and firmly believing that if you can’t explain a complex neural network with a smile, you don't understand it well enough.</p>
   
   <p style="text-indent: 2em;"> My academic journey began with a fascination for <strong>Physics</strong>, which evolved into a <strong>BEng</strong> and <strong>BS</strong> in <strong>Food Science & Engineering</strong>. Far from just "cooking," this path allowed me to apply rigorous engineering principles — thermodynamics, fluid mechanics, and process control — to volatile biological systems at <strong>CAU</strong> and <strong>Cornell</strong>. It taught me how to manage the inherently chaotic, a skill that translates surprisingly well to building deterministic software out of non-deterministic LLMs.</p>
   
   <p style="text-indent: 2em;"> After three years in the biotech industry navigating the complexities of operations and project management, I recognized that AI automation is the ultimate lever for engineering impact. Now, at <strong>Penn Engineering</strong>, I am merging my industry-hardened system discipline with deep software training. I view this master's degree not just as a career pivot, but as a systematic upgrade of my toolkit to engineer autonomous agents and robust backend systems.</p>
   
-  <p style="text-indent: 2em;"> Currently, I am focused on building out <mark>agentic workflows, custom protocols, and full-stack AI applications</mark>. I prepare for the worst, architect for the best, and debug everything from prompt latency to distributed pipelines. If you’d like to discuss MCP, RAG optimization, or tell a joke that’s actually funnier than mine, feel free to reach out. I monitor my inbox with the latency of a high-frequency trading system.</p>
+  <p style="text-indent: 2em;"> Currently, I am focused on building out <mark>agentic workflows</mark>, <mark>custom protocols</mark>, and <mark>full-stack AI applications</mark>. I prepare for the worst, architect for the best, and debug everything from prompt latency to distributed pipelines. If you’d like to discuss MCP, RAG optimization, or tell a joke that’s actually funnier than mine, feel free to reach out. I monitor my inbox with the latency of a high-frequency trading system.</p>
 
 content:
 
@@ -61,7 +61,7 @@ content:
         quote: >
           "<a href='https://www.upenn.edu/' target='_blank'>Leges sine moribus vanae.</a>"
         description: | # this will include new lines to allow paragraphs
-          | GPA: 4.0
+          | GPA: 3.9
           | Thriving through learning...
           | Courses: Software Development, Computer Systems, Data Structure & Algorithm, Machine Learning, Distributed Systems
       - layout: top-right
