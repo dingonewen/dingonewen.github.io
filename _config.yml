@@ -142,6 +142,22 @@ content:
     content:
 
       - layout: left
+        title: Emailorning
+        link: https://youtu.be/iU5g4-ytwSI
+        link_text: Live Demo
+        additional_links:
+          - title: emailorning GitHub
+            icon: fas fa-envelope
+            url: https://github.com/dingonewen/emailorning
+        quote: >
+          A production-ready AI inbox digest service that connects any Gmail account via Nylas OAuth, ingests incoming mail through verified webhooks, and delivers AI-written summaries on a user-configured schedule.
+        description: |
+          | Nylas OAuth integration — hosted OAuth flow with CSRF state validation, grant persistence across restarts, and full unhappy-path handling (denied consent, expired state, failed code exchange)
+          | Webhook ingestion pipeline — HMAC-SHA256 signature verification, immediate 200 acknowledgement, async background processor with two-layer deduplication and stale-claim recovery
+          | DB-backed scheduler — atomic SQLite claim pattern guarantees each digest window fires exactly once, survives process restarts, and supports independent per-user cadences via cron expression
+          | Clean AI seam — pure `assemblePrompt` and `parseResponse` functions testable without any API key; Anthropic Claude generates structured HTML digests grouped by urgency, pending replies, and deadlines
+
+      - layout: left
         # border: weak
         title: MOSH Synapse
         link: https://mosh-synapse.streamlit.app
