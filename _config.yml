@@ -144,7 +144,7 @@ content:
       - layout: left
         title: Vellum
         link: https://vellum-mail.up.railway.app
-        link_text: Live App
+        link_text: AI-powered Email Digest Service
         additional_links:
           - title: Vellum GitHub
             icon: fas fa-envelope
