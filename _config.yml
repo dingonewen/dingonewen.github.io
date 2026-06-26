@@ -89,6 +89,13 @@ content:
   - title: Experience
     layout: list
     content:
+    
+      - layout: right
+        title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
+        sub_title: Software Engineering Intern
+        caption: Jun 2026 - present
+        quote: >
+          I'm still actively figuring out my job responsibilities...
 
       - layout: three-col
         image: /assets/FIFA.JPEG
@@ -359,6 +366,7 @@ content:
 
       <p style="text-indent: 2em;">As I said, <em>Soccer</em> is the latest spark in my professional journey. This May, I am joining the <strong>Accreditation Operations Support</strong> team for the <strong>FIFA World Cup 2026</strong> in Philly, bringing my obsession with process optimization to the world’s biggest stage. Having managed complex biotech pipelines and medical protocols, I treat high-volume credentialing like a mission-critical deployment: security standards are the source code, and workflow efficiency is the non-negotiable KPI. It is the ultimate collision of my technical discipline and my lifelong love for the "beautiful game." However, my professional composure is highly vulnerable to a perfectly executed bicycle kick; I might be verifying your identity, but my heart is definitely on the pitch.</p>
 
+      <p style="text-indent: 2em;">It’s worth mentioning that this summer I’ve been trying both a strict low-GI diet and moderate-intensity aerobic exercise to improve my physique and overall well-being.</p>
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
