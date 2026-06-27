@@ -207,7 +207,7 @@ content:
         additional_links:
           - title: Branch Barber Github
             icon: fas fa-scissors
-            url: https://github.com/dingonewen/BranchBarber
+            url: https://github.com/dingonewen/branch-barber
         quote: >
           A Chrome extension that transforms your AI chat history into an interactive thinking tree
         description: |
@@ -255,7 +255,7 @@ content:
         # border: weak
         title: Genetic Data Explorer
         link: https://geneticdataexplorer.streamlit.app
-        link_text: Variant Annotation Search live demo
+        link_text: Variant Annotation Search Live Demo
         additional_links:
           - title: Genetic Data Explorer Github
             icon: fas fa-dna
