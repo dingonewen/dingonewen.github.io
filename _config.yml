@@ -93,7 +93,7 @@ content:
       - layout: right
         title: "<a href='https://medicscribe.ai/' target='_blank'>MedicScribe</a>"
         sub_title: Software Engineering Intern
-        caption: Jul 2027 - Present
+        caption: Jul 2026 - Present
         quote: >
           An AI-powered ambient documentation platform for emergency medical services, built by first responders to give providers more time with patients and less time with paperwork.
         description: |
@@ -105,7 +105,7 @@ content:
       - layout: right
         title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
         sub_title: Software Engineering Intern
-        caption: Jun 2027 - Present
+        caption: Jun 2026 - Present
         quote: >
           A Techstars-backed, SOC 2 Type II-certified AI procurement platform that helps mid-market manufacturers source smarter, manage POs, and scale without scaling headcount — with an AI agent that delivers insights through email and Microsoft Teams.
         description: |
@@ -118,7 +118,7 @@ content:
         image: /assets/FIFA.JPEG
         title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
         sub_title: Accreditation & Fan Operations Support
-        caption: May 2026
+        caption: May 2026 - Jul 2026
         quote: >
           Selected as Accreditation Operations Support for the FIFA World Cup 2026 in Philadelphia, applying engineering precision to manage high-volume credentialing with zero errors.
           Coordinating complex logistics for global stakeholders under high pressure, drawing on three years of PM experience across international business environments.
