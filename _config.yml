@@ -84,23 +84,40 @@ content:
         description: | # this will include new lines to allow paragraphs
           | Dual Degree Program
           | Top 1% student
-          | Courses: Principles of Mechanics, Linear Algebra, all bio & Chem & Phys
+          | Courses: Principles of Mechanics & Engineering, Food & Nutritional Sciences, all bio & Chem & Phys
 
   - title: Experience
     layout: list
     content:
+
+      - layout: right
+        title: "<a href='https://medicscribe.ai/' target='_blank'>MedicScribe</a>"
+        sub_title: Software Engineering Intern
+        caption: Jul 2027 - Present
+        quote: >
+          An AI-powered ambient documentation platform for emergency medical services, built by first responders to give providers more time with patients and less time with paperwork.
+        description: |
+          | Architected front-end and secure data pipeline for an AI-driven EMS documentation application piloted by Stanford's EMT group
+          | Enforced strict HIPAA compliance standards for patient health information (PHI) across the full stack
+          | Designed and shipped intuitive mobile user interfaces tailored for high-stress, on-scene clinical environments
+          | Owned features end-to-end, working directly with clinical stakeholders to translate field requirements into product
     
       - layout: right
         title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
         sub_title: Software Engineering Intern
-        caption: Jun 2026 - present
+        caption: Jun 2027 - Present
         quote: >
-          I'm still actively figuring out my job responsibilities...
+          A Techstars-backed, SOC 2 Type II-certified AI procurement platform that helps mid-market manufacturers source smarter, manage POs, and scale without scaling headcount — with an AI agent that delivers insights through email and Microsoft Teams.
+        description: |
+          | Owned full product lifecycle for mobile app and agent interaction experiences, shipping features from design to deployment
+          | Built an autonomous email agent (classify → reply → dispatch) with sensitivity detection using TypeScript, DeepSeek, and Nylas API, integrated with the platform's AI procurement assistant
+          | Engineered cross-platform Gmail/Outlook threading with adaptive rate-limited daemons for production reliability
+          | Designed a persona-driven integration testing sandbox with template resolution, PDF generation, and SQLite crash recovery for regression testing and training data generation
 
       - layout: three-col
         image: /assets/FIFA.JPEG
         title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
-        sub_title: Accreditation Operations Support
+        sub_title: Accreditation & Fan Operations Support
         caption: May 2026
         quote: >
           Selected as Accreditation Operations Support for the FIFA World Cup 2026 in Philadelphia, applying engineering precision to manage high-volume credentialing with zero errors.
