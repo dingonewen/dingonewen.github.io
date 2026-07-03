@@ -150,20 +150,20 @@ content:
 
       - layout: left
         title: Vellum
-        link: https://vellum-mail.up.railway.app
-        link_text: AI-powered Email Digest Service
+        link: https://github.com/dingonewen/vellum
+        link_text: Autonomous Email Agent
         additional_links:
           - title: Vellum GitHub
             icon: fas fa-envelope
             url: https://github.com/dingonewen/vellum
         quote: >
-           Unroll your inbox. Vellum reads the noise, distills the signal, and delivers it as a single scroll.
+           An LLM-powered autonomous email agent with a built-in persona-driven integration testing sandbox.
         description: |
-          | Multi-tenant architecture — session-based auth (30-day cookie, SQLite-backed), one user to many mailboxes, all aggregated into a single digest per cadence
-          | Nylas OAuth + webhook pipeline — hosted OAuth flow with CSRF state validation; HMAC-SHA256 verified webhooks with immediate 200 acknowledgement, async background processor, and two-layer message deduplication
-          | DB-backed atomic scheduler — SQLite claim pattern guarantees each digest window fires exactly once per user, survives process restarts, supports independent per-user cadences via cron expression
-          | Multi-LLM BYOK — user-selectable provider (Anthropic Claude, Google Gemini, OpenAI GPT) with keys stored per-user; pure `assemblePrompt` / `parseResponse` functions shared across all three providers and testable without any API key
-          | Deployed on Railway — persistent SQLite volume, nixpacks build, HTTPS via Railway-managed domain
+          | Dual-architecture — Autonomous Agent classifies incoming mail (ignore / auto-reply / manager draft) via a DeepSeek-powered classify → reply → dispatch pipeline; Integration Testing Sandbox generates realistic multi-persona email threads across Gmail and Outlook for regression testing and training data generation
+          | Event-driven daemon system — dual polling agents (buyer / supplier) with adaptive rate-limiting that automatically back off under API limits and recover; SQLite-persisted crash recovery with resume-from-breakpoint
+          | Cross-platform threading — engineered Gmail/Outlook message ID resolution via recipient inbox polling to produce proper In-Reply-To headers across Nylas grant boundaries
+          | Interface-driven LLM layer — `Classifier` and `ReplyGenerator` interfaces swap between rule-based (zero-dependency) and LLM-powered (DeepSeek via Anthropic SDK) in one line; persona-specific prompts with temperature-tuned diversity for training data quality
+          | TypeScript + Node.js + SQLite — 12 runtime dependencies; OAuth flow for mailbox connection with grant type labeling (buyer / supplier / manager); zero-dependency PDF generation
 
       - layout: left
         # border: weak
