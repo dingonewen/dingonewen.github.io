@@ -42,7 +42,7 @@ about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
   <p style="text-indent: 2em;">
-  I'm a <mark>builder who communicates</mark>. I write code for <mark>autonomous agents</mark>, <mark>RAG pipelines</mark>, and <mark>full-stack AI systems</mark> — but I also know that the best architecture diagram is worthless if nobody in the room understands it. I'm a <mark>high-signal communicator</mark>: brevity, precision, and the occasional well-timed joke to remind everyone we're building software, not performing surgery. I've bridged gaps between engineers, business stakeholders, clinicians, and regulators — and I genuinely enjoy the translation work most people find exhausting.
+  I'm a <mark>builder who communicates</mark>. I write code for <strong>autonomous agents</strong>, <strong>RAG pipelines</strong>, and <strong>full-stack AI systems</strong> — but I also know that the best architecture diagram is worthless if nobody in the room understands it. I'm a <mark>high-signal communicator</mark>: brevity, precision, and the occasional well-timed joke to remind everyone we're building software, not performing surgery. I've bridged gaps between engineers, business stakeholders, clinicians, and regulators — and I genuinely enjoy the translation work most people find exhausting.
   </p>
 
   <p style="text-indent: 2em;">
