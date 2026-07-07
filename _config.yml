@@ -92,19 +92,19 @@ content:
   - title: Experience
     layout: list
     content:
-
-      - layout: right
-        title: "<a href='https://medicscribe.ai/' target='_blank'>"Stealth AI Startup</a>"
-        sub_title: Software Engineering Intern
-        caption: Jul 2026 - Present
-        quote: >
-          An AI-powered ambient documentation platform for emergency medical services, built by first responders to give providers more time with patients and less time with paperwork.
-        description: |
-          | Architected front-end and secure data pipeline for an AI-driven EMS documentation application piloted by Stanford's EMT group
-          | Enforced strict HIPAA compliance standards for patient health information (PHI) across the full stack
-          | Designed and shipped intuitive mobile user interfaces tailored for high-stress, on-scene clinical environments
-          | Owned features end-to-end, working directly with clinical stakeholders to translate field requirements into product
-    
+#
+#      - layout: right
+#        title: "<a href='https://medicscribe.ai/' target='_blank'>"Stealth AI Startup</a>"
+#        sub_title: Software Engineering Intern
+#        caption: Jul 2026 - Present
+#        quote: >
+#          An AI-powered ambient documentation platform for emergency medical services, built by first responders to give providers more time with patients and less time with paperwork.
+#        description: |
+#         | Architected front-end and secure data pipeline for an AI-driven EMS documentation application piloted by Stanford's EMT group
+#         | Enforced strict HIPAA compliance standards for patient health information (PHI) across the full stack
+#         | Designed and shipped intuitive mobile user interfaces tailored for high-stress, on-scene clinical environments
+#         | Owned features end-to-end, working directly with clinical stakeholders to translate field requirements into product
+#    
       - layout: right
         title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
         sub_title: Software Engineering Intern
