@@ -94,7 +94,7 @@ content:
     content:
 
       - layout: right
-        title: "<a href='https://medicscribe.ai/' target='_blank'>MedicScribe</a>"
+        title: "<a href='https://medicscribe.ai/' target='_blank'>"Stealth AI Startup</a>"
         sub_title: Software Engineering Intern
         caption: Jul 2026 - Present
         quote: >
