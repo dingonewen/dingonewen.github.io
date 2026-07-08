@@ -118,7 +118,7 @@ content:
           | Designed a persona-driven integration testing sandbox with template resolution, PDF generation, and SQLite crash recovery for regression testing and training data generation
 
       - layout: three-col
-        image: /assets/FIFA.JPEG
+        image: /assets/trophy.jpg
         title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
         sub_title: Accreditation & Fan Operations Support
         caption: May 2026 - Jul 2026
