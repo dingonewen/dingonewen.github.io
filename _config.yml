@@ -179,14 +179,10 @@ content:
         quote: >
            A terminal coding agent with supervisor-subagent architecture, on-demand skills, and OTLP observability — from-scratch rewrite of Pi on Mastra.
         description: |
-          | Supervisor + 3 specialized subagents — code-reviewer (read-only, security-focused), code-explorer (codebase navigation), code-fixer (full tool access). LLM routes tasks by reading subagent descriptions; tool-level access control via read-only tool injection prevents accidental writes from reviewer/explorer
-          | On-demand skills system — extracted long-form agent instructions from system prompts into 4 lazy-loaded SKILL.md files, cutting ~400 tokens per supervisor turn. Skillload via Mastra's auto-generatrch tools, discoverable anduser-extensible by dropping markdown files into ~/.sail/skills/
-          | OTLP observability pipeline — custom span exporter with traceId/spanId/parentSpanId hierarchy, full-content model_turn spans (prompt + LLM       response, 32K cap) and tool_caults). Verified on Logfire freetier; compatible with LangSmith, Jaeger, or any OTLP backend. Zero new dependencies
-          | Human-in-the-loop approval — three-way prompt (approve / deny / approve-all for session), autoApprove check inside requireToolApproval callback for mid-stream persistence. Fixed "Yes to all" not surviving the current stream and double-input readline conflict
-          | 15 workspace tools across 5 modules — filesystem (read/write/edit/list/delete/mkdir/grep), sandbox (execute_command/get_process_output), BM25 full-text search, LSP integration (disabled pending upstream TS7 support), skills   auto-generation. Plus web_fetcteTool()
-          | Multi-provider with persistent config — Anthropic, OpenAI, Google, DeepSeek; /login to switch, /model to ch.json. Tree-structured sessionswith fork/rename/resume
-          | Three-tier memory — WorkingMemory (cross-session facts), ObservationalMemory (LLM-driven compaction using same model as agent), SemanticRecall (LibSQL vector search, auto-detected embedder from provider)
-          | TypeScript + Node.js + Mastra — 3-package monorepo (@sail/core, @sail/cli, @sail/tui); 23 tests; Catppucc-ANSI streaming renderer andbraille spinner
+          | Supervisor + 3 specialized subagents (reviewer, explorer, fixer) with tool-level access control — read-only tools injected at construction so reviewer/explorer physically can't write or execute. LLM-driven routing with parallel delegation via backgroundTasks
+          | On-demand skills system — 4 lazy-loaded SKILL.md files extracted from system prompts, discoverable and user-extensible. BM25 full-text search, 15 workspace tools across 5 modules, plus custom web_fetch tool via Mastra createTool()
+          | OTLP observability with full-content spans — custom exporter producing traceId/spanId/parentSpanId hierarchy, every model_turn carries complete prompt + response, every tool_call carries full args + result. Verified on Logfire; compatible with any OTLP backend
+          | Mastra runtime with LibSQL memory (working, observational, semantic recall), multi-provider config, tree-structured sessions, and Catppuccin TUI — 3-package TypeScript monorepo, 23 tests
 
       - layout: left
         title: Vellum
