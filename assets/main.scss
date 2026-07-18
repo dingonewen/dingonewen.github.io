@@ -305,8 +305,11 @@ table th {
 }
 
 .layout-three-col-right {
+  position: relative;
+  z-index: 1;
+
   .three-col-details {
-    padding-left: 0;
+    padding-left: 2rem;
     padding-right: 1rem;
   }
 
@@ -322,7 +325,7 @@ table th {
       &:hover {
         transform: scale(2);
         position: relative;
-        z-index: 9999;
+        z-index: 99999;
         isolation: isolate;
         box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
       }
@@ -334,6 +337,12 @@ table th {
     border-right: none;
     padding: 0 0 0 1rem;
   }
+}
+
+// Three-col-details: match standard font size and alignment
+.layout-three-col .three-col-details p,
+.layout-three-col-right .three-col-details p {
+  font-size: 1.6rem;
 }
 
 // General three-col: details on the right, so right-align

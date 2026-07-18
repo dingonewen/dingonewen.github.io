@@ -305,51 +305,51 @@ content:
           - Established comprehensive testing framework (24 test cases) and Docker deployment pipeline
           - Balanced technical trade-offs between feature scope, user experience, and development timeline
       
-      - layout: left
-        border: weak
-        title: LC4 Disassembler
-        link: https://github.com/dingonewen
-        link_text: LC4 Disassembler
-        additional_links:
-          - title: Disassembler Github
-            icon: fas fa-person-digging
-            url: https://github.com/dingonewen/mini-projects/tree/main/disassembler
-        quote: >
-          Digging through binaries to uncover the code beneath.
-        description: |          
-          - Designed 3-module reverse engineering system translating LC4 binary object files into assembly language
-          - Implemented memory-safe linked list with dynamic allocation achieving 100% Valgrind validation across test cases
-          - Developed binary file parser supporting CODE/DATA/SYMBOL sections with proper big-endian conversion handling
-          - Created instruction decoder for arithmetic operations supporting both register and immediate addressing modes
-          - Established comprehensive build system with Makefile automation, unit tests, and open-source documentation
-      
-      - layout: left
-        border: weak
-        title: Spell Checker
-        link: https://github.com/dingonewen
-        link_text: Spell Checker
-        additional_links:
-          - title: Spell Checker Github
-            icon: fas fa-spell-check
-            url: https://github.com/dingonewen/mini-projects/tree/main/spell_checker
-        quote: >
-            Tired of typos? Let this spell checker find mistakes and suggest the best fixes automatically.
-        description: | # this will include new lines to allow paragraphs
-          - A Java command-line application that detects misspelled words and suggests corrections using custom similarity algorithms.
-    
-      - layout: left
-        border: weak
-        title: Blackjack Solitaire
-        link: https://github.com/dingonewen
-        link_text: Blackjack Solitaire
-        additional_links:
-          - title: Blackjack Solitaire Github
-            icon: fas fa-chess-board
-            url: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
-        quote: >
-          "21, baby!"
-        description: | # this will include new lines to allow paragraphs
-          - A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
+#      - layout: left
+#        border: weak
+#        title: LC4 Disassembler
+#        link: https://github.com/dingonewen
+#        link_text: LC4 Disassembler
+#        additional_links:
+#          - title: Disassembler Github
+#            icon: fas fa-person-digging
+#            url: https://github.com/dingonewen/mini-projects/tree/main/disassembler
+#        quote: >
+#          Digging through binaries to uncover the code beneath.
+#        description: |
+#          - Designed 3-module reverse engineering system translating LC4 binary object files into assembly language
+#          - Implemented memory-safe linked list with dynamic allocation achieving 100% Valgrind validation across test cases
+#          - Developed binary file parser supporting CODE/DATA/SYMBOL sections with proper big-endian conversion handling
+#          - Created instruction decoder for arithmetic operations supporting both register and immediate addressing modes
+#          - Established comprehensive build system with Makefile automation, unit tests, and open-source documentation
+#
+#      - layout: left
+#        border: weak
+#        title: Spell Checker
+#        link: https://github.com/dingonewen
+#        link_text: Spell Checker
+#        additional_links:
+#          - title: Spell Checker Github
+#            icon: fas fa-spell-check
+#            url: https://github.com/dingonewen/mini-projects/tree/main/spell_checker
+#        quote: >
+#            Tired of typos? Let this spell checker find mistakes and suggest the best fixes automatically.
+#        description: | # this will include new lines to allow paragraphs
+#          - A Java command-line application that detects misspelled words and suggests corrections using custom similarity algorithms.
+#
+#      - layout: left
+#        border: weak
+#        title: Blackjack Solitaire
+#        link: https://github.com/dingonewen
+#        link_text: Blackjack Solitaire
+#        additional_links:
+#          - title: Blackjack Solitaire Github
+#            icon: fas fa-chess-board
+#            url: https://github.com/dingonewen/mini-projects/tree/main/blackjack_solitaire
+#        quote: >
+#          "21, baby!"
+#        description: | # this will include new lines to allow paragraphs
+#          - A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
           
       - layout: three-col-right
         image: images/Bioavailability of DHA poster.jpg
