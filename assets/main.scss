@@ -379,10 +379,13 @@ table th {
 }
 
 // Three-col-right details: match standard font size + italic sub-title
-.layout-three-col-right .three-col-details p,
-.layout-three-col-right .three-col-details p b {
+// Use both layout classes + !important to guarantee override
+.layout-three-col.layout-three-col-right .three-col-details p,
+.layout-three-col.layout-three-col-right .three-col-details p b,
+.layout-three-col-right.layout-three-col .three-col-details p,
+.layout-three-col-right.layout-three-col .three-col-details p b {
   font-size: 1.6rem !important;
-  font-style: italic;
+  font-style: italic !important;
 }
 
 // Project additional-links icons: yellow
