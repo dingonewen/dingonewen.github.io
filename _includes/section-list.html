@@ -36,6 +36,42 @@
 
   </div>
 
+  {% elsif item.layout == 'three-col-right' %}
+
+  {%- comment -%} Three-column layout (reversed): title/details | body text | image {%- endcomment -%}
+  <div class="row clearfix layout layout-three-col layout-three-col-right border-{{item.border | default: 'no'}}">
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-details">
+      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+      {%- if item.link -%}
+        {% include a.html href=item.link class="link" %}
+          {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      {%- endif -%}
+      <p class="no-print aditional-links">
+        {% for link in item.additional_links %}
+          {% include a.html href=link.url class="" %}
+            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+          </a>
+        {% endfor %}
+      </p>
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-body">
+      {%- if item.quote -%}<p class="quote three-col-quote">{{ item.quote }}</p>{%- endif -%}
+      {{ item.description | strip | markdownify }}
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-image">
+      {%- if item.image -%}
+        <img src="{{ item.image | relative_url }}" alt="{{ item.title | strip_html }}" class="entry-image no-print" loading="lazy">
+      {%- endif -%}
+    </div>
+
+  </div>
+
   {% else %}
 
   {%- comment -%} Standard two-column layout {%- endcomment -%}

@@ -351,21 +351,22 @@ content:
         description: | # this will include new lines to allow paragraphs
           | A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
           
-      - layout: left
+      - layout: three-col-right
         image: images/Bioavailability of DHA poster.jpg
         border: weak
         title: Clinical Research
         link: https://www.kobrienlab.com/
         link_text: O'Brien Lab
+        sub_title: O'Brien Lab, Cornell University
         additional_links:
           - title: DHA Chicken Study
             icon: fas fa-drumstick-bite
             url: https://docs.google.com/presentation/d/1rpmDe5bwRldBRT27xEp8IaYSuEWT5N2V/edit?usp=sharing&ouid=110493095619593127092&rtpof=true&sd=true
         quote: >
           Bioavailability of Docosahexaenoic Acid From Biofortified Chicken
-        description: |          
+        description: |
           | Participated in the Empowering U.S. Broiler Production for Transformation and Sustainability project with a grant from USDA
-          | Analyzed and interpreted fatty acids content in human studies using JMP and Excel, gained expertise in JMP
+          | Analyzed and interpreted fatty acids content in human studies using JMP and Excel
           | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
           
       - layout: left

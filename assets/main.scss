@@ -323,8 +323,32 @@ table th {
   margin: 0;
 }
 
-// Three-col mobile: stack columns
-.layout-three-col {
+// ========== Three-column Layout (right image variant) ==========
+
+.layout-three-col-right {
+  .three-col-details {
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+
+  .three-col-image {
+    padding-right: 0;
+    padding-left: 1rem;
+  }
+}
+
+// Override right-alignment for right variant (details are on the left side)
+.layout-three-col-right .three-col-details,
+.layout-three-col-right .three-col-details h4,
+.layout-three-col-right .three-col-details p,
+.layout-three-col-right .three-col-details b,
+.layout-three-col-right .three-col-details a {
+  text-align: left;
+}
+
+// Three-col mobile: stack columns (both variants)
+.layout-three-col,
+.layout-three-col-right {
   @media screen and (max-width: 767px) {
     flex-direction: column;
 
