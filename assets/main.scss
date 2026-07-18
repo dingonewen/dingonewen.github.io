@@ -253,6 +253,17 @@ table th {
     .entry-image {
       width: 100%;
       margin-bottom: 0;
+      object-fit: contain;
+      aspect-ratio: auto;
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.4s ease;
+
+      &:hover {
+        transform: scale(2);
+        z-index: 100;
+        position: relative;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
+      }
     }
   }
 
@@ -362,7 +373,7 @@ table th {
     }
 
     .three-col-body  { padding: 1rem 0; }
-    .three-col-image .entry-image { max-height: 220px; object-fit: cover; }
+    .three-col-image .entry-image { max-height: 300px; object-fit: contain; }
   }
 }
 
