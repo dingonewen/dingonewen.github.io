@@ -106,8 +106,8 @@ content:
 #         | Owned features end-to-end, working directly with clinical stakeholders to translate field requirements into product
 #    
       - layout: right
-        title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
-        sub_title: Software Engineering Intern
+        title: Software Engineering Intern
+        sub_title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
         caption: Jun 2026 - Present
         quote: >
           A Techstars-backed, SOC 2 Type II-certified AI procurement platform that helps mid-market manufacturers source smarter, manage POs, and scale without scaling headcount — with an AI agent that delivers insights through email and Microsoft Teams.
@@ -119,8 +119,8 @@ content:
 
       - layout: three-col
         image: /assets/TROPHY.JPEG
-        title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
-        sub_title: Accreditation & Fan Operations Support
+        title: Accreditation & Fan Operations Support
+        sub_title: "<a href='https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/' target='_blank'>FIFA World Cup 2026</a>"
         caption: May 2026 - Jul 2026
         quote: >
           Selected as Accreditation Operations Support for the FIFA World Cup 2026 in Philadelphia, applying engineering precision to manage high-volume credentialing with zero errors.
@@ -128,8 +128,8 @@ content:
           Serving as a multilingual point of contact for international participants, ensuring seamless access control and world-class operations throughout the host city.
           
       - layout: right
-        title: "<a href='https://www.amerigoscientific.com/' target='_blank'>Amerigo Scientific</a>"
-        sub_title: Project Manager
+        title: Project Manager
+        sub_title: "<a href='https://www.amerigoscientific.com/' target='_blank'>Amerigo Scientific</a>"
         caption: Jun 2023 - May 2025
         quote: >
           A worldwide e-commerce and distribution company in biotech that connects global suppliers and clients. 
@@ -140,8 +140,8 @@ content:
           - Represented the company at major U.S. pharmaceutical and biotech conferences; trained staff on market trends and adapted strategies to industry developments
 
       - layout: right
-        title: "<a href='https://www.kobrienlab.com/' target='_blank'>Cornell University, O'Brien Lab</a>"
-        sub_title: Clinical Research Coordinator
+        title: Clinical Research Coordinator
+        sub_title: "<a href='https://www.kobrienlab.com/' target='_blank'>Cornell University, O'Brien Lab</a>"
         caption: Dec 2022 - Jun 2023
         quote: >
           We help characterize the nutritional, genetic and hormonal determinants of mineral metabolism on maternal and child health.
@@ -153,8 +153,8 @@ content:
           - Oversaw biospecimen handling, storage, and quality control; managed lab operations and collaborated closely with PI and study team
 
       - layout: right
-        title: "<a href='https://www.eurofinsus.com/' target='_blank'>Eurofins Lancaster Laboratories</a>"
-        sub_title: Associate Scientist
+        title: Associate Scientist
+        sub_title: "<a href='https://www.eurofinsus.com/' target='_blank'>Eurofins Lancaster Laboratories</a>"
         caption: Aug 2022 - Dec 2022
         quote: >
           A global independent market leader in genomics, clinical studies and BioPharma Contract Development and Manufacturing
