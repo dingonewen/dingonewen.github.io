@@ -1,6 +1,6 @@
 # Yiwen Ding — Personal Portfolio
 
-Personal portfolio and resume site for Yiwen Ding, Penn MAS-CS student and 2026 Summer SDE/TPM internship candidate.
+Personal portfolio and resume site for Yiwen Ding, Penn Master of Applied Science in CS student and software engineering intern.
 
 🔗 **Live Site**: [https://dingonewen.github.io](https://dingonewen.github.io)
 
@@ -11,9 +11,9 @@ Personal portfolio and resume site for Yiwen Ding, Penn MAS-CS student and 2026 
 | Layer | Tech |
 |---|---|
 | Generator | Jekyll + GitHub Pages |
-| Theme base | [modern-resume-theme](https://github.com/sproogen/modern-resume-theme) |
-| Styling | SCSS (heavily customized) |
-| Content | `_config.yml` (Liquid + Markdown) |
+| Theme base | [modern-resume-theme](https://github.com/sproogen/modern-resume-theme) (heavily customized) |
+| Styling | SCSS — Atom One Dark, Consolas monospace |
+| Content | `_config.yml` — YAML with Liquid + Markdown (kramdown GFM) |
 | Interactivity | Vanilla JS |
 
 ---
@@ -21,54 +21,55 @@ Personal portfolio and resume site for Yiwen Ding, Penn MAS-CS student and 2026 
 ## Customizations
 
 ### Visual Theme
-- **Atom One Dark** color scheme — `#282c34` background, `#e06c75` / `#61afef` / `#c678dd` / `#98c379` / `#e5c07b` accents
+- **Atom One Dark** color scheme — `#282c34` background, green/purple/blue/yellow/red accents
 - Consolas monospace typography throughout
-- Custom heading colors per level (h1–h6 each a different palette color)
+- Colors integrated into base SCSS partials (`_sass/`) — no `!important` wars
 
 ### Animations & Effects
-- `nameReveal` keyframe on h1 — fade-in with letter-spacing collapse
-- `fadeInUp` staggered animation on about-section paragraphs
-- **Scroll-triggered reveal** — IntersectionObserver marks cards `.is-visible` as they enter viewport, with per-section stagger delay
-- **Cursor spotlight** — CSS custom properties `--mouse-x` / `--mouse-y` drive a `radial-gradient` overlay on each card, updated via `mousemove`
-- **Magnetic hover** — social icon buttons spring toward the cursor and snap back on leave
-- Card lift on hover: `translateY(-4px)` + layered box-shadow
+- `nameReveal` — name fade-in with letter-spacing collapse
+- `fadeInUp` — staggered paragraph reveal in About section
+- **Scroll-triggered reveal** — IntersectionObserver adds `.is-visible` as cards enter viewport
+- **Cursor spotlight** — `--mouse-x`/`--mouse-y` CSS custom properties drive radial-gradient overlay on cards
+- Card lift on hover: `translateY(-4px)` + box-shadow
+- Social icon hover: green circle → blue ring outline transition
 
 ### Layout
-- **Three-column layout** (`layout: three-col`) for featured experience entries — image (40%) | quote/body (35%) | title/details (25%), overriding Bootstrap's equal-thirds `col-md-4`
-- Entry thumbnail images with `aspect-ratio: 4/3`, `object-fit: cover`, hover scale
-- Research poster images with hover scale + glow
+- **Three-column layout** (`layout: three-col`) — image (38%) | quote/body (35%) | title/details (27%)
+- **Three-column right** (`layout: three-col-right`) — details left, image center, body right; poster zoom hover
+- Entry thumbnail images with `object-fit: contain`, hover scale, `loading="lazy"`
+- `border: weak` dashed separators between entries
 
 ### Header
-- Status badge with pulsing green dot ("Available for 2026 Summer Internship")
-- Hover-to-reveal contact info (anti-scraping: label visible, value expands on hover)
-- Developer console easter egg (styled with Atom One Dark colors)
+- Status badge with pulsing green dot
+- Hover-to-reveal contact info (anti-scraping)
+- Console easter egg (Atom One Dark themed)
 
 ---
 
 ## Content
 
 ### Education
-- **Penn MAS-CS** — University of Pennsylvania (Aug 2025 – May 2027)
-- **BS Food Science** — Cornell University, Magna Cum Laude (2018–2022)
-- **BEng Food Science & Engineering** — China Agricultural University (2018–2022)
+- **Penn MAS-CS** — University of Pennsylvania (Aug 2025 – May 2027), GPA 3.9
+- **BS Food Science** — Cornell University, Magna Cum Laude (2018–2022), GPA 3.9
+- **BEng Food Science & Engineering** — China Agricultural University, Dual Degree (2018–2022)
 
 ### Experience
-- **FIFA World Cup 2026** — Accreditation Operations Support, Philadelphia (May 2026)
+- **Cronwell** — Software Engineering Intern (Jun 2026 – Present)
+- **FIFA World Cup 2026** — Accreditation & Fan Operations Support (May – Jul 2026)
 - **Amerigo Scientific** — Project Manager (Jun 2023 – May 2025)
 - **Cornell O'Brien Lab** — Clinical Research Coordinator (Dec 2022 – Jun 2023)
-- **Eurofins Lancaster Laboratories** — Associate Scientist (Aug 2022 – Dec 2022)
+- **Eurofins Lancaster Laboratories** — Associate Scientist (Aug – Dec 2022)
 
 ### Projects
-- **MOSH Synapse** — Omnichannel analytics platform with CoxPH churn model + DCF LTV simulator
-- **Dingle** — Hybrid BM25 + vector search engine with RAG pipeline backed by Claude (C++ HTTP server from scratch)
-- **Branch Barber** — Chrome extension that maps AI chat history as an interactive thinking tree (published on Chrome Web Store)
-- **Ding's NeuroAtlas** — Interactive 3D neuroanatomy viewer reconstructed from MRI data
-- **Oystraz** — Gamified health tracking app with virtual character
-- **Genetic Data Explorer** — Multi-API genetic variant annotation with ACMG pathogenicity visualizations
-- **LC4 Disassembler** — Binary-to-assembly reverse engineering system in C
-- **Spell Checker / Blackjack Solitaire** — Java coursework projects
-- **Clinical Research** — USDA-funded DHA bioavailability study at O'Brien Lab
-- **Microbiota Research** — Bumblebee gut microbiota published in *Insect Science* + *PNAS*
+- **Vellum** — LLM-powered autonomous email agent with integration testing sandbox
+- **MOSH Synapse** — Omnichannel analytics with CoxPH churn model + DCF LTV simulator
+- **Dingle** — Hybrid BM25 + vector search engine with RAG (C++ server from scratch)
+- **Branch Barber** — Chrome extension: AI chat history as interactive thinking tree
+- **Ding's NeuroAtlas** — Interactive 3D brain anatomy from MRI data
+- **Oystraz** — Gamified health tracking with virtual character
+- **Genetic Data Explorer** — Genetic variant annotation with ACMG visualizations
+- **Clinical Research** — USDA-funded DHA bioavailability study (O'Brien Lab)
+- **Microbiota Research** — Bumblebee gut microbiota (*Insect Science* + *PNAS*)
 
 ---
 
@@ -83,39 +84,54 @@ bundle exec jekyll serve
 
 Visit `http://localhost:4000`.
 
-> **Note:** The local `_site/` directory is a stale build artifact and is not committed. GitHub Pages compiles SCSS on every push — hard-refresh (`Ctrl+Shift+R`) after deploys to bypass browser cache.
+> The `_site/` directory is git-ignored. GitHub Pages builds from source on every push. Hard-refresh after deploys to bypass browser cache.
 
 ---
 
 ## File Structure
 
 ```
-_config.yml          # All content (education, experience, projects, about)
-assets/main.scss     # All custom styles (theme, animations, layout overrides)
-assets/js/index.js   # Scroll reveal, cursor spotlight, magnetic hover, console egg
+_config.yml              # All content and site config
+assets/
+  main.scss              # Custom styles: animations, layouts, refinements
+  js/index.js            # Scroll reveal, cursor spotlight, console easter egg
+_sass/                   # Base theme partials (dark-adapted)
+  base.scss              # Bootstrap grid, Font Awesome, reset
+  type.scss              # Typography, colors
+  modern-resume-theme.scss  # Layout grid, cards, profile, quote, footer
+  button.scss            # Social icon buttons
+  icons.scss             # Social icon list
 _includes/
-  header.html        # Status badge, contact hover-reveal
-  section-list.html  # Renders list items; handles three-col and standard layouts
+  section-list.html      # Renders all list sections (left, right, three-col, three-col-right)
+  header.html            # Status badge, contact hover-reveal, social icons
+  about.html             # Profile image + about content
+  a.html                 # Anchor helper (protocol-aware)
 _layouts/
-  default.html       # Base layout; conditional JS loading
+  default.html           # Base page layout
+index.md                 # Homepage (layout: default)
 ```
+
+---
+
+## Cleanup (2026-07)
+
+Removed ~30 files inherited from the original template fork that were never used:
+- `_includes/v1/` — legacy v1 template system (dead since `version: 2`)
+- `_test/` — CI test fixtures for upstream theme
+- `lib/`, `*.gemspec` — Ruby gem metadata
+- `app.json`, `Procfile`, `.dockerignore`, `docker-compose.yml` — Heroku/Docker
+- `_sass/dark.scss` — unused dark-mode toggle (site is always dark)
+- `.github/ISSUE_TEMPLATE/` — upstream issue templates
+- Duplicate `assets/favicon.ico`
 
 ---
 
 ## Credits
 
 - Original theme: [modern-resume-theme](https://github.com/sproogen/modern-resume-theme) by [@sproogen](https://github.com/sproogen) — MIT License
-- Color scheme: Atom One Dark (VS Code / Atom)
-- Icons: [Font Awesome](https://fontawesome.com/)
+- Color scheme: Atom One Dark
+- Icons: [Font Awesome](https://fontawesome.com/) 6.5.1
 
 ---
 
-## Contact
-
-- 📧 dingywn@seas.upenn.edu
-- 💼 [linkedin.com/in/dingyiwen](https://linkedin.com/in/dingyiwen)
-- 🐙 [github.com/dingonewen](https://github.com/dingonewen)
-
----
-
-*Last updated: May 2026*
+*Last updated: July 2026*
