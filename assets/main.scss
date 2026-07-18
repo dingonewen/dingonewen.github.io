@@ -378,10 +378,16 @@ table th {
   margin-bottom: 4px;
 }
 
-// Three-col-right details: match standard font size (override above)
+// Three-col-right details: match standard font size + italic sub-title
 .layout-three-col-right .three-col-details p,
 .layout-three-col-right .three-col-details p b {
-  font-size: 1.6rem;
+  font-size: 1.6rem !important;
+  font-style: italic;
+}
+
+// Project additional-links icons: yellow
+.aditional-links i {
+  color: #e5c07b;
 }
 
 // Title: green, no italic
