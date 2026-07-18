@@ -357,7 +357,6 @@ content:
         title: Clinical Research
         link: https://www.kobrienlab.com/
         link_text: O'Brien Lab
-        sub_title: O'Brien Lab, Cornell University
         additional_links:
           - title: DHA Chicken Study
             icon: fas fa-drumstick-bite
