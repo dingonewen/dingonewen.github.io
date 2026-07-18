@@ -34,6 +34,19 @@ h1::after {
   border-radius: 2px;
 }
 
+// ========== Profile Image Hover ==========
+
+.profile-img {
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.4s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 30px rgba(97, 175, 239, 0.5),
+              inset 0 0 20px #636161;
+}
+
 // ========== Header Refinements ==========
 
 .header-right h1 {
@@ -399,6 +412,17 @@ table th {
   font-weight: 500;
   color: #98c379;
   text-decoration: none;
+}
+
+// Experience titles: job positions are yellow
+.layout-right .details h4 {
+  color: #e5c07b;
+}
+
+// FIFA three-col (also experience): yellow title, override the green above
+.layout-three-col:not(.layout-three-col-right) .three-col-details h4,
+.layout-three-col:not(.layout-three-col-right) .three-col-details h4 a {
+  color: #e5c07b;
 }
 
 .layout-three-col .three-col-details h4 a:hover {
