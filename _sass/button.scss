@@ -7,7 +7,7 @@
   height: 100%;
   border-radius: inherit;
   z-index: -1;
-  box-shadow: inset 0 0 0 35px #333;
+  box-shadow: inset 0 0 0 35px #abb2bf;
   -webkit-transform: scale3d(0.9, 0.9, 1);
   transform: scale3d(0.9, 0.9, 1);
   -webkit-transition: box-shadow 0.3s, -webkit-transform 0.3;
@@ -43,35 +43,17 @@
   height: 60px;
   min-width: 0;
   padding: 0;
-  color: #fff;
+  color: #abb2bf;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 
 .button--sacnite:hover {
-  color: #333;
+  color: #61afef;
 }
 
 .button--sacnite:hover::before {
-  box-shadow: inset 0 0 0 2px #333;
+  box-shadow: inset 0 0 0 2px #61afef;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
-}
-
-.dark {
-  .button--sacnite::before {
-    box-shadow: inset 0 0 0 35px #e6e6e6;
-  }
-
-  .button.button--sacnite {
-    color: #222;
-  }
-
-  .button--sacnite:hover {
-    color: #e6e6e6;
-  }
-
-  .button--sacnite:hover::before {
-    box-shadow: inset 0 0 0 2px #e6e6e6;
-  }
 }

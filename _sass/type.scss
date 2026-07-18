@@ -1,9 +1,10 @@
 body {
-  color: #333;
-  font-family: Roboto, sans-serif;
+  color: #abb2bf;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
   font-feature-settings: "kern", "liga", "pnum";
   font-size: 1rem;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 
   @media print {
     font-size: 0.9rem;
@@ -16,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
   font-size: 1rem;
   line-height: 1.2;
   margin: 0 0 0.75rem;
@@ -26,33 +27,37 @@ p {
   margin: 0 0 0.75rem; }
 
 a {
-  color: #477dca;
+  color: #61afef;
+  text-decoration: none;
   transition: color 150ms ease;
 }
 a:active,
 a:focus,
 a:hover {
-color: #355e98;
+  color: #528bff;
 }
 
 h1 {
   font-size: 4rem;
   margin-bottom: 0.1rem;
-  font-weight: 500;
+  font-weight: 700;
+  color: #e06c75;
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 2rem;
+  color: #61afef;
 }
 
 h3 {
   font-weight: 300;
   font-size: 3rem;
+  color: #c678dd;
   text-align: center;
-  border-bottom: dashed 2px #CCCCCC;
+  border-bottom: dashed 2px #3e4451;
   padding-bottom: 10px;
-  margin-bottom:40px;
+  margin-bottom: 40px;
 
   @media print {
     margin-bottom: 20px;
@@ -60,26 +65,47 @@ h3 {
 }
 
 h4 {
-  font-weight: 300;
-  font-size:2.5rem;
-  margin-bottom:3px;
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-bottom: 3px;
+  color: #98c379;
 }
 
-p, ul {
+h5, h6 {
+  color: #e5c07b;
+}
+
+p, ul, li, span {
   font-size: 1.6rem;
-  text-align: justify;
+  color: #abb2bf;
+}
+
+strong, b {
+  color: #e5c07b;
+  font-weight: bold;
+}
+
+em, i {
+  color: #98c379;
 }
 
 a i {
-  font-size:1.6rem;
+  font-size: 1.6rem;
 }
 
 mark {
-  padding: 2px 4px;
+  padding: 2px 6px;
   font-size: 90%;
-  color: #fff;
-  background-color: #333;
+  color: #282c34;
+  background-color: #e5c07b;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
-  box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+  font-weight: 600;
+}
+
+code {
+  background-color: #21252b;
+  color: #e06c75;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Consolas', monospace;
 }

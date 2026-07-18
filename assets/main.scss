@@ -3,25 +3,10 @@
 
 @import 'modern-resume-theme';
 
-// ========== Atom One Dark Theme ==========
+// ========== Animations ==========
 
-// Global dark background
-body {
-  background-color: #282c34 !important;
-  color: #abb2bf !important;
-  font-family: 'Consolas', 'Monaco', 'Courier New', monospace !important;
-}
-
-// Main container background
-.container, .header-container, .page-content {
-  background-color: #282c34 !important;
-}
-
-// Headings - different color highlights
+// Name reveal on load
 h1 {
-  color: #e06c75 !important;
-  font-family: 'Consolas', monospace !important;
-  font-weight: 700 !important;
   animation: nameReveal 1s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
@@ -38,111 +23,7 @@ h1 {
   }
 }
 
-h2 {
-  color: #61afef !important;
-  font-family: 'Consolas', monospace !important;
-  font-weight: 600 !important;
-}
-
-h3 {
-  color: #c678dd;
-  font-family: 'Consolas', monospace !important;
-}
-
-h4 {
-  color: #98c379 !important;
-  font-family: 'Consolas', monospace !important;
-}
-
-h5, h6 {
-  color: #e5c07b !important;
-  font-family: 'Consolas', monospace !important;
-}
-
-// Body text
-p, li, span {
-  color: #abb2bf !important;
-}
-
-// Link styles
-a {
-  color: #61afef !important;
-  text-decoration: none !important;
-  transition: color 0.3s ease !important;
-}
-
-a:hover {
-  color: #528bff !important;
-  text-decoration: underline !important;
-}
-
-// Bold and italic
-strong, b {
-  color: #e5c07b !important;
-  font-weight: bold !important;
-}
-
-em, i {
-  color: #98c379 !important;
-}
-
-// Code blocks
-code {
-  background-color: #21252b !important;
-  color: #e06c75 !important;
-  padding: 2px 6px !important;
-  border-radius: 3px !important;
-  font-family: 'Consolas', monospace !important;
-}
-
-// List marker colors
-ul li::marker, ol li::marker {
-  color: #c678dd !important;
-}
-
-// Divider lines
-hr {
-  border-color: #3e4451 !important;
-}
-
-// Header area
-.header-right h1 {
-  color: #e06c75 !important;
-}
-
-.header-right p {
-  color: #61afef !important;
-}
-
-// Section title highlight effect
-.layout-section h2 {
-  background: linear-gradient(90deg, #61afef 0%, transparent 100%) !important;
-  padding-left: 15px !important;
-  border-left: 4px solid #61afef !important;
-}
-
-// Time/date labels
-.caption, .date {
-  color: #5c6370 !important;
-  font-style: italic !important;
-}
-
-// Images adapted to dark theme
-img {
-  border: 2px solid #3e4451 !important;
-  border-radius: 5px !important;
-}
-
-// Footer
-footer {
-  background-color: #21252b !important;
-  color: #5c6370 !important;
-  border-top: 1px solid #3e4451 !important;
-}
-
-// ========== Cool Effects ==========
-
-// Rainbow underline effect for h1
+// Rainbow underline under h1
 h1::after {
   content: '';
   display: block;
@@ -153,80 +34,103 @@ h1::after {
   border-radius: 2px;
 }
 
-// Code hover — subtle background shift only
+// ========== Header Refinements ==========
+
+.header-right h1 {
+  color: #e06c75;
+}
+
+.header-right p {
+  color: #61afef;
+}
+
+// ========== List Marker Colors ==========
+
+ul li::marker, ol li::marker {
+  color: #c678dd;
+}
+
+// ========== Image Styles ==========
+
+img {
+  border: 2px solid #3e4451;
+  border-radius: 5px;
+}
+
+// ========== Section Title Highlight ==========
+
+.layout-section h2 {
+  background: linear-gradient(90deg, #61afef 0%, transparent 100%);
+  padding-left: 15px;
+  border-left: 4px solid #61afef;
+}
+
+// ========== Time/Date Labels ==========
+
+.caption, .date {
+  color: #5c6370;
+  font-style: italic;
+}
+
+// ========== Code ==========
+
 code:hover {
-  background-color: #2c313a !important;
+  background-color: #2c313a;
 }
 
-// Mark highlight
-mark {
-  background-color: #e5c07b !important;
-  color: #282c34 !important;
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-weight: 600;
-}
-
-// Smooth color transitions — no !important so specific rules can override
-* {
-  transition: color 0.3s ease, background-color 0.3s ease;
-}
+// ========== Mark Highlight ==========
 
 mark:hover {
   background-color: #d19a4a;
   box-shadow: 0 0 8px rgba(229, 192, 123, 0.6);
 }
 
+// ========== Smooth Transitions ==========
+
+* {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
 // ========== Font Size Adjustments ==========
 
-// Quote and Blockquote - smaller
+// Quote and Blockquote — smaller
 blockquote,
 .quote,
 p.quote {
-  font-size: 0.85rem !important;
-  line-height: 1.4 !important;
-  border-left: 4px solid #61afef;
-  color: #e5999d !important;
-  background-color: #21252b;
-  padding: 10px 15px;
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
 
-// Projects / Education / Experience table content - normal size
+// Projects / Education / Experience table content — normal size
 table,
 table td,
 table tr,
 table th {
-  font-size: 1.1rem !important;
-  line-height: 1.7 !important;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
-// Projects / Education / Experience paragraphs
-.content p {
-  font-size: 1.1rem !important;
-  line-height: 1.7 !important;
-}
-
-// List items
+.content p,
 .content li {
-  font-size: 1.1rem !important;
-  line-height: 1.7 !important;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
-// Ensure all layout content is uniform size
 .layout-right table,
 .layout-left table,
 .layout-top-right table {
-  font-size: 1.1rem !important;
+  font-size: 1.1rem;
 }
 
 .layout-right table td,
 .layout-left table td,
 .layout-top-right table td {
-  font-size: 1.1rem !important;
-  line-height: 1.7 !important;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
 
-// Research poster styles
+// ========== Research Poster Hover ==========
+
 .layout-left img[alt*="Poster"],
 .layout-left img[alt*="poster"] {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -238,9 +142,8 @@ table th {
   box-shadow: 0 8px 16px rgba(97, 175, 239, 0.4);
 }
 
-// ========== Perfectly Balanced Animation Scheme ==========
+// ========== About Section — Fade-in ==========
 
-// Generally Speaking - elegant fade-in
 .intro-container p {
   opacity: 0;
   animation: fadeInUp 1.2s ease-out forwards;
@@ -262,7 +165,8 @@ table th {
   }
 }
 
-// Cards — subtle lift + cursor-tracked spotlight
+// ========== Card Hover Effects ==========
+
 .layout-right,
 .layout-left,
 .layout-top-right {
@@ -270,7 +174,7 @@ table th {
   transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
               box-shadow 0.35s ease;
 
-  // Spotlight layer driven by --mouse-x / --mouse-y (updated via JS)
+  // Spotlight layer driven by --mouse-x / --mouse-y (via JS)
   &::after {
     content: '';
     position: absolute;
@@ -291,14 +195,15 @@ table th {
   }
 }
 
-// More About Me
+// ========== More About Me ==========
+
 .text-container {
   position: relative;
 }
 
 .text-container h2 {
   text-align: center;
-  color: #c678dd !important;
+  color: #c678dd;
 }
 
 .text-container p {
@@ -310,7 +215,6 @@ table th {
   transform: translateY(-3px);
 }
 
-// Image — clean scale + depth shadow
 .text-container img {
   float: right;
   width: 200px;
@@ -329,7 +233,7 @@ table th {
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
 }
 
-// ========== Three-column layout (image | body | details) ==========
+// ========== Three-column Layout (image | body | details) ==========
 
 .layout-three-col {
   margin-top: 3rem;
@@ -373,13 +277,13 @@ table th {
   }
 }
 
-// Three-col details — flat selectors for guaranteed right-alignment + italic title
+// Three-col details — right-aligned + italic title
 .layout-three-col .three-col-details,
 .layout-three-col .three-col-details h4,
 .layout-three-col .three-col-details p,
 .layout-three-col .three-col-details b,
 .layout-three-col .three-col-details a {
-  text-align: right !important;
+  text-align: right;
 }
 
 .layout-three-col .three-col-details h4 {
@@ -387,43 +291,40 @@ table th {
 }
 
 .layout-three-col .three-col-details p {
-  font-size: 1.4rem !important;
+  font-size: 1.4rem;
   font-weight: 300;
   margin-bottom: 4px;
 }
 
-// Title: italic on both h4 and the link inside it
-// Blue color + underline-on-hover to match standard entry titles
+// Title: italic + blue with underline on hover
 .layout-three-col .three-col-details h4,
 .layout-three-col .three-col-details h4 a {
-  font-style: italic !important;
-  font-weight: 500 !important;
-  color: #61afef !important;
-  text-decoration: none !important;
+  font-style: italic;
+  font-weight: 500;
+  color: #61afef;
+  text-decoration: none;
 }
 
 .layout-three-col .three-col-details h4 a:hover {
-  color: #528bff !important;
-  text-decoration: underline !important;
+  color: #528bff;
+  text-decoration: underline;
 }
 
-// Three-col quote: explicit card styles + larger font than standard quotes
+// Three-col quote
 .layout-three-col .three-col-body .three-col-quote {
-  background-color: #21252b !important;
-  border-left: 4px solid #61afef !important;
-  color: #e5999d !important;
-  padding: 10px 15px !important;
-  text-align: left !important;
-  font-style: italic !important;
-  font-size: 1.2rem !important;
-  line-height: 1.85 !important;
-  margin: 0 !important;
+  background-color: #21252b;
+  border-left: 4px solid #61afef;
+  color: #e5999d;
+  padding: 10px 15px;
+  text-align: left;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1.85;
+  margin: 0;
 }
 
-// Reopen .layout-three-col for mobile block (closing brace moved above)
+// Three-col mobile: stack columns
 .layout-three-col {
-
-  // Mobile: stack columns
   @media screen and (max-width: 767px) {
     flex-direction: column;
 
@@ -449,9 +350,9 @@ table th {
   object-fit: cover;
   border-radius: 6px;
   margin-bottom: 12px;
-  border: 1px solid #3e4451 !important;
+  border: 1px solid #3e4451;
   transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.35s ease !important;
+              box-shadow 0.35s ease;
 }
 
 .entry-image:hover {
@@ -470,9 +371,9 @@ table th {
   background-color: rgba(152, 195, 121, 0.12);
   border: 1px solid rgba(152, 195, 121, 0.35);
   border-radius: 20px;
-  font-family: 'Consolas', monospace !important;
-  font-size: 1.1rem !important;
-  color: #98c379 !important;
+  font-family: 'Consolas', monospace;
+  font-size: 1.1rem;
+  color: #98c379;
   letter-spacing: 0.02em;
 }
 
@@ -502,12 +403,11 @@ table th {
   .scroll-reveal {
     opacity: 0;
     transform: translateY(32px);
-    // Include all transitions the existing theme uses so hover effects still work
     transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
                 transform 0.65s cubic-bezier(0.22, 1, 0.36, 1),
                 box-shadow 0.3s ease,
                 color 0.3s ease,
-                background-color 0.3s ease !important;
+                background-color 0.3s ease;
     will-change: opacity, transform;
 
     &.is-visible {
@@ -517,70 +417,69 @@ table th {
   }
 }
 
-// Always fully visible when printing
 @media print {
   .scroll-reveal {
-    opacity: 1 !important;
-    transform: none !important;
-    transition: none !important;
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
-// ========== Contact Info Anti-Scraping Styles (Override Global) ==========
-// This section needs !important to override both theme and earlier rules
+// ========== Contact Info — Anti-Scraping Hover Reveal ==========
+
 .header-right .contact-item {
-  margin: 0 !important;
-  padding: 0 !important;
-  line-height: 32px !important;  
-  height: 32px !important;       
-  font-size: 0 !important;       
-  
+  margin: 0;
+  padding: 0;
+  line-height: 32px;
+  height: 32px;
+  font-size: 0;
+
   .contact-label {
-    color: #007bff !important; 
-    font-weight: 700 !important;
-    font-size: 1.8rem !important;
-    line-height: 32px !important;  
-    height: 32px !important;       
+    color: #007bff;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 32px;
+    height: 32px;
     transition: all 0.3s ease;
     display: inline-block;
-    vertical-align: top;          
-    
+    vertical-align: top;
+
     &:hover {
       text-shadow: 0 0 15px rgba(0, 123, 255, 0.9),
                    0 0 25px rgba(0, 123, 255, 0.7),
-                   0 0 35px rgba(0, 123, 255, 0.5) !important;
-      color: #40a9ff !important;
+                   0 0 35px rgba(0, 123, 255, 0.5);
+      color: #40a9ff;
       transform: scale(1.08);
     }
   }
-  
+
   .contact-value {
     opacity: 0;
     max-width: 0;
     overflow: hidden;
     display: inline-block;
     transition: opacity 0.3s ease, max-width 0.3s ease;
-    vertical-align: top;           
-    line-height: 32px !important;  
-    height: 32px !important;       
+    vertical-align: top;
+    line-height: 32px;
+    height: 32px;
     margin-left: 8px;
-    
+
     a {
-      color: #007bff !important;
-      text-decoration: none !important;
-      text-shadow: none !important;
-      font-size: 1.6rem !important;  
-      line-height: 32px !important;  
-      display: inline-block;         
-      
+      color: #007bff;
+      text-decoration: none;
+      text-shadow: none;
+      font-size: 1.6rem;
+      line-height: 32px;
+      display: inline-block;
+
       &:hover {
-        color: #0056b3 !important;
-        text-decoration: underline !important;
-        text-shadow: none !important;
+        color: #0056b3;
+        text-decoration: underline;
+        text-shadow: none;
       }
     }
   }
-  
+
   &:hover .contact-value {
     opacity: 1;
     max-width: 500px;

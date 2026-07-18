@@ -1,20 +1,21 @@
 @import "base";
 @import "button";
 @import "type";
-@import "dark";
 @import "icons";
+
+// ========== Header ==========
 
 .header-right p {
   margin-bottom: 3px;
 }
 
-.header-right a{
-  color:inherit;
-  font-weight:500;
+.header-right a {
+  color: inherit;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 767px) {
-  .header-container div{
+  .header-container div {
     text-align: center;
   }
 
@@ -26,6 +27,8 @@
     margin-top: 0px;
   }
 }
+
+// ========== Profile Image ==========
 
 .profile-img {
   width: 200px;
@@ -42,15 +45,17 @@
   box-shadow: inset 0 0 20px #636161;
 }
 
+// ========== Layout Grid ==========
+
 .list-container {
   h3 {
     margin-bottom: 0;
   }
 }
 
-.border-weak  {
+.border-weak {
   padding-bottom: 8px;
-  border-bottom: dashed 1px #CCCCCC;
+  border-bottom: dashed 1px #3e4451;
 }
 
 .layout {
@@ -77,10 +82,10 @@
     }
 
     @media screen and (max-width: 767px) {
-      text-align: center!important;
+      text-align: center !important;
 
       p {
-        text-align: center!important;
+        text-align: center !important;
       }
     }
 
@@ -147,14 +152,36 @@
   }
 }
 
+// ========== Quote ==========
+
+p.quote {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  font-style: italic;
+  padding: 10px 15px;
+  text-align: left;
+  border-left: 4px solid #61afef;
+  color: #e5999d;
+  background-color: #21252b;
+
+  @media print {
+    text-align: left;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+// ========== Footer ==========
+
 .footer-container {
-  margin-top:100px;
+  margin-top: 100px;
 }
 
 .footer-container p {
   text-align: center;
   font-style: italic;
   font-weight: 300;
+  color: #5c6370;
 }
 
 .footer-container a {
@@ -163,9 +190,12 @@
   font-weight: 300;
 }
 
-.page-content {
-  padding: 0;
+footer {
+  background-color: #21252b;
+  border-top: 1px solid #3e4451;
 }
+
+// ========== Contact Link (deprecated) ==========
 
 .contact a {
   line-height: 50px;
@@ -178,17 +208,4 @@
 
 .contact a:hover {
   color: #4C4C4C;
-}
-
-p.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  padding: 1rem 2.5rem;
-  text-align: center;
-
-  @media print {
-    text-align: left;
-    padding: 0rem 1rem;
-    margin-top: 1rem;
-  }
 }
