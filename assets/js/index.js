@@ -75,9 +75,10 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   });
 }());
 
-// Magnetic hover — social icon buttons follow cursor slightly then spring back
+// Magnetic hover — social icons and profile image follow cursor then spring back
 (function () {
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
   document.querySelectorAll('.button--sacnite').forEach(function (btn) {
     btn.addEventListener('mousemove', function (e) {
       var r = btn.getBoundingClientRect();
@@ -91,4 +92,19 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
       btn.style.transition = 'transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
     });
   });
+
+  var profile = document.querySelector('.profile-img');
+  if (profile) {
+    profile.addEventListener('mousemove', function (e) {
+      var r = profile.getBoundingClientRect();
+      var x = (e.clientX - r.left  - r.width  / 2) * 0.18;
+      var y = (e.clientY - r.top   - r.height / 2) * 0.18;
+      profile.style.transform  = 'translate(' + x + 'px, ' + y + 'px) scale(1.1)';
+      profile.style.transition = 'transform 0.1s linear';
+    });
+    profile.addEventListener('mouseleave', function () {
+      profile.style.transform  = '';
+      profile.style.transition = 'transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
+    });
+  }
 }());
