@@ -116,6 +116,25 @@ table th {
   line-height: 1.7;
 }
 
+// Description bullet lists — readable spacing + styled markers
+.content ul {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    padding: 0.3rem 0 0.3rem 1.2rem;
+    position: relative;
+
+    &::before {
+      content: '\203A';  // › single angle quote as bullet
+      position: absolute;
+      left: 0;
+      color: #c678dd;
+      font-weight: bold;
+    }
+  }
+}
+
 .layout-right table,
 .layout-left table,
 .layout-top-right table {
