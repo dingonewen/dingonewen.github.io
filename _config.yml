@@ -202,7 +202,7 @@ content:
           | TypeScript + Node.js + SQLite — 12 runtime dependencies; OAuth flow for mailbox connection with grant type labeling (buyer / supplier / manager); zero-dependency PDF generation
 
       - layout: left
-        # border: weak
+        border: weak
         title: MOSH Synapse
         link: https://mosh-synapse.streamlit.app
         link_text: Intelligent Omnichannel Operations Dashboard
@@ -219,7 +219,7 @@ content:
           | Domain-agnostic architecture — the full pipeline (ingestion → features → survival model → drift monitoring) transfers to any subscription or repeat-purchase business
       
       - layout: left
-        # border: weak
+        border: weak
         title: Dingle
         link: https://github.com/dingonewen/hybrid-search-engine
         link_text: Hybrid Search Engine
@@ -236,7 +236,7 @@ content:
           | Personal knowledge base — index your own .txt documents and query them like a second brain
 
       - layout: left
-        # border: weak
+        border: weak
         title: Branch Barber
         link: https://chromewebstore.google.com/detail/branch-barber/pancajifpbhmoajlpbnmoigjbdeghifl
         link_text: Chrome Extension
@@ -255,7 +255,7 @@ content:
           | Local-first privacy - IndexedDB storage with no cloud sync, no telemetry, no accounts
 
       - layout: left
-        # border: weak
+        border: weak
         title: Ding's NeuroAtlas
         link: https://dingonewen.github.io/NeuroAtlas-Web/
         link_text: Interactive 3D NeuroAnatomical Digital Twin
@@ -266,12 +266,12 @@ content:
         quote: >
           Ding's NeuroAtlas v1.0 presents a high-fidelity, interactive 3D visualization of human neuroanatomy, reconstructed from raw MRI data. The application allows users to explore the internal structures of the brain through a "Glass Brain" explosion interface, facilitating both educational and research-oriented anatomical studies.
         description: |          
-          <video autoplay loop muted playsinline style="width: 100%; border-radius: 8px; display: block;">
+          <video autoplay loop muted playsinline preload="none" style="width: 100%; border-radius: 8px; display: block;">
             <source src="/assets/3DSlicer.mp4" type="video/mp4">
           </video>
 
       - layout: left
-        # border: weak
+        border: weak
         title: Oystraz
         link: https://youtu.be/DRbhOWUHf2o
         link_text: Oystraz Demo
@@ -288,7 +288,7 @@ content:
           | Making tracking fun - Ocean theme, pixel art, and playful interactions
           
       - layout: left
-        # border: weak
+        border: weak
         title: Genetic Data Explorer
         link: https://geneticdataexplorer.streamlit.app
         link_text: Variant Annotation Search Live Demo
@@ -306,7 +306,7 @@ content:
           | Balanced technical trade-offs between feature scope, user experience, and development timeline
       
       - layout: left
-        # border: weak
+        border: weak
         title: LC4 Disassembler
         link: https://github.com/dingonewen
         link_text: LC4 Disassembler
@@ -324,7 +324,7 @@ content:
           | Established comprehensive build system with Makefile automation, unit tests, and open-source documentation
       
       - layout: left
-        # border: weak
+        border: weak
         title: Spell Checker
         link: https://github.com/dingonewen
         link_text: Spell Checker
@@ -338,7 +338,7 @@ content:
           | A Java command-line application that detects misspelled words and suggests corrections using custom similarity algorithms.
     
       - layout: left
-        # border: weak
+        border: weak
         title: Blackjack Solitaire
         link: https://github.com/dingonewen
         link_text: Blackjack Solitaire
@@ -352,7 +352,8 @@ content:
           | A Java implementation of a one-player card game called Blackjack Solitaire, where the player attempts to build hands with values as close to 21 as possible without exceeding 21.
           
       - layout: left
-        # border: weak
+        image: images/Bioavailability of DHA poster.jpg
+        border: weak
         title: Clinical Research
         link: https://www.kobrienlab.com/
         link_text: O'Brien Lab
@@ -368,7 +369,7 @@ content:
           | Completed an oral presentation and poster session titled Bioavailability of DHA From Biofortified Chicken
           
       - layout: left
-        # border: weak
+        border: weak
         title: Microbiota Research
         link: https://www.zhenghaolab.org/
         link_text: Zheng Lab
@@ -386,7 +387,7 @@ content:
   - title: More About Me          
     layout: text
     content: | # this will include new lines to allow paragraphs
-      <img src="/images/soccerfood.jpg" alt="Soccer and Food" style="float: right; margin: 0 0 15px 15px; border-radius: 8px;">
+      <img src="/images/soccerfood.jpg" alt="Soccer and Food" loading="lazy" style="float: right; margin: 0 0 15px 15px; border-radius: 8px;">
 
       <p style="text-indent: 2em;">I thrive on structure and discipline, yet I’m easily won over by the simple things in life: quality sleep, a great soccer match, and the occasional windfall of <em>free food</em>.</p>
     
