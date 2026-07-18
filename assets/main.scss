@@ -335,15 +335,10 @@ table th {
   .three-col-body {
     border-left: none;
     border-right: none;
-    padding: 0 0 0 1rem;
+    padding: 0 1rem 0 1rem;
   }
 }
 
-// Three-col-details: match standard font size and alignment
-.layout-three-col .three-col-details p,
-.layout-three-col-right .three-col-details p {
-  font-size: 1.6rem;
-}
 
 // General three-col: details on the right, so right-align
 .layout-three-col .three-col-details,
@@ -383,10 +378,15 @@ table th {
   margin-bottom: 4px;
 }
 
-// Title: italic + blue with underline on hover
+// Three-col-right details: match standard font size (override above)
+.layout-three-col-right .three-col-details p,
+.layout-three-col-right .three-col-details p b {
+  font-size: 1.6rem;
+}
+
+// Title: green, no italic
 .layout-three-col .three-col-details h4,
 .layout-three-col .three-col-details h4 a {
-  font-style: italic;
   font-weight: 500;
   color: #98c379;
   text-decoration: none;
