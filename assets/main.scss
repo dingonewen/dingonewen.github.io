@@ -354,6 +354,16 @@ table th {
   text-align: left;
 }
 
+// Experience sub-title links: inherit yellow from parent <b>
+.details p b a {
+  color: #e5c07b;
+}
+
+// Three-col-right sub-title: blue (Clinical Research O'Brien Lab)
+.layout-three-col-right .three-col-details p b {
+  color: #61afef;
+}
+
 .layout-three-col .three-col-details h4 {
   margin-bottom: 0.3rem;
 }
