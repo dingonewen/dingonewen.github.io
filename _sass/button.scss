@@ -58,7 +58,11 @@
   transform: scale3d(1, 1, 1);
 }
 
-// Override global <i> color so icons inherit button color
-.button--sacnite i {
-  color: inherit;
+// Override global <i> green — icons match button color
+.button.button--sacnite i {
+  color: #282c34;
+}
+
+.button.button--sacnite:hover i {
+  color: #61afef;
 }
