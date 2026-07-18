@@ -38,7 +38,7 @@
 
   {% elsif item.layout == 'three-col-right' %}
 
-  {%- comment -%} Three-column layout (reversed): title/details | body text | image {%- endcomment -%}
+  {%- comment -%} Three-column layout (right image): details | image | body {%- endcomment -%}
   <div class="row clearfix layout layout-three-col layout-three-col-right border-{{item.border | default: 'no'}}">
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-details">
@@ -59,15 +59,15 @@
       </p>
     </div>
 
-    <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-body">
-      {%- if item.quote -%}<p class="quote three-col-quote">{{ item.quote }}</p>{%- endif -%}
-      {{ item.description | strip | markdownify }}
-    </div>
-
     <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-image">
       {%- if item.image -%}
         <img src="{{ item.image | relative_url }}" alt="{{ item.title | strip_html }}" class="entry-image no-print" loading="lazy">
       {%- endif -%}
+    </div>
+
+    <div class="col-xs-12 col-sm-4 col-md-4 col-print-12 three-col-body">
+      {%- if item.quote -%}<p class="quote three-col-quote">{{ item.quote }}</p>{%- endif -%}
+      {{ item.description | strip | markdownify }}
     </div>
 
   </div>

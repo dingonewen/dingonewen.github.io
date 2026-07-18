@@ -274,16 +274,6 @@ table th {
       margin-bottom: 0;
       object-fit: contain;
       aspect-ratio: auto;
-      transform-origin: center center;
-      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-                  box-shadow 0.4s ease;
-
-      &:hover {
-        transform: scale(2);
-        position: relative;
-        z-index: 9999;
-        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
-      }
     }
   }
 
@@ -314,13 +304,54 @@ table th {
   }
 }
 
-// Three-col details — right-aligned + italic title
+.layout-three-col-right {
+  .three-col-details {
+    padding-left: 0;
+    padding-right: 1rem;
+  }
+
+  .three-col-image {
+    padding-right: 0;
+    padding: 0 1.5rem;
+
+    .entry-image {
+      transform-origin: center center;
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.4s ease;
+
+      &:hover {
+        transform: scale(2);
+        position: relative;
+        z-index: 9999;
+        isolation: isolate;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
+      }
+    }
+  }
+
+  .three-col-body {
+    border-left: none;
+    border-right: none;
+    padding: 0 0 0 1rem;
+  }
+}
+
+// General three-col: details on the right, so right-align
 .layout-three-col .three-col-details,
 .layout-three-col .three-col-details h4,
 .layout-three-col .three-col-details p,
 .layout-three-col .three-col-details b,
 .layout-three-col .three-col-details a {
   text-align: right;
+}
+
+// Right variant: details on the left, so left-align
+.layout-three-col-right .three-col-details,
+.layout-three-col-right .three-col-details h4,
+.layout-three-col-right .three-col-details p,
+.layout-three-col-right .three-col-details b,
+.layout-three-col-right .three-col-details a {
+  text-align: left;
 }
 
 .layout-three-col .three-col-details h4 {
@@ -358,29 +389,6 @@ table th {
   font-size: 1.2rem;
   line-height: 1.85;
   margin: 0;
-}
-
-// ========== Three-column Layout (right image variant) ==========
-
-.layout-three-col-right {
-  .three-col-details {
-    padding-left: 0;
-    padding-right: 1rem;
-  }
-
-  .three-col-image {
-    padding-right: 0;
-    padding-left: 1rem;
-  }
-}
-
-// Override right-alignment for right variant (details are on the left side)
-.layout-three-col-right .three-col-details,
-.layout-three-col-right .three-col-details h4,
-.layout-three-col-right .three-col-details p,
-.layout-three-col-right .three-col-details b,
-.layout-three-col-right .three-col-details a {
-  text-align: left;
 }
 
 // Three-col mobile: stack columns (both variants)
