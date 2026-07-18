@@ -268,7 +268,6 @@ table th {
     align-items: center;
     justify-content: center;
     padding-right: 1rem;
-    overflow: hidden;  // contain zoom within column
 
     .entry-image {
       width: 100%;
@@ -281,7 +280,8 @@ table th {
 
       &:hover {
         transform: scale(2);
-        z-index: 100;
+        position: relative;
+        z-index: 9999;
         box-shadow: 0 24px 80px rgba(0, 0, 0, 0.7);
       }
     }
