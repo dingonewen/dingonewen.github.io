@@ -92,19 +92,20 @@ content:
   - title: Experience
     layout: list
     content:
-#
-#      - layout: right
-#        title: "<a href='https://medicscribe.ai/' target='_blank'>"Stealth AI Startup</a>"
-#        sub_title: Software Engineering Intern
-#        caption: Jul 2026 - Present
-#        quote: >
-#          An AI-powered ambient documentation platform for emergency medical services, built by first responders to give providers more time with patients and less time with paperwork.
-#        description: |
-#         | Architected front-end and secure data pipeline for an AI-driven EMS documentation application piloted by Stanford's EMT group
-#         | Enforced strict HIPAA compliance standards for patient health information (PHI) across the full stack
-#         | Designed and shipped intuitive mobile user interfaces tailored for high-stress, on-scene clinical environments
-#         | Owned features end-to-end, working directly with clinical stakeholders to translate field requirements into product
-#    
+
+      - layout: right
+        title: "<a href='https://medicscribe.ai/' target='_blank'>Stealth AI Startup</a>"
+        sub_title: Software Engineering Intern
+        caption: Jul 2026 - Present
+        quote: >
+          An AI-powered ambient scribe platform for paramedics, generating real-time clinical documentation from field audio using speech-to-text and LLM-based report generation.
+        description: |
+          | Architected dual-path transcription pipeline combining real-time WebSocket streaming (for on-screen feedback) with asynchronous batch diarization (for final PCR generation), then optimized the backend from blocking synchronous calls to async submit-and-webhook flows to eliminate timeout failures on 45–120 minute field recordings
+          | Designed intelligent long-transcript handling for Claude-based PCR generation with automatic chunking, sub-report synthesis, and fallback strategies to handle transcripts exceeding LLM context windows while maintaining NEMSIS v3.5 clinical compliance
+          | Implemented end-to-end HIPAA-compliant infrastructure: AES-256-GCM encrypted at-rest storage in Supabase, JWT-secured auth with biometric re-authentication, encrypted on-device buffering for poor-connectivity scenarios, and durable PCR persistence before audio deletion
+          | Built production-grade resilience patterns across all third-party AI service integrations (AssemblyAI, Anthropic Claude): exponential-backoff retries, circuit breakers, graceful degradation, and cost-aware fallback routing (VAD-based alternatives when API quota exhausted)
+          | Validated architecture decisions through comprehensive stress-testing on real multi-speaker 45–120 minute field recordings, uncovering actual bottlenecks (transcript length, encryption performance at scale) and eliminating unnecessary complexity from the design    
+
       - layout: right
         title: Software Engineering Intern
         sub_title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
