@@ -2,7 +2,7 @@
 
 Personal portfolio and resume site for Yiwen Ding, Penn Master of Applied Science in CS student and software engineering intern.
 
-🔗 **Live Site**: [https://dingonewen.github.io](https://dingonewen.github.io)
+🔗 **Live Site**: [https://www.dingonewen.dev](https://www.dingonewen.dev)
 
 ---
 

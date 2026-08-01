@@ -10,7 +10,7 @@ name: Yiwen Ding
 title: Humor Retriever
 email: dingywn@engineering.upenn.edu
 phone: (607)379-1110
-website: https://dingonewen.github.io
+website: https://www.dingonewen.dev
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -258,7 +258,7 @@ content:
       - layout: left
         border: weak
         title: Ding's NeuroAtlas
-        link: https://dingonewen.github.io/NeuroAtlas-Web/
+        link: https://www.dingonewen.dev/NeuroAtlas-Web/
         link_text: Interactive 3D NeuroAnatomical Digital Twin
         additional_links:
           - title: Advanced Neuro-Imaging Pipeline Github
