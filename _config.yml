@@ -170,6 +170,22 @@ content:
     content:
 
       - layout: left
+        title: Regatta
+        link: https://github.com/dingonewen/regatta
+        link_text: Wasm Edge Agent Fleet
+        additional_links:
+          - title: Regatta GitHub
+            icon: fas fa-ship
+            url: https://github.com/dingonewen/regatta
+        quote: >
+          32 concurrent AI agents running on WebAssembly edge infrastructure with OpenTelemetry distributed tracing.
+        description: |
+          - TypeScript compiled to a single self-contained .wasm binary (esbuild + ComponentizeJS + StarlingMonkey engine), deployed identically on local Spin and Akamai's global edge network with no code changes
+          - 32-agent concurrent benchmark harness with staggered and concurrent launch modes, per-agent cold-start measurement, and CPU/memory time-series monitoring; 32/32 zero-failure at 32 concurrency on Akamai Functions
+          - Multi-turn tool-calling loop with 6 tools across 24 tool calls per agent; dual mock/real LLM modes supporting Anthropic, DeepSeek, OpenAI, and Groq via automatic API format detection
+          - OpenTelemetry tracing with per-turn and per-tool spans exported as standard OTLP JSON; handler execution avg 2ms (P99 3ms) on Akamai, Wasm cold-start invisible at the HTTP layer
+
+      - layout: left
         title: Sail
         link: https://github.com/dingonewen/sail
         link_text: Terminal Coding Agent
