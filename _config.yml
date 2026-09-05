@@ -113,10 +113,10 @@ content:
         quote: >
           A Techstars-backed, SOC 2 Type II-certified AI procurement platform that helps mid-market manufacturers source smarter, manage POs, and scale without scaling headcount — with an AI agent that delivers insights through email and Microsoft Teams.
         description: |
-          - Owned full product lifecycle for mobile app and agent interaction experiences, shipping features from design to deployment
-          - Built an autonomous email agent (classify → reply → dispatch) with sensitivity detection using TypeScript, DeepSeek, and Nylas API, integrated with the platform's AI procurement assistant
-          - Engineered cross-platform Gmail/Outlook threading with adaptive rate-limited daemons for production reliability
-          - Designed a persona-driven integration testing sandbox with template resolution, PDF generation, and SQLite crash recovery for regression testing and training data generation
+          - Ported an LLM-powered email classifier to a Spin/Wasm component on Akamai Functions, achieving ~1ms cold start and scale-to-zero, validated against a 100-email corpus, and integrated into the production email pipeline
+          - Built Sail, a from-scratch terminal coding agent on Mastra with a supervisor/read-only subagent architecture, tool-level access control, BM25 code search, three-tier memory, human-in-the-loop approval, and OpenTelemetry tracing
+          - Built email infrastructure and test tooling: a Cloudflare Email Worker (Maildrop) that parses, filters, and routes inbound mail to D1, plus a faker-driven fixture generator for classifier evaluation
+          - Shipped Cronwell SSO, an internal SAML 2.0 dashboard on Next.js 16 + better-auth against Microsoft Entra ID, with Outlook/Salesforce single sign-on and an embedded Outlook inbox via Microsoft Graph, deployed behind nginx + Let's Encrypt
 
       - layout: three-col
         image: /assets/TROPHY.JPEG
