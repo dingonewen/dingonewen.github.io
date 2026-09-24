@@ -94,8 +94,8 @@ content:
     content:
 
       - layout: right
-        title: "<a href='https://medicscribe.ai/' target='_blank'>Stealth AI Startup</a>"
-        sub_title: Software Engineering Intern
+        title: Software Engineer Intern
+        sub_title: "<a href='https://medicscribe.ai/' target='_blank'>Stealth AI Startup</a>"
         caption: Jul 2026 - Present
         quote: >
           An AI-powered ambient scribe platform for paramedics, generating real-time clinical documentation from field audio using speech-to-text and LLM-based report generation.
@@ -107,9 +107,9 @@ content:
           | Validated architecture decisions through comprehensive stress-testing on real multi-speaker 45–120 minute field recordings, uncovering actual bottlenecks (transcript length, encryption performance at scale) and eliminating unnecessary complexity from the design    
 
       - layout: right
-        title: Software Engineering Intern
+        title: Software Engineer Intern
         sub_title: "<a href='https://www.cronwell.ai/' target='_blank'>Cronwell</a>"
-        caption: Jun 2026 - Present
+        caption: Jul 2026 - Sep 2026
         quote: >
           A Techstars-backed, SOC 2 Type II-certified AI procurement platform that helps mid-market manufacturers source smarter, manage POs, and scale without scaling headcount — with an AI agent that delivers insights through email and Microsoft Teams.
         description: |
@@ -420,7 +420,7 @@ content:
 
       <p style="text-indent: 2em;">As I said, <em>Soccer</em> is the latest spark in my professional journey. This May, I am joining the <strong>Accreditation Operations Support</strong> team for the <strong>FIFA World Cup 2026</strong> in Philly, bringing my obsession with process optimization to the world’s biggest stage. Having managed complex biotech pipelines and medical protocols, I treat high-volume credentialing like a mission-critical deployment: security standards are the source code, and workflow efficiency is the non-negotiable KPI. It is the ultimate collision of my technical discipline and my lifelong love for the "beautiful game." However, my professional composure is highly vulnerable to a perfectly executed bicycle kick; I might be verifying your identity, but my heart is definitely on the pitch.</p>
 
-      <p style="text-indent: 2em;">It’s worth mentioning that this summer I’ve been trying both a strict low-GI diet and moderate-intensity aerobic exercise to improve my physique and overall well-being. I've completed my personal 100km swimming challenge over the summer break.</p>
+      <p style="text-indent: 2em;">It’s worth mentioning that this summer I’ve been trying both a strict low-GI diet and moderate-intensity aerobic exercise to improve my physique and overall well-being. I’ve completed my personal 100km swimming challenge over the summer break.</p>
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
