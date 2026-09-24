@@ -42,7 +42,7 @@ about_title: Generally Speaking
 about_profile_image: images/weixinphoto.jpg
 about_content: | # this will include new lines to allow paragraphs
   <p style="text-indent: 2em;">
-  I'm a <mark>builder who communicates</mark>. I write code for <strong>autonomous agents</strong>, <strong>RAG pipelines</strong>, and <strong>full-stack AI systems</strong> — but I also know that the best architecture diagram is worthless if nobody in the room understands it. I'm a <mark>high-signal communicator</mark>: brevity, precision, and the occasional well-timed joke to remind everyone we're building software, not performing surgery. I've bridged gaps between engineers, business stakeholders, clinicians, and regulators — and I genuinely enjoy the translation work most people find exhausting.
+  I'm a <mark>builder who communicates</mark>. I write code for <strong>distributed systems</strong>, <strong>agent harnesses</strong>, and <strong>AI infrastructure</strong>, but I also know that the best architecture diagram is worthless if nobody in the room understands it. I'm a <mark>high-signal communicator</mark>: brevity, precision, and the occasional well-timed joke to remind everyone we're building software, not performing surgery. I've bridged gaps between engineers, business stakeholders, clinicians, and regulators, and I genuinely enjoy the translation work most people find exhausting.
   </p>
 
   <p style="text-indent: 2em;">
@@ -66,7 +66,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - GPA: 3.9
           - Thriving through learning, building and cooking...
-          - Courses: Software Development, Computer Systems, Data Structure & Algorithm, Machine Learning, Distributed Systems
+          - Courses: Data Structure & Algorithm, Machine Learning, Distributed Systems, OS Design & Implementation
       - layout: top-right
         title: Cornell University
         sub_title: Bachelor of Science in Food Science
@@ -420,7 +420,7 @@ content:
 
       <p style="text-indent: 2em;">As I said, <em>Soccer</em> is the latest spark in my professional journey. This May, I am joining the <strong>Accreditation Operations Support</strong> team for the <strong>FIFA World Cup 2026</strong> in Philly, bringing my obsession with process optimization to the world’s biggest stage. Having managed complex biotech pipelines and medical protocols, I treat high-volume credentialing like a mission-critical deployment: security standards are the source code, and workflow efficiency is the non-negotiable KPI. It is the ultimate collision of my technical discipline and my lifelong love for the "beautiful game." However, my professional composure is highly vulnerable to a perfectly executed bicycle kick; I might be verifying your identity, but my heart is definitely on the pitch.</p>
 
-      <p style="text-indent: 2em;">It’s worth mentioning that this summer I’ve been trying both a strict low-GI diet and moderate-intensity aerobic exercise to improve my physique and overall well-being. I completed my personal 100km swimming challenge over the summer break.</p>
+      <p style="text-indent: 2em;">It’s worth mentioning that this summer I’ve been trying both a strict low-GI diet and moderate-intensity aerobic exercise to improve my physique and overall well-being. I've completed my personal 100km swimming challenge over the summer break.</p>
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
