@@ -520,6 +520,137 @@ table th {
   }
 }
 
+// ========== Resume Download Menu ===========
+
+.resume-menu {
+  position: relative;
+  display: block;
+  width: 200px;
+  margin: 30px auto 0;
+  text-align: center;
+  font-family: 'Consolas', monospace;
+}
+
+.resume-menu .resume-trigger {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 7px;
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 4px 12px 4px 8px !important;
+  color: #c678dd !important;
+  background: rgba(198, 120, 221, 0.12) !important;
+  border: 2px solid rgba(198, 120, 221, 0.5) !important;
+  border-radius: 20px !important;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+
+  &:hover,
+  &:focus-visible,
+  &[aria-expanded='true'] {
+    color: #c678dd !important;
+    background-color: rgba(198, 120, 221, 0.2) !important;
+    border-color: rgba(198, 120, 221, 0.85) !important;
+    outline: none;
+  }
+}
+
+button.resume-trigger > .resume-label {
+  color: #61afef !important;
+  font-family: 'Consolas', monospace !important;
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+}
+
+.resume-chevron {
+  width: 6px;
+  height: 6px;
+  margin-left: 1px;
+  border-right: 2px solid #61afef;
+  border-bottom: 2px solid #61afef;
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform 0.25s ease;
+}
+
+.resume-trigger[aria-expanded='true'] .resume-chevron { transform: translateY(2px) rotate(225deg); }
+
+.resume-options {
+  position: absolute;
+  z-index: 10;
+  top: calc(100% + 8px);
+  left: 50%;
+  width: 154px;
+  overflow: hidden;
+  background: #282c34;
+  border: 2px solid rgba(198, 120, 221, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
+  transform-origin: top center;
+  animation: resumeMenuIn 0.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 36px;
+    padding: 0 12px;
+    color: #98c379;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    transition: color 0.2s ease, background-color 0.2s ease;
+
+    + a { border-top: 1px solid rgba(198, 120, 221, 0.25); }
+
+    &:hover,
+    &:focus-visible {
+      color: #ffffff;
+      background-color: rgba(198, 120, 221, 0.16);
+      outline: none;
+    }
+  }
+}
+
+.resume-options a > span {
+  color: #98c379 !important;
+  font-size: 1rem !important;
+  line-height: 1 !important;
+}
+
+.resume-options .resume-option-icon {
+  color: #98c379 !important;
+  font-size: 0.85rem !important;
+}
+
+@keyframes resumeMenuIn {
+  from { opacity: 0; transform: translate(-50%, -5px) scale(0.98); }
+  to { opacity: 1; transform: translateX(-50%) scale(1); }
+}
+
+@media (max-width: 767px) {
+  .resume-menu { margin-top: 30px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .resume-trigger,
+  .resume-options,
+  .resume-chevron {
+    animation: none;
+    transition: none;
+  }
+}
+
 // ========== Scroll-triggered Reveal ==========
 
 @media (prefers-reduced-motion: no-preference) {

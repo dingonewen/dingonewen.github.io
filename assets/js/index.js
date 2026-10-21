@@ -2,6 +2,37 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   document.body.classList.add("dark");
 }
 
+// Resume menu — works with pointer, keyboard, and assistive technology.
+(function () {
+  var menu = document.querySelector('.resume-menu');
+  if (!menu) return;
+
+  var trigger = menu.querySelector('.resume-trigger');
+  var options = menu.querySelector('.resume-options');
+
+  function closeMenu() {
+    trigger.setAttribute('aria-expanded', 'false');
+    options.hidden = true;
+  }
+
+  trigger.addEventListener('click', function () {
+    var willOpen = trigger.getAttribute('aria-expanded') !== 'true';
+    trigger.setAttribute('aria-expanded', String(willOpen));
+    options.hidden = !willOpen;
+  });
+
+  document.addEventListener('click', function (event) {
+    if (!menu.contains(event.target)) closeMenu();
+  });
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') {
+      closeMenu();
+      trigger.focus();
+    }
+  });
+}());
+
 // ── Developer console easter egg ──────────────────────────────────────────────
 (function () {
   var nameStyle  = 'background:#282c34; color:#e06c75; font-weight:700; '

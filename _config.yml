@@ -12,6 +12,10 @@ email: dingywn@engineering.upenn.edu
 phone: (607)379-1110
 website: https://www.dingonewen.dev
 
+# Resume downloads (place the PDF files in assets/resume/)
+resume_sde_url: /assets/resume/Yiwen-Ding-Resume-SDE.pdf
+resume_tpm_url: /assets/resume/Yiwen-Ding-Resume-TPM.pdf
+
 # Dark Mode (true/false/never)
 darkmode: never
 
