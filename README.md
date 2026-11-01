@@ -23,7 +23,7 @@ Personal portfolio and resume site for Yiwen Ding, a Penn Master of Applied Scie
 ### Visual Theme
 - **Atom One Dark** color scheme — `#282c34` background, green/purple/blue/yellow/red accents
 - Consolas monospace typography throughout
-- Colors integrated into base SCSS partials (`_sass/`) — no `!important` wars
+- Colors integrated into base SCSS partials (`_sass/`), with narrowly scoped overrides for legacy theme selectors
 
 ### Animations & Effects
 - `nameReveal` — name fade-in with letter-spacing collapse
@@ -81,6 +81,8 @@ Personal portfolio and resume site for Yiwen Ding, a Penn Master of Applied Scie
 
 ## Local Development
 
+Install Ruby and Bundler first, then run:
+
 ```bash
 git clone https://github.com/dingonewen/dingonewen.github.io.git
 cd dingonewen.github.io
@@ -90,7 +92,7 @@ bundle exec jekyll serve
 
 Visit `http://localhost:4000`.
 
-> The `_site/` directory is git-ignored. GitHub Pages builds from source on every push. Hard-refresh after deploys to bypass browser cache.
+> The `Gemfile` uses the `github-pages` gem so local rendering follows GitHub Pages as closely as possible. The `_site/` directory is generated locally and git-ignored. Hard-refresh after deploys to bypass browser cache.
 
 ---
 
@@ -98,6 +100,7 @@ Visit `http://localhost:4000`.
 
 ```
 _config.yml              # All content and site config
+Gemfile                  # Local GitHub Pages / Jekyll dependency
 assets/
   main.scss              # Custom styles: animations, layouts, refinements
   js/index.js            # Scroll reveal, cursor spotlight, console easter egg
@@ -111,9 +114,9 @@ _sass/                   # Base theme partials (dark-adapted)
   icons.scss             # Social icon list
 _includes/
   section-list.html      # Renders all list sections (left, right, three-col, three-col-right)
-  header.html            # Status badge, contact hover-reveal, social icons
+  header.html            # Status badge, contact hover-reveal, config-driven social icons
   about.html             # Profile image + about content
-  a.html                 # Anchor helper (protocol-aware)
+  a.html                 # Anchor helper for project links
 _layouts/
   default.html           # Base page layout
 index.md                 # Homepage (layout: default)
@@ -121,14 +124,13 @@ index.md                 # Homepage (layout: default)
 
 ---
 
-## Cleanup (2026-07)
+## Cleanup
 
-Removed ~30 files inherited from the original template fork that were never used:
-- `_includes/v1/` — legacy v1 template system (dead since `version: 2`)
+Removed unused files inherited from the original template fork, including:
 - `_test/` — CI test fixtures for upstream theme
 - `lib/`, `*.gemspec` — Ruby gem metadata
 - `app.json`, `Procfile`, `.dockerignore`, `docker-compose.yml` — Heroku/Docker
-- `_sass/dark.scss` — unused dark-mode toggle (site is always dark)
+- Legacy v1 and dark-mode compatibility paths (site is always dark)
 - `.github/ISSUE_TEMPLATE/` — upstream issue templates
 - Duplicate `assets/favicon.ico`
 
@@ -138,7 +140,7 @@ Removed ~30 files inherited from the original template fork that were never used
 
 - Original theme: [modern-resume-theme](https://github.com/sproogen/modern-resume-theme) by [@sproogen](https://github.com/sproogen) — MIT License
 - Color scheme: Atom One Dark
-- Icons: [Font Awesome](https://fontawesome.com/) 6.5.1
+- Icons: [Font Awesome](https://fontawesome.com/) 6.7.2
 
 ---
 

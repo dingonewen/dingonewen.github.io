@@ -1,7 +1,3 @@
-if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.body.classList.add("dark");
-}
-
 // Resume menu — works with pointer, keyboard, and assistive technology.
 (function () {
   var menu = document.querySelector('.resume-menu');
