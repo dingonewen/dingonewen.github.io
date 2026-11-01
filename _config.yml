@@ -420,6 +420,10 @@ content:
     
       <p style="text-indent: 2em;">Beyond the screen, I’m a <strong>certified BLS provider</strong>. Earning that certification was a grounding reminder that impact exists outside of grades and deadlines. It’s about being prepared to contribute when every second actually counts.</p>
     
+      <video class="more-about-live" autoplay loop muted playsinline preload="metadata" aria-label="Halloween Party Night">
+        <source src="/assets/more-about-me-live.mp4" type="video/mp4">
+      </video>
+      
       <p style="text-indent: 2em;"><em>Cooking</em> is my final ritual for balance. Having spent years in <strong>Food Science</strong>, I treat my body like a high-stakes lab experiment: alcohol is strictly blacklisted, while sugar, dairy, and caffeine are on permanent probation. Crafting healthy, grounding meals is how I stay connected to my roots. However, all my dietary principles vanish the moment someone mentions "free food". I have a secret, undeniable weakness for Basque cheesecake and triple chocolate cookies.</p>
 
       <p style="text-indent: 2em;"><em>Soccer</em> was one of the sparks that shaped my professional journey in summer 2026. I joined the <strong>Accreditation & Fan Operations Support</strong> team for the <em>FIFA World Cup 2026</em> in Philly, bringing my obsession with process optimization to the world’s biggest stage. Having managed complex biotech pipelines and medical protocols, I treat high-volume credentialing like a mission-critical deployment: security standards are the source code, and workflow efficiency is the non-negotiable KPI. It is the ultimate collision of my technical discipline and my lifelong love for the "beautiful game." However, my professional composure is highly vulnerable to a perfectly executed bicycle kick; I might be verifying your identity, but my heart is definitely on the pitch.</p>
@@ -428,13 +432,6 @@ content:
       
       <p style="text-indent: 2em;">Since October 2026, I have been intentionally exploring my professional interests, strengths, and long-term potential. While maintaining discipline in my physical health, I have shifted more of my focus toward building a meaningful career, learning what I truly want to pursue, and becoming more deliberate about where I invest my time and energy. I am also learning to <strong>tune out external noise and expectations</strong>, and to make serious decisions based on my own values, curiosity, and sense of direction.</p>
 
-      <p style="text-indent: 2em;">As I said, <em>Soccer</em> is the latest spark in my professional journey. This May, I am joining the <strong>Accreditation Operations Support</strong> team for the <strong>FIFA World Cup 2026</strong> in Philly, bringing my obsession with process optimization to the world’s biggest stage. Having managed complex biotech pipelines and medical protocols, I treat high-volume credentialing like a mission-critical deployment: security standards are the source code, and workflow efficiency is the non-negotiable KPI. It is the ultimate collision of my technical discipline and my lifelong love for the "beautiful game." However, my professional composure is highly vulnerable to a perfectly executed bicycle kick; I might be verifying your identity, but my heart is definitely on the pitch.</p>
-
-      <video class="more-about-live" autoplay loop muted playsinline preload="metadata" aria-label="A looping moment from Yiwen's life">
-        <source src="/assets/more-about-me-live.mp4" type="video/mp4">
-      </video>
-
-      <p style="text-indent: 2em;">It’s worth mentioning that this summer I’ve been trying both a strict low-GI diet and moderate-intensity aerobic exercise to improve my physique and overall well-being. I’ve completed my personal 100km swimming challenge over the summer break.</p>
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
