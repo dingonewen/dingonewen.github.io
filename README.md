@@ -1,6 +1,6 @@
 # Yiwen Ding — Personal Portfolio
 
-Personal portfolio and resume site for Yiwen Ding, Penn Master of Applied Science in CS student and software engineering intern.
+Personal portfolio and resume site for Yiwen Ding, a Penn Master of Applied Science in Computer Science candidate and software engineer.
 
 🔗 **Live Site**: [https://www.dingonewen.dev](https://www.dingonewen.dev)
 
@@ -32,6 +32,8 @@ Personal portfolio and resume site for Yiwen Ding, Penn Master of Applied Scienc
 - **Cursor spotlight** — `--mouse-x`/`--mouse-y` CSS custom properties drive radial-gradient overlay on cards
 - Card lift on hover: `translateY(-4px)` + box-shadow
 - Social icon hover: green circle → blue ring outline transition
+- **Resume chooser** — accessible, animated SDE / TPM PDF download menu beneath the profile photo; supports pointer, keyboard, outside-click, and `Esc` dismissal
+- **Live-photo loop** — muted, inline MP4 loop in “More About Me,” with a responsive layout and the same visual treatment as the accompanying photo
 
 ### Layout
 - **Three-column layout** (`layout: three-col`) — image (38%) | quote/body (35%) | title/details (27%)
@@ -43,6 +45,10 @@ Personal portfolio and resume site for Yiwen Ding, Penn Master of Applied Scienc
 - Status badge with pulsing green dot
 - Hover-to-reveal contact info (anti-scraping)
 - Console easter egg (Atom One Dark themed)
+
+### Resume downloads
+- SDE and TPM PDFs are configured through `resume_sde_url` and `resume_tpm_url` in `_config.yml`
+- Store the PDFs in `assets/resume/` using the configured filenames
 
 ---
 
@@ -95,6 +101,8 @@ _config.yml              # All content and site config
 assets/
   main.scss              # Custom styles: animations, layouts, refinements
   js/index.js            # Scroll reveal, cursor spotlight, console easter egg
+  resume/                # Downloadable SDE and TPM resume PDFs
+  more-about-me-live.mp4 # Muted looping video used in “More About Me”
 _sass/                   # Base theme partials (dark-adapted)
   base.scss              # Bootstrap grid, Font Awesome, reset
   type.scss              # Typography, colors
@@ -134,4 +142,4 @@ Removed ~30 files inherited from the original template fork that were never used
 
 ---
 
-*Last updated: July 2026*
+*Last updated: November 2026*
