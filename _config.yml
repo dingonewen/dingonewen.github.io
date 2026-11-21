@@ -165,6 +165,24 @@ content:
     content:
 
       - layout: left
+        border: weak
+        title: NeuroProxy
+        link: https://neuroproxy-demo.dingonewen.dev/
+        link_text: Live Demo
+        additional_links:
+          - title: NeuroProxy Github
+            icon: fas fa-brain
+            url: https://github.com/dingonewen/neuroproxy
+        quote: >
+          "For minds that wander, and hearts that care." - built at HackPrinceton 2026.
+        description: |
+          - Built a full-stack application with React, TypeScript, Fastify, and Mastra, combining conversation analysis, persistent memory, and messaging in responsive desktop and mobile interfaces
+          - Designed an interactive Cognitive Action Graph with React Flow and SQLite, connecting people, tasks, questions, and relationship context while distinguishing reported facts from interpretations
+          - Integrated real iMessage communication through Photon 2.0, with explicit send approval, signed webhooks, duplicate-send protection, and separately authorized contextual AutoReply
+          - Implemented a read-only memory retrieval tool using BM25 ranking and validated source IDs, enabling context recovery with links to saved graph records
+          - Connected phone voice capture through ElevenLabs over SIP and added metadata-only OpenTelemetry tracing with optional Logfire export
+
+      - layout: left
         title: Regatta
         link: https://github.com/dingonewen/regatta
         link_text: Wasm Edge Agent Fleet
