@@ -91,7 +91,7 @@ content:
       - layout: right
         title: Software Engineer Intern
         sub_title: "<a href='https://medicscribe.ai/' target='_blank'>Stealth AI Startup</a>"
-        caption: Jul 2026 - Present
+        caption: Jul 2026 - Oct 2026
         quote: >
           An AI-powered ambient scribe platform for paramedics, generating real-time clinical documentation from field audio using speech-to-text and LLM-based report generation.
         description: |
