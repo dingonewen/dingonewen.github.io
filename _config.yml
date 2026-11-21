@@ -166,6 +166,24 @@ content:
 
       - layout: left
         border: weak
+        title: PennCloud
+        link: https://github.com/dingonewen/penncloud
+        link_text: Private Link
+        additional_links:
+          - title: PennCloud Github
+            icon: fas fa-cloud
+            url: https://github.com/dingonewen/penncloud
+        quote: >
+            Penn Engineering CIS 5050: Software Systems Final project
+        description: |
+          - Built a C++ key-value store with a TCP-based protocol supporting reads, writes, and conditional updates as the storage layer for Mail and Drive
+          - Implemented a coordinator for tablet placement and primary lookup, with backend heartbeats for tracking node availability
+          - Built an HTTP load balancer with round-robin selection and periodic health checks to redirect requests to available frontend servers
+          - Designed Drive storage with nested folders, conditional writes for concurrent directory updates, and chunked file storage with streaming downloads
+          - Implemented an inbound SMTP server that receives messages from external mail clients and delivers them to local user inboxes
+
+      - layout: left
+        border: weak
         title: NeuroProxy
         link: https://neuroproxy-demo.dingonewen.dev/
         link_text: Live Demo
